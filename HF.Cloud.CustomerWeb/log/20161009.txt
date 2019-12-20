@@ -1,0 +1,16 @@
+ 
+记录时间：2016-10-09 17:41:52,198  线程ID:[100]  日志级别：  ERROR  错误描述：Application_Error Error  System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 HF.Cloud.CustomerWeb.Wechats.AssetType.Page_Load(Object sender, EventArgs e) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.CustomerWeb\Wechats\AssetType.aspx.cs:行号 18
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ 
+记录时间：2016-10-09 17:44:11,032  线程ID:[102]  日志级别：  ERROR  错误描述：Application_Error Error  System.ArgumentNullException: 值不能为 null。
+参数名: String
+   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt64(String value, NumberStyles options, NumberFormatInfo numfmt)
+   在 System.Int64.Parse(String s)
+   在 HF.Cloud.CustomerWeb.ashx.Wechat.ProcessRequest(HttpContext context) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.CustomerWeb\ashx\Wechat.ashx.cs:行号 80
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)

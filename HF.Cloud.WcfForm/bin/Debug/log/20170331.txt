@@ -1,0 +1,50 @@
+ 
+记录时间：2017-03-31 16:36:26,820  线程ID:[9]  日志级别：  INFO   错误描述：服务启动   
+记录时间：2017-03-31 16:42:12,163  线程ID:[10]  日志级别：  INFO   错误描述：服务启动   
+记录时间：2017-03-31 16:47:54,688  线程ID:[13]  日志级别：  ERROR  错误描述：GetAsset Error  System.ArgumentException: 已添加了具有相同键的项。
+   在 System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   在 System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   在 HF.Cloud.BLL.AssetBL.GetAPPAssetBYQBCode(String strQBCode, Int64 MainID) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.BLL\AssetBL.cs:行号 450
+   在 HF.Cloud.WcfLibrary.AssetService.GetAsset(String strQBCode, String MainID) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.WcfLibrary\AssetService.cs:行号 29
+ 
+记录时间：2017-03-31 16:57:03,685  线程ID:[17]  日志级别：  ERROR  错误描述：GetAsset Error  System.ArgumentException: 已添加了具有相同键的项。
+   在 System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   在 System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   在 HF.Cloud.BLL.AssetBL.GetAPPAssetBYQBCode(String strQBCode, Int64 MainID) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.BLL\AssetBL.cs:行号 450
+   在 HF.Cloud.WcfLibrary.AssetService.GetAsset(String strQBCode, String MainID) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.WcfLibrary\AssetService.cs:行号 29
+ 
+记录时间：2017-03-31 17:06:14,433  线程ID:[27]  日志级别：  ERROR  错误描述：GetAsset Error  System.ArgumentException: 已添加了具有相同键的项。
+   在 System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   在 System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   在 HF.Cloud.BLL.AssetBL.GetAPPAssetBYQBCode(String strQBCode, Int64 MainID) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.BLL\AssetBL.cs:行号 450
+   在 HF.Cloud.WcfLibrary.AssetService.GetAsset(String strQBCode, String MainID) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.WcfLibrary\AssetService.cs:行号 29
+ 
+记录时间：2017-03-31 17:07:27,998  线程ID:[9]  日志级别：  INFO   错误描述：服务启动   
+记录时间：2017-03-31 17:15:31,996  线程ID:[12]  日志级别：  ERROR  错误描述：GetAsset Error  System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 HF.Cloud.Model.A_AssetAreaEL.GetAreaName(Int64 AreaID) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.Model\A_AssetAreaEL.cs:行号 83
+   在 HF.Cloud.BLL.AssetBL.GetAPPAssetBYQBCode(String strQBCode, Int64 MainID) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.BLL\AssetBL.cs:行号 440
+   在 HF.Cloud.WcfLibrary.AssetService.GetAsset(String strQBCode, String MainID) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.WcfLibrary\AssetService.cs:行号 29
+ 
+记录时间：2017-03-31 17:18:28,326  线程ID:[12]  日志级别：  ERROR  错误描述：GetAsset Error  System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 HF.Cloud.Model.A_AssetAreaEL.GetAreaName(Int64 AreaID) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.Model\A_AssetAreaEL.cs:行号 83
+   在 HF.Cloud.BLL.AssetBL.GetAPPAssetBYQBCode(String strQBCode, Int64 MainID) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.BLL\AssetBL.cs:行号 440
+   在 HF.Cloud.WcfLibrary.AssetService.GetAsset(String strQBCode, String MainID) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.WcfLibrary\AssetService.cs:行号 29
+ 
+记录时间：2017-03-31 17:27:32,794  线程ID:[29]  日志级别：  ERROR  错误描述：GetAsset Error  System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 HF.Cloud.Model.A_AssetAreaEL.GetAreaName(Int64 AreaID) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.Model\A_AssetAreaEL.cs:行号 83
+   在 HF.Cloud.BLL.AssetBL.GetAPPAssetBYQBCode(String strQBCode, Int64 MainID) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.BLL\AssetBL.cs:行号 440
+   在 HF.Cloud.WcfLibrary.AssetService.GetAsset(String strQBCode, String MainID) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.WcfLibrary\AssetService.cs:行号 29
+ 
+记录时间：2017-03-31 17:32:05,813  线程ID:[22]  日志级别：  ERROR  错误描述：AssetBind Error  System.FormatException: 输入字符串的格式不正确。
+   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt64(String value, NumberStyles options, NumberFormatInfo numfmt)
+   在 HF.Cloud.BLL.AssetBL.APPBindAsset(String str) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.BLL\AssetBL.cs:行号 671
+   在 HF.Cloud.WcfLibrary.AssetBindService.AssetBind(Stream stream) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.WcfLibrary\AssetBindService.cs:行号 32
+ 
+记录时间：2017-03-31 17:41:06,773  线程ID:[19]  日志级别：  ERROR  错误描述：GetAsset Error  System.InvalidCastException: 指定的转换无效。
+   在 HF.Cloud.BLL.AssetBL.GetAPPAssetBYQBCode(String strQBCode, Int64 MainID) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.BLL\AssetBL.cs:行号 440
+   在 HF.Cloud.WcfLibrary.AssetService.GetAsset(String strQBCode, String MainID) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.WcfLibrary\AssetService.cs:行号 29
+ 
+记录时间：2017-03-31 17:42:41,610  线程ID:[15]  日志级别：  ERROR  错误描述：GetAsset Error  System.InvalidCastException: 指定的转换无效。
+   在 HF.Cloud.BLL.AssetBL.GetAPPAssetBYQBCode(String strQBCode, Int64 MainID) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.BLL\AssetBL.cs:行号 440
+   在 HF.Cloud.WcfLibrary.AssetService.GetAsset(String strQBCode, String MainID) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.WcfLibrary\AssetService.cs:行号 29

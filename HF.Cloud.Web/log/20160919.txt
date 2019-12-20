@@ -1,0 +1,151 @@
+ 
+记录时间：2016-09-19 10:03:13,002  线程ID:[38]  日志级别：  ERROR  错误描述：Application_Error Error  System.FormatException: 输入字符串的格式不正确。
+   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt64(String value, NumberStyles options, NumberFormatInfo numfmt)
+   在 System.Int64.Parse(String s)
+   在 HF.Cloud.Web.Sheet.SheetAsset.AssetAdd.BindDrop() 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Web\Sheet\SheetAsset\AssetAdd.aspx.cs:行号 91
+   在 HF.Cloud.Web.Sheet.SheetAsset.AssetAdd.Page_Load(Object sender, EventArgs e) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Web\Sheet\SheetAsset\AssetAdd.aspx.cs:行号 14
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.EventHandler.Invoke(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ 
+记录时间：2016-09-19 15:06:10,016  线程ID:[52]  日志级别：  INFO   错误描述：QBModelList InitPage 2   
+记录时间：2016-09-19 15:12:45,904  线程ID:[39]  日志级别：  INFO   错误描述：QBModelList InitPage 2   
+记录时间：2016-09-19 16:23:06,588  线程ID:[8]  日志级别：  ERROR  错误描述：Application_Error Error  System.Web.HttpException (0x80004005): 超过了最大请求长度。
+   在 System.Web.HttpRequest.GetEntireRawContent()
+   在 System.Web.HttpRequest.GetMultipartContent()
+   在 System.Web.HttpRequest.FillInFormCollection()
+   在 System.Web.HttpRequest.EnsureForm()
+   在 System.Web.HttpRequest.get_Form()
+   在 System.Web.HttpRequest.get_HasForm()
+   在 System.Web.UI.Page.GetCollectionBasedOnMethod(Boolean dontReturnNull)
+   在 System.Web.UI.Page.DeterminePostBackMode()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ 
+记录时间：2016-09-19 16:39:17,703  线程ID:[5]  日志级别：  ERROR  错误描述：Application_Error Error  System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 HF.Cloud.Web.Common.PreviewImage.ProcessRequest(HttpContext context) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Web\Common\PreviewImage.cs:行号 25
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+ 
+记录时间：2016-09-19 16:39:20,817  线程ID:[13]  日志级别：  ERROR  错误描述：Application_Error Error  System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 HF.Cloud.Web.Common.PreviewImage.ProcessRequest(HttpContext context) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Web\Common\PreviewImage.cs:行号 25
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+ 
+记录时间：2016-09-19 16:39:24,742  线程ID:[5]  日志级别：  ERROR  错误描述：Application_Error Error  System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 HF.Cloud.Web.Common.PreviewImage.ProcessRequest(HttpContext context) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Web\Common\PreviewImage.cs:行号 25
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+ 
+记录时间：2016-09-19 16:39:37,327  线程ID:[13]  日志级别：  ERROR  错误描述：Application_Error Error  System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 HF.Cloud.Web.Common.PreviewImage.ProcessRequest(HttpContext context) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Web\Common\PreviewImage.cs:行号 25
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+ 
+记录时间：2016-09-19 16:41:03,743  线程ID:[8]  日志级别：  ERROR  错误描述：Application_Error Error  System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 HF.Cloud.Web.Common.PreviewImage.ProcessRequest(HttpContext context) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Web\Common\PreviewImage.cs:行号 25
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+ 
+记录时间：2016-09-19 16:42:11,242  线程ID:[8]  日志级别：  ERROR  错误描述：Application_Error Error  System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 HF.Cloud.Web.Common.PreviewImage.ProcessRequest(HttpContext context) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Web\Common\PreviewImage.cs:行号 25
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+ 
+记录时间：2016-09-19 17:13:24,627  线程ID:[5]  日志级别：  ERROR  错误描述：登陆 Error  System.Data.SqlClient.SqlException (0x80131904): 过程或函数 'sp_SB_User' 需要参数 '@EmpCode'，但未提供该参数。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   在 System.Data.SqlClient.SqlDataReader.get_MetaData()
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)
+   在 HF.Cloud.CommonDAL.DbHelperSQL.RunProcedure(String storedProcName, SqlParameterCollection parameters, String tableName) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.CommonDAL\DbHelperSQL.cs:行号 921
+   在 HF.Cloud.Model.SB_UserEL.ExecuteEL(Int32 iOperateFlag) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Model\SB_UserEL.cs:行号 166
+   在 HF.Cloud.BLL.SysBL.GetDUserByCodePWD(String strSBCode, String strPWD) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.BLL\SysBL.cs:行号 167
+   在 HF.Cloud.Web.ashx.LoginHandler.ProcessRequest(HttpContext context) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Web\ashx\LoginHandler.ashx.cs:行号 33
+ClientConnectionId:6036ed03-bd5f-4847-a0d7-94f907e3436d
+Error Number:201,State:4,Class:16
+ 
+记录时间：2016-09-19 17:13:27,823  线程ID:[5]  日志级别：  ERROR  错误描述：登陆 Error  System.Data.SqlClient.SqlException (0x80131904): 过程或函数 'sp_SB_User' 需要参数 '@EmpCode'，但未提供该参数。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   在 System.Data.SqlClient.SqlDataReader.get_MetaData()
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)
+   在 HF.Cloud.CommonDAL.DbHelperSQL.RunProcedure(String storedProcName, SqlParameterCollection parameters, String tableName) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.CommonDAL\DbHelperSQL.cs:行号 921
+   在 HF.Cloud.Model.SB_UserEL.ExecuteEL(Int32 iOperateFlag) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Model\SB_UserEL.cs:行号 166
+   在 HF.Cloud.BLL.SysBL.GetDUserByCodePWD(String strSBCode, String strPWD) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.BLL\SysBL.cs:行号 167
+   在 HF.Cloud.Web.ashx.LoginHandler.ProcessRequest(HttpContext context) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Web\ashx\LoginHandler.ashx.cs:行号 33
+ClientConnectionId:6036ed03-bd5f-4847-a0d7-94f907e3436d
+Error Number:201,State:4,Class:16
+ 
+记录时间：2016-09-19 17:13:28,632  线程ID:[7]  日志级别：  ERROR  错误描述：登陆 Error  System.Data.SqlClient.SqlException (0x80131904): 过程或函数 'sp_SB_User' 需要参数 '@EmpCode'，但未提供该参数。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   在 System.Data.SqlClient.SqlDataReader.get_MetaData()
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)
+   在 HF.Cloud.CommonDAL.DbHelperSQL.RunProcedure(String storedProcName, SqlParameterCollection parameters, String tableName) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.CommonDAL\DbHelperSQL.cs:行号 921
+   在 HF.Cloud.Model.SB_UserEL.ExecuteEL(Int32 iOperateFlag) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Model\SB_UserEL.cs:行号 166
+   在 HF.Cloud.BLL.SysBL.GetDUserByCodePWD(String strSBCode, String strPWD) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.BLL\SysBL.cs:行号 167
+   在 HF.Cloud.Web.ashx.LoginHandler.ProcessRequest(HttpContext context) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Web\ashx\LoginHandler.ashx.cs:行号 33
+ClientConnectionId:6036ed03-bd5f-4847-a0d7-94f907e3436d
+Error Number:201,State:4,Class:16
+ 
+记录时间：2016-09-19 17:13:40,479  线程ID:[5]  日志级别：  ERROR  错误描述：登陆 Error  System.Data.SqlClient.SqlException (0x80131904): 过程或函数 'sp_SB_User' 需要参数 '@EmpCode'，但未提供该参数。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   在 System.Data.SqlClient.SqlDataReader.get_MetaData()
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)
+   在 HF.Cloud.CommonDAL.DbHelperSQL.RunProcedure(String storedProcName, SqlParameterCollection parameters, String tableName) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.CommonDAL\DbHelperSQL.cs:行号 921
+   在 HF.Cloud.Model.SB_UserEL.ExecuteEL(Int32 iOperateFlag) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Model\SB_UserEL.cs:行号 166
+   在 HF.Cloud.BLL.SysBL.GetDUserByCodePWD(String strSBCode, String strPWD) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.BLL\SysBL.cs:行号 167
+   在 HF.Cloud.Web.ashx.LoginHandler.ProcessRequest(HttpContext context) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Web\ashx\LoginHandler.ashx.cs:行号 33
+ClientConnectionId:6036ed03-bd5f-4847-a0d7-94f907e3436d
+Error Number:201,State:4,Class:16

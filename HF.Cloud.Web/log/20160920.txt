@@ -1,0 +1,85 @@
+ 
+记录时间：2016-09-20 10:17:35,959  线程ID:[6]  日志级别：  ERROR  错误描述：Application_Error Error  System.Web.HttpCompileException (0x80004005): d:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Web\BasicSet\RightManage\RoleList.aspx(69): error CS1061: “ASP.basicset_rightmanage_rolelist_aspx”不包含“rptDataList_ItemCommand”的定义，并且找不到可接受类型为“ASP.basicset_rightmanage_rolelist_aspx”的第一个参数的扩展方法“rptDataList_ItemCommand”(是否缺少 using 指令或程序集引用?)
+   在 System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   在 System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   在 System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   在 System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String virtualPath, String path)
+   在 System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+ 
+记录时间：2016-09-20 10:20:42,356  线程ID:[9]  日志级别：  INFO   错误描述：QBModelList InitPage 2   
+记录时间：2016-09-20 10:21:32,091  线程ID:[7]  日志级别：  INFO   错误描述：QBModelList InitPage 2   
+记录时间：2016-09-20 10:45:47,679  线程ID:[16]  日志级别：  ERROR  错误描述：Application_Error Error  System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 HF.Cloud.Web.BasicSet.RightManage.RoleList.rptDataList_ItemDataBound(Object sender, RepeaterItemEventArgs e) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Web\BasicSet\RightManage\RoleList.aspx.cs:行号 97
+   在 System.Web.UI.WebControls.Repeater.OnItemDataBound(RepeaterItemEventArgs e)
+   在 System.Web.UI.WebControls.Repeater.CreateItem(Int32 itemIndex, ListItemType itemType, Boolean dataBind, Object dataItem)
+   在 System.Web.UI.WebControls.Repeater.AddDataItemsIntoItemsArray(IEnumerable dataSource, Boolean useDataSource)
+   在 System.Web.UI.WebControls.Repeater.PostGetDataAction(IEnumerable dataSource)
+   在 System.Web.UI.WebControls.Repeater.CreateControlHierarchy(Boolean useDataSource)
+   在 System.Web.UI.WebControls.Repeater.OnDataBinding(EventArgs e)
+   在 System.Web.UI.WebControls.Repeater.DataBind()
+   在 HF.Cloud.Web.BasicSet.RightManage.RoleList.BindDataList() 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Web\BasicSet\RightManage\RoleList.aspx.cs:行号 33
+   在 HF.Cloud.Web.BasicSet.RightManage.RoleList.Page_Load(Object sender, EventArgs e) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Web\BasicSet\RightManage\RoleList.aspx.cs:行号 17
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.EventHandler.Invoke(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ 
+记录时间：2016-09-20 11:11:20,399  线程ID:[24]  日志级别：  ERROR  错误描述：Application_Error Error  System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 HF.Cloud.Web.BasicSet.AssetType.AssetTypeList.rptDataList_ItemDataBound(Object sender, RepeaterItemEventArgs e) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Web\BasicSet\AssetType\AssetTypeList.aspx.cs:行号 96
+   在 System.Web.UI.WebControls.Repeater.OnItemDataBound(RepeaterItemEventArgs e)
+   在 System.Web.UI.WebControls.Repeater.CreateItem(Int32 itemIndex, ListItemType itemType, Boolean dataBind, Object dataItem)
+   在 System.Web.UI.WebControls.Repeater.AddDataItemsIntoItemsArray(IEnumerable dataSource, Boolean useDataSource)
+   在 System.Web.UI.WebControls.Repeater.PostGetDataAction(IEnumerable dataSource)
+   在 System.Web.UI.WebControls.Repeater.CreateControlHierarchy(Boolean useDataSource)
+   在 System.Web.UI.WebControls.Repeater.OnDataBinding(EventArgs e)
+   在 System.Web.UI.WebControls.Repeater.DataBind()
+   在 HF.Cloud.Web.BasicSet.AssetType.AssetTypeList.BindDataList() 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Web\BasicSet\AssetType\AssetTypeList.aspx.cs:行号 48
+   在 HF.Cloud.Web.BasicSet.AssetType.AssetTypeList.Page_Load(Object sender, EventArgs e) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Web\BasicSet\AssetType\AssetTypeList.aspx.cs:行号 19
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.EventHandler.Invoke(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ 
+记录时间：2016-09-20 11:22:40,871  线程ID:[26]  日志级别：  ERROR  错误描述：Application_Error Error  System.Web.HttpException (0x80004005): 服务器标记的格式不正确。
+   在 System.Web.UI.TemplateParser.ProcessError(String message)
+   在 System.Web.UI.TemplateParser.DetectSpecialServerTagError(String text, Int32 textPos)
+   在 System.Web.UI.TemplateParser.ParseStringInternal(String text, Encoding fileEncoding)
+   在 System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+ 
+记录时间：2016-09-20 11:25:30,980  线程ID:[27]  日志级别：  INFO   错误描述：QBModelList InitPage 2   
+记录时间：2016-09-20 11:26:04,895  线程ID:[30]  日志级别：  ERROR  错误描述：Application_Error Error  System.Web.HttpCompileException (0x80004005): d:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Web\BasicSet\AssetModel\AssetModelList.aspx(106): error CS1061: “ASP.basicset_assetmodel_assetmodellist_aspx”不包含“rptDataList_ItemCommand”的定义，并且找不到可接受类型为“ASP.basicset_assetmodel_assetmodellist_aspx”的第一个参数的扩展方法“rptDataList_ItemCommand”(是否缺少 using 指令或程序集引用?)
+   在 System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   在 System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   在 System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   在 System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String virtualPath, String path)
+   在 System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+ 
+记录时间：2016-09-20 15:09:25,299  线程ID:[23]  日志级别：  INFO   错误描述：QBModelList InitPage 2   
+记录时间：2016-09-20 15:10:47,729  线程ID:[10]  日志级别：  INFO   错误描述：QBModelList InitPage 2   
+记录时间：2016-09-20 15:11:01,685  线程ID:[19]  日志级别：  INFO   错误描述：QBModelList InitPage 2   
+记录时间：2016-09-20 15:11:03,873  线程ID:[14]  日志级别：  INFO   错误描述：QBModelList InitPage 2   
+记录时间：2016-09-20 15:11:36,655  线程ID:[19]  日志级别：  INFO   错误描述：QBModelList InitPage 2   
+记录时间：2016-09-20 16:41:58,173  线程ID:[7]  日志级别：  ERROR  错误描述：Application_Error Error  System.Web.HttpException (0x80004005): DataBinding:“System.Data.DataRow”不包含名为“UserName”的属性。
+   在 System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName)
+   在 System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName, String format)
+   在 System.Web.UI.WebControls.ListControl.PerformDataBinding(IEnumerable dataSource)
+   在 System.Web.UI.WebControls.ListControl.OnDataBinding(EventArgs e)
+   在 System.Web.UI.WebControls.ListControl.PerformSelect()
+   在 System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   在 HF.Cloud.Web.BasicSet.UserBase.TeamAdd.BindTeamUser(Int64 lID) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Web\BasicSet\UserBase\TeamAdd.aspx.cs:行号 71
+   在 HF.Cloud.Web.BasicSet.UserBase.TeamAdd.Page_Load(Object sender, EventArgs e) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Web\BasicSet\UserBase\TeamAdd.aspx.cs:行号 25
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.EventHandler.Invoke(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)

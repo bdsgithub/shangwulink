@@ -1,0 +1,18 @@
+ 
+记录时间：2017-09-20 09:02:44,208  线程ID:[12]  日志级别：  ERROR  错误描述：Application_Error Error  System.IndexOutOfRangeException: 索引超出了数组界限。
+   在 HF.Cloud.Web.QBCode.QBModelList.InitPage() 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.Web\QBCode\QBModelList.aspx.cs:行号 53
+   在 HF.Cloud.Web.QBCode.QBModelList.Page_Load(Object sender, EventArgs e) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.Web\QBCode\QBModelList.aspx.cs:行号 22
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.EventHandler.Invoke(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ 
+记录时间：2017-09-20 09:03:28,453  线程ID:[12]  日志级别：  ERROR  错误描述：Application_Error Error  System.IndexOutOfRangeException: 索引超出了数组界限。
+   在 HF.Cloud.Web.QBCode.QBModelList.InitPage() 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.Web\QBCode\QBModelList.aspx.cs:行号 53
+   在 HF.Cloud.Web.QBCode.QBModelList.Page_Load(Object sender, EventArgs e) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.Web\QBCode\QBModelList.aspx.cs:行号 22
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.EventHandler.Invoke(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)

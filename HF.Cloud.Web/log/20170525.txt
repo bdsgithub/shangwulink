@@ -1,0 +1,12 @@
+ 
+记录时间：2017-05-25 09:21:29,294  线程ID:[6]  日志级别：  ERROR  错误描述：Application_Error Error  System.IndexOutOfRangeException: 在位置 0 处没有任何行。
+   在 System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   在 System.Data.DataRowCollection.get_Item(Int32 index)
+   在 HF.Cloud.BLL.NewInterface.GetRol(Int64 mainID, String userID) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.BLL\NewInterface.cs:行号 1059
+   在 HF.Cloud.Web.BasicSet.UserBase.UserLook.GetRol() 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.Web\BasicSet\UserBase\UserLook.aspx.cs:行号 67
+   在 HF.Cloud.Web.BasicSet.UserBase.UserLook.Page_Load(Object sender, EventArgs e) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.Web\BasicSet\UserBase\UserLook.aspx.cs:行号 30
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.EventHandler.Invoke(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)

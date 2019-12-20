@@ -1,0 +1,6 @@
+D:\商务链\BusinessChain\HF.Cloud.SWL\bin\HF.Cloud.SWL.dll.config
+D:\商务链\BusinessChain\HF.Cloud.SWL\bin\HF.Cloud.SWL.dll
+D:\商务链\BusinessChain\HF.Cloud.SWL\bin\HF.Cloud.SWL.pdb
+D:\商务链\BusinessChain\HF.Cloud.SWL\obj\Release\HF.Cloud.SWL.csprojResolveAssemblyReference.cache
+D:\商务链\BusinessChain\HF.Cloud.SWL\obj\Release\HF.Cloud.SWL.dll
+D:\商务链\BusinessChain\HF.Cloud.SWL\obj\Release\HF.Cloud.SWL.pdb

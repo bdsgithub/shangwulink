@@ -1,0 +1,514 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a img, :link img, :visited img {
+    border: 0px;
+}
+
+ul {
+    list-style: none;
+}
+
+    ul li {
+        float: left;
+    }
+
+a:link, a:visited, a:hover, a:active {
+    color: #000;
+    text-decoration: underline;
+    text-decoration: none;
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ reset ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+body {
+    max-width: 480px;
+    margin: 0 auto;
+    font-size: 100%;
+    font-family: "Microsoft Yahei","Helvetica Neue","Helvetica","Arial",sans-serif;
+    background-color: #f4f4f4;
+    color: #505050;
+    position: relative;
+}
+
+.phone-cont {
+    width: 90%;
+    margin: 0 auto;
+    padding: 2px;
+}
+
+.login-banner {
+    width: 100%;
+}
+
+.login-input {
+    background-color: #fff;
+    border-top: 1px solid #ccc;
+}
+
+    .login-input img {
+        width: 6%;
+        vertical-align: middle;
+        padding: 2%;
+    }
+
+    .login-input input {
+        width: 80%;
+        height: 46px;
+        border: none;
+        font-size: 16px;
+        outline: none;
+    }
+
+.login-input-border {
+    border-bottom: 1px solid #ccc;
+}
+
+.login-top {
+    margin-top: 2%;
+}
+
+.login-button {
+    width: 95%;
+    height: 50px;
+    background-color: #8fd7fb;
+    margin: 4% auto;
+    border-radius: 3px;
+}
+
+    .login-button p {
+        font-size: 18px;
+        color: #fff;
+        text-align: center;
+        line-height: 46px;
+    }
+
+
+.oneself-list {
+    border-top: 1px #ccc solid;
+    background-color: #fff;
+    overflow: hidden;
+}
+
+    .oneself-list ul {
+        width: 104%;
+        margin: 0 auto;
+    }
+
+    .oneself-list li {
+        position: relative;
+        width: 24%;
+        height: 100px;
+        overflow: hidden;
+    }
+
+        .oneself-list li img {
+            margin-top: 20px;
+            margin-left: 36%;
+            width: 30%;
+        }
+
+        .oneself-list li p {
+            text-align: center;
+        }
+
+        .oneself-list li a {
+            display: block;
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+        }
+
+
+.operate {
+    width: 95%;
+    margin: 2% auto;
+}
+
+.eweic-title ul {
+    overflow: hidden;
+}
+
+.eweic-title li {
+    width: 25%;
+    height: 80px;
+    overflow: hidden;
+}
+
+    .eweic-title li p {
+        text-align: center;
+    }
+
+.operate-list-blue {
+    background-color: #aed9f5;
+}
+
+.operate-list-orange {
+    background-color: #f5d5b9;
+    color: #ff7a00;
+}
+
+.operate-list-green {
+    background-color: #a6e0cb;
+    color: #03d286;
+}
+
+.operate-list-o {
+    background-color: #f9c18e;
+}
+
+.operate-list-g {
+    background-color: #6ed3ae;
+}
+
+.operate-list-b {
+    background-color: #4ab6fa;
+}
+
+    .operate-list-b p, .operate-list-g p, .operate-list-o p {
+        color: #fff;
+        font-size: 20px;
+        line-height: 75px;
+    }
+
+.operate-list-title {
+    line-height: 45px;
+}
+
+.operate-list-t {
+    color: #fff;
+    font-size: 18px;
+}
+
+
+.operate-list {
+    width: 100%;
+    border-top: 1px #ccc solid;
+    background-color: #fff;
+    overflow: hidden;
+}
+
+    .operate-list li {
+        width: 49%;
+        height: 130px;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .operate-list ul li a {
+        display: block;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+    }
+
+
+
+    .operate-list li img {
+        float: left;
+        width: 30%;
+        margin-top: 13%;
+        margin-left: 11%;
+    }
+
+.operate-cont {
+    margin-top: 17%;
+    margin-left: 8%;
+    float: left;
+}
+
+    .operate-cont p {
+        font-size: 20px;
+    }
+
+    .operate-cont span {
+        font-size: 14px;
+        color: #ccc;
+    }
+
+.task-cont {
+    float: left;
+}
+
+.task-cont-type {
+    float: right;
+}
+
+    .task-cont-type p {
+        line-height: 60px;
+    }
+
+.task-cont p {
+    font-size: 14px;
+    line-height: 27px;
+}
+
+.task-cont b {
+    font-weight: normal;
+}
+
+.task-cont-number {
+    font-size: 12px;
+}
+
+.task-g {
+    color: #6ed3ae;
+}
+
+.task-b {
+    color: #4ab6fa;
+}
+
+.task-o {
+    color: #f9c18e;
+}
+
+.task-border-g {
+    border: 1px #6ed3ae solid;
+}
+
+.task-border-b {
+    border: 1px #4ab6fa solid;
+}
+
+.task-border-o {
+    border: 1px #f9c18e solid;
+}
+
+.task-border-o, .task-border-b, .task-border-g {
+    padding: 0 8px;
+}
+
+.task-details {
+    padding: 2% 0;
+    background-color: #fff;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    overflow: hidden;
+}
+
+    .task-details img {
+        width: 16%;
+        float: left;
+    }
+
+.task-details-cont {
+    width: 80%;
+    float: left;
+    /*white-space: nowrap;*/   /*规定段落中的文本不进行换行*/
+    border-bottom: 1px solid #ccc;
+    overflow: hidden;
+    line-height: 29px;
+}
+
+    .task-details-cont p {
+        font-size: 14px;
+    }
+
+.task-details li {
+    width: 100%;
+}
+
+.verify {
+    text-align: right;
+}
+
+    .verify a {
+        color: #3f9cff;
+    }
+
+.login-button {
+    position: relative;
+}
+
+    .login-button a {
+        display: block;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+    }
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 公共样式 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.eweic-right-border {
+    border-right: 1px solid #ccc;
+}
+
+.eweic-bottom-border {
+    border-bottom: 1px solid #ccc;
+}
+
+.login-top {
+    margin-top: 2%;
+}
+
+.eweic-top {
+    margin-top: 2%;
+}
+
+.eweic-left {
+    margin-left: 2%;
+}
+
+.eweic-p-right {
+    word-wrap: break-word;
+    word-break: break-all;
+    width: 60%;
+    padding: 7px 0;
+    display: block;
+    float: right;
+    color: #999;
+    margin-top: 10px;
+}
+
+.eweic-right {
+    margin-right: 2%;
+}
+
+.eweic-title {
+    font-size: 14px;
+    color: #3f9cff;
+}
+
+.eweic-chunk {
+    background-color: #F7F7F7;
+    border-top: 1px #ccc solid;
+    border-bottom: 1px #ccc solid;
+    width: 100%;
+    height: 60px;
+}
+
+
+.eweic-bottom {
+    max-width: 480px;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    height: 60px;
+}
+
+    .eweic-bottom li {
+        position: relative;
+    }
+
+    .eweic-bottom a {
+        display: block;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+    }
+
+.eweic-bottom-back {
+    width: 100%;
+    height: 60px;
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    line-height: 58px;
+    background-color: #aed9f5;
+}
+
+.eweic-bottom-repairs {
+    width: 50%;
+    height: 60px;
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    line-height: 58px;
+    background-color: #aed9f5;
+}
+
+.operate-list-gray {
+    background-color: #bbb;
+}
+
+
+.eweic-chunk-white {
+    background-color: #fff;
+    border-top: 1px #ccc solid;
+    width: 100%;
+    overflow: hidden;
+}
+
+    .eweic-chunk-white input {
+        float: right;
+        width: 75%;
+        border: none;
+        outline: none;
+        font-size: 16px;
+        /*line-height: 55px;*/
+        margin-top: 20px;
+        text-align: right;
+    }
+
+    .eweic-chunk-white select {
+        float: right;
+        width: 75%;
+        border: none;
+        outline: none;
+        font-size: 16px;
+        margin-top: 3%;
+        text-align: right;
+    }
+
+    .eweic-chunk-white textarea {
+        float: right;
+        width: 75%;
+        text-align: right;
+        border-top: 0;
+        border-left: 1px #ccc solid;
+        border-right: 0;
+        border-bottom: 1px #ccc solid;
+        outline: none;
+        font-size: 16px;
+    }
+
+    .eweic-chunk-white p {
+        float: left;
+        width: 20%;
+        line-height: 55px;
+        white-space: nowrap;
+    }
+
+.chunk {
+    margin-top: 80px;
+}
+
+
+
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 响应样式 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+@media screen and (max-width: 355px) {
+    .operate-cont {
+        margin-top: 5%;
+        margin-left: 24%;
+        float: left;
+    }
+
+    .operate-list li img {
+        float: left;
+        width: 30%;
+        margin-top: 13%;
+        margin-left: 37%;
+    }
+}
+
+.tab-operate-c {
+    float: left;
+    font-size: 16px;
+    padding-right: 10px;
+}
+
+.tab-operate-w {
+    color: #000;
+    font-size: 16px;
+}
+
+.tab-work {
+    display: none;
+}

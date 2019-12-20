@@ -1,0 +1,18 @@
+ 
+记录时间：2017-07-21 14:16:17,949  线程ID:[6]  日志级别：  ERROR  错误描述：   
+记录时间：2017-07-21 14:16:17,994  线程ID:[6]  日志级别：  ERROR  错误描述：添加工单后返回的工单ID：66088   
+记录时间：2017-07-21 14:16:18,319  线程ID:[6]  日志级别：  ERROR  错误描述：获取到受理人DingID：085736461526294282   
+记录时间：2017-07-21 14:16:18,329  线程ID:[6]  日志级别：  ERROR  错误描述：获取到客户ClientName：北林支行   
+记录时间：2017-07-21 14:16:18,340  线程ID:[6]  日志级别：  ERROR  错误描述：获取到客户sheetTypeName_Ding：通用   
+记录时间：2017-07-21 14:16:18,388  线程ID:[6]  日志级别：  ERROR  错误描述：钉钉json会话消息：{"touser":"085736461526294282","toparty":"","agentid":"9162364","msgtype":"oa","oa":{"message_url":"http://192.168.1.41:8123/Sheet/SheetDetail.aspx?dd_nav_bgcolor=FF5E97F6\u0026sheetID=66088","head":{"bgcolor":"3333ff","text":"新工单！"},"body":{"title":"您有新工单，请注意查收！","form":[{"key":"客户：","value":"北林支行"},{"key":"工单类型：","value":"通用"}]}}}   
+记录时间：2017-07-21 14:16:18,778  线程ID:[6]  日志级别：  ERROR  错误描述：调用钉钉接口获取token的json字符串：{"errmsg":"ok","access_token":"10782b4b1c18333ba008931f1cb7082a","errcode":0}   
+记录时间：2017-07-21 14:16:18,779  线程ID:[6]  日志级别：  ERROR  错误描述：调用钉钉接口获取token：10782b4b1c18333ba008931f1cb7082a   
+记录时间：2017-07-21 14:16:18,947  线程ID:[6]  日志级别：  ERROR  错误描述：调用钉钉接口获取ticket：{"errmsg":"ok","ticket":"UB9MuzdBURk0pWOfe09Z5WcknRXwU03ImB94FNSgEG6pMxyXMRdrPWaWOxK6wiWeSlxyUBEe6bXCV0j7tEEFWc","expires_in":7200,"errcode":0}   
+记录时间：2017-07-21 14:16:18,963  线程ID:[6]  日志级别：  ERROR  错误描述：设置原来数据valid=0失效状态成功:0   
+记录时间：2017-07-21 14:16:18,964  线程ID:[6]  日志级别：  ERROR  错误描述：成功添加新taoken到数据库的id---------   
+记录时间：2017-07-21 14:16:18,991  线程ID:[6]  日志级别：  ERROR  错误描述：成功添加新taoken到数据库的id：30005   
+记录时间：2017-07-21 14:16:18,991  线程ID:[6]  日志级别：  ERROR  错误描述：获取到accessToken:10782b4b1c18333ba008931f1cb7082a   
+记录时间：2017-07-21 14:16:19,183  线程ID:[6]  日志级别：  ERROR  错误描述：conversationString:{"invalidparty":"","messageId":"d9403440c8f439b3bb98ef34ee2c9fcb","errmsg":"ok","invaliduser":"","errcode":0}
+   
+记录时间：2017-07-21 14:16:19,183  线程ID:[6]  日志级别：  ERROR  错误描述：受理人:李勇发送会话消息成功！   
+记录时间：2017-07-21 15:42:39,367  线程ID:[5]  日志级别：  ERROR  错误描述：所发红包的openid：  

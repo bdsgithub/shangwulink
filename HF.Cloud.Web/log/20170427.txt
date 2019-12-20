@@ -1,0 +1,58 @@
+ 
+记录时间：2017-04-27 17:27:00,199  线程ID:[7]  日志级别：  ERROR  错误描述：Application_Error Error  System.IndexOutOfRangeException: 无法找到表 0。
+   在 System.Data.DataTableCollection.get_Item(Int32 index)
+   在 HF.Cloud.Model.SB_UserEL.ExecuteEL(Int32 iOperateFlag) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.Model\SB_UserEL.cs:行号 171
+   在 HF.Cloud.Web.BasicSet.UserBase.UserAdd.ValidateInputValue() 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.Web\BasicSet\UserBase\UserAdd.aspx.cs:行号 278
+   在 HF.Cloud.Web.BasicSet.UserBase.UserAdd.lnkBtnSave_Click(Object sender, EventArgs e) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.Web\BasicSet\UserBase\UserAdd.aspx.cs:行号 357
+   在 System.Web.UI.WebControls.LinkButton.OnClick(EventArgs e)
+   在 System.Web.UI.WebControls.LinkButton.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.WebControls.LinkButton.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ 
+记录时间：2017-04-27 17:30:23,183  线程ID:[6]  日志级别：  ERROR  错误描述：Application_Error Error  System.IndexOutOfRangeException: 无法找到表 0。
+   在 System.Data.DataTableCollection.get_Item(Int32 index)
+   在 HF.Cloud.Model.SB_UserEL.ExecuteEL(Int32 iOperateFlag) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.Model\SB_UserEL.cs:行号 171
+   在 HF.Cloud.Web.BasicSet.UserBase.UserAdd.ValidateInputValue() 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.Web\BasicSet\UserBase\UserAdd.aspx.cs:行号 278
+   在 HF.Cloud.Web.BasicSet.UserBase.UserAdd.lnkBtnSave_Click(Object sender, EventArgs e) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.Web\BasicSet\UserBase\UserAdd.aspx.cs:行号 357
+   在 System.Web.UI.WebControls.LinkButton.OnClick(EventArgs e)
+   在 System.Web.UI.WebControls.LinkButton.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.WebControls.LinkButton.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ 
+记录时间：2017-04-27 17:31:55,364  线程ID:[6]  日志级别：  ERROR  错误描述：Application_Error Error  System.IndexOutOfRangeException: 无法找到表 0。
+   在 System.Data.DataTableCollection.get_Item(Int32 index)
+   在 HF.Cloud.Model.SB_UserEL.ExecuteEL(Int32 iOperateFlag) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.Model\SB_UserEL.cs:行号 171
+   在 HF.Cloud.Web.BasicSet.UserBase.UserAdd.ValidateInputValue() 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.Web\BasicSet\UserBase\UserAdd.aspx.cs:行号 278
+   在 HF.Cloud.Web.BasicSet.UserBase.UserAdd.lnkBtnSave_Click(Object sender, EventArgs e) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.Web\BasicSet\UserBase\UserAdd.aspx.cs:行号 357
+   在 System.Web.UI.WebControls.LinkButton.OnClick(EventArgs e)
+   在 System.Web.UI.WebControls.LinkButton.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.WebControls.LinkButton.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ 
+记录时间：2017-04-27 17:46:56,463  线程ID:[7]  日志级别：  ERROR  错误描述：Application_Error Error  System.Exception: 对象名 'A_AssetArea' 无效。
+   在 HF.Cloud.CommonDAL.DbHelperSQL.Query(String SQLString) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.CommonDAL\DbHelperSQL.cs:行号 408
+   在 HF.Cloud.BLL.NewInterface.GetAsset(String strSql) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.BLL\NewInterface.cs:行号 867
+   在 HF.Cloud.Web.Sheet.SheetAsset.AssetAdd.BindDrop() 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.Web\Sheet\SheetAsset\AssetAdd.aspx.cs:行号 112
+   在 HF.Cloud.Web.Sheet.SheetAsset.AssetAdd.Page_Load(Object sender, EventArgs e) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.Web\Sheet\SheetAsset\AssetAdd.aspx.cs:行号 14
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.EventHandler.Invoke(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ 
+记录时间：2017-04-27 17:52:43,743  线程ID:[20]  日志级别：  ERROR  错误描述：Application_Error Error  System.Exception: 对象名 'A_AssetArea' 无效。
+   在 HF.Cloud.CommonDAL.DbHelperSQL.Query(String SQLString) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.CommonDAL\DbHelperSQL.cs:行号 408
+   在 HF.Cloud.BLL.NewInterface.GetAsset(String strSql) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.BLL\NewInterface.cs:行号 867
+   在 HF.Cloud.Web.Sheet.SheetAsset.AssetAdd.BindDrop() 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.Web\Sheet\SheetAsset\AssetAdd.aspx.cs:行号 112
+   在 HF.Cloud.Web.Sheet.SheetAsset.AssetAdd.Page_Load(Object sender, EventArgs e) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.Web\Sheet\SheetAsset\AssetAdd.aspx.cs:行号 14
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.EventHandler.Invoke(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)

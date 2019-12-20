@@ -1,0 +1,36 @@
+D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.JPushForm\bin\Debug\HF.Cloud.JPushForm.exe.config
+D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.JPushForm\bin\Debug\HF.Cloud.JPushForm.exe
+D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.JPushForm\bin\Debug\HF.Cloud.JPushForm.pdb
+D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.JPushForm\bin\Debug\HF.Cloud.WcfJpush.dll
+D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.JPushForm\bin\Debug\Newtonsoft.Json.dll
+D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.JPushForm\bin\Debug\HF.Cloud.WcfJpush.pdb
+D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.JPushForm\obj\Debug\HF.Cloud.JPushForm.csprojResolveAssemblyReference.cache
+D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.JPushForm\obj\Debug\HF.Cloud.JPushForm.exe
+D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.JPushForm\obj\Debug\HF.Cloud.JPushForm.pdb
+D:\易维客\AssetCloudSolutionV1.4 - 副本\HF.Cloud.JPushForm\bin\Debug\HF.Cloud.JPushForm.exe.config
+D:\易维客\AssetCloudSolutionV1.4 - 副本\HF.Cloud.JPushForm\bin\Debug\HF.Cloud.JPushForm.exe
+D:\易维客\AssetCloudSolutionV1.4 - 副本\HF.Cloud.JPushForm\bin\Debug\HF.Cloud.JPushForm.pdb
+D:\易维客\AssetCloudSolutionV1.4 - 副本\HF.Cloud.JPushForm\bin\Debug\HF.Cloud.WcfJpush.dll
+D:\易维客\AssetCloudSolutionV1.4 - 副本\HF.Cloud.JPushForm\bin\Debug\Newtonsoft.Json.dll
+D:\易维客\AssetCloudSolutionV1.4 - 副本\HF.Cloud.JPushForm\bin\Debug\HF.Cloud.WcfJpush.pdb
+D:\易维客\AssetCloudSolutionV1.4 - 副本\HF.Cloud.JPushForm\obj\Debug\HF.Cloud.JPushForm.csprojResolveAssemblyReference.cache
+D:\易维客\AssetCloudSolutionV1.4 - 副本\HF.Cloud.JPushForm\obj\Debug\HF.Cloud.JPushForm.exe
+D:\易维客\AssetCloudSolutionV1.4 - 副本\HF.Cloud.JPushForm\obj\Debug\HF.Cloud.JPushForm.pdb
+D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.JPushForm\bin\Debug\HF.Cloud.JPushForm.exe.config
+D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.JPushForm\bin\Debug\HF.Cloud.JPushForm.exe
+D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.JPushForm\bin\Debug\HF.Cloud.JPushForm.pdb
+D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.JPushForm\bin\Debug\HF.Cloud.WcfJpush.dll
+D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.JPushForm\bin\Debug\Newtonsoft.Json.dll
+D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.JPushForm\bin\Debug\HF.Cloud.WcfJpush.pdb
+D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.JPushForm\obj\Debug\HF.Cloud.JPushForm.csprojResolveAssemblyReference.cache
+D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.JPushForm\obj\Debug\HF.Cloud.JPushForm.exe
+D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.JPushForm\obj\Debug\HF.Cloud.JPushForm.pdb
+D:\商务链\BusinessChain\HF.Cloud.JPushForm\bin\Debug\HF.Cloud.JPushForm.exe.config
+D:\商务链\BusinessChain\HF.Cloud.JPushForm\bin\Debug\HF.Cloud.JPushForm.exe
+D:\商务链\BusinessChain\HF.Cloud.JPushForm\bin\Debug\HF.Cloud.JPushForm.pdb
+D:\商务链\BusinessChain\HF.Cloud.JPushForm\bin\Debug\HF.Cloud.WcfJpush.dll
+D:\商务链\BusinessChain\HF.Cloud.JPushForm\bin\Debug\Newtonsoft.Json.dll
+D:\商务链\BusinessChain\HF.Cloud.JPushForm\bin\Debug\HF.Cloud.WcfJpush.pdb
+D:\商务链\BusinessChain\HF.Cloud.JPushForm\obj\Debug\HF.Cloud.JPushForm.exe
+D:\商务链\BusinessChain\HF.Cloud.JPushForm\obj\Debug\HF.Cloud.JPushForm.pdb
+D:\商务链\BusinessChain\HF.Cloud.JPushForm\obj\Debug\HF.Cloud.JPushForm.csprojResolveAssemblyReference.cache

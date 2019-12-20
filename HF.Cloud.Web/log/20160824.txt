@@ -1,0 +1,36 @@
+ 
+记录时间：2016-08-24 14:45:50,613  线程ID:[48]  日志级别：  ERROR  错误描述：Application_Error Error  System.InvalidCastException: 指定的转换无效。
+   在 HF.Cloud.Model.A_AssetModelEL.InitByRow(DataRow dr) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Model\A_AssetModelEL.cs:行号 198
+   在 HF.Cloud.Model.A_AssetModelEL.ExecuteEL(Int32 iOperateFlag) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Model\A_AssetModelEL.cs:行号 135
+   在 HF.Cloud.BLL.AssetBL.GetModelNameById(Int64 modelId) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.BLL\AssetBL.cs:行号 197
+   在 HF.Cloud.Web.Sheet.SheetAsset.AssetLook.BindInputValue(Int64 assetId) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Web\Sheet\SheetAsset\AssetLook.aspx.cs:行号 78
+   在 HF.Cloud.Web.Sheet.SheetAsset.AssetLook.Page_Load(Object sender, EventArgs e) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Web\Sheet\SheetAsset\AssetLook.aspx.cs:行号 20
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.EventHandler.Invoke(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ 
+记录时间：2016-08-24 14:45:55,166  线程ID:[49]  日志级别：  ERROR  错误描述：Application_Error Error  System.InvalidCastException: 指定的转换无效。
+   在 HF.Cloud.Model.A_AssetModelEL.InitByRow(DataRow dr) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Model\A_AssetModelEL.cs:行号 198
+   在 HF.Cloud.Model.A_AssetModelEL.ExecuteEL(Int32 iOperateFlag) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Model\A_AssetModelEL.cs:行号 135
+   在 HF.Cloud.BLL.AssetBL.GetModelNameById(Int64 modelId) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.BLL\AssetBL.cs:行号 197
+   在 HF.Cloud.Web.Sheet.SheetAsset.AssetLook.BindInputValue(Int64 assetId) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Web\Sheet\SheetAsset\AssetLook.aspx.cs:行号 78
+   在 HF.Cloud.Web.Sheet.SheetAsset.AssetLook.Page_Load(Object sender, EventArgs e) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Web\Sheet\SheetAsset\AssetLook.aspx.cs:行号 20
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.EventHandler.Invoke(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ 
+记录时间：2016-08-24 14:46:00,157  线程ID:[47]  日志级别：  ERROR  错误描述：Application_Error Error  System.InvalidCastException: 指定的转换无效。
+   在 HF.Cloud.Model.A_AssetModelEL.InitByRow(DataRow dr) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Model\A_AssetModelEL.cs:行号 198
+   在 HF.Cloud.Model.A_AssetModelEL.ExecuteEL(Int32 iOperateFlag) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Model\A_AssetModelEL.cs:行号 135
+   在 HF.Cloud.BLL.AssetBL.GetModelNameById(Int64 modelId) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.BLL\AssetBL.cs:行号 197
+   在 HF.Cloud.Web.Sheet.SheetAsset.AssetLook.BindInputValue(Int64 assetId) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Web\Sheet\SheetAsset\AssetLook.aspx.cs:行号 78
+   在 HF.Cloud.Web.Sheet.SheetAsset.AssetLook.Page_Load(Object sender, EventArgs e) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Web\Sheet\SheetAsset\AssetLook.aspx.cs:行号 20
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.EventHandler.Invoke(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)

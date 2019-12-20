@@ -1,0 +1,28 @@
+D:\商务链\BusinessChain\HF.Cloud.Web\Fakes\Qiniu.fakes : warning : 无法为 Qiniu.Http.HttpCode 生成存根: 类型是一个值类型。
+D:\商务链\BusinessChain\HF.Cloud.Web\Fakes\Qiniu.fakes : warning : 无法为 Qiniu.Storage.QiniuException 生成存根: 类型对 exported or assembly(Qiniu.Fakes) 不可见。
+D:\商务链\BusinessChain\HF.Cloud.Web\Fakes\Qiniu.fakes : warning : 无法为 Qiniu.Storage.ResumeBlocker 生成存根: 类型对 exported or assembly(Qiniu.Fakes) 不可见。
+D:\商务链\BusinessChain\HF.Cloud.Web\Fakes\Qiniu.fakes : warning : 无法为 Qiniu.Storage.ZoneInfo 生成存根: 类型对 exported or assembly(Qiniu.Fakes) 不可见。
+D:\商务链\BusinessChain\HF.Cloud.Web\Fakes\Qiniu.fakes : warning : 无法为 Qiniu.Storage.Io 生成存根: 类型对 exported or assembly(Qiniu.Fakes) 不可见。
+D:\商务链\BusinessChain\HF.Cloud.Web\Fakes\Qiniu.fakes : warning : 无法为 Qiniu.Storage.Src 生成存根: 类型对 exported or assembly(Qiniu.Fakes) 不可见。
+D:\商务链\BusinessChain\HF.Cloud.Web\Fakes\Qiniu.fakes : warning : 无法为 Qiniu.Storage.Up 生成存根: 类型对 exported or assembly(Qiniu.Fakes) 不可见。
+D:\商务链\BusinessChain\HF.Cloud.Web\Fakes\Qiniu.fakes : warning : 无法为 Qiniu.Storage.UpDomain 生成存根: 类型对 exported or assembly(Qiniu.Fakes) 不可见。
+D:\商务链\BusinessChain\HF.Cloud.Web\Fakes\Qiniu.fakes : warning : 无法为 Qiniu.Storage.ChunkUnit 生成存根: 类型是一个值类型。
+D:\商务链\BusinessChain\HF.Cloud.Web\Fakes\Qiniu.fakes : warning : 无法为 Qiniu.Storage.UploadControllerAction 生成存根: 类型是一个值类型。
+D:\商务链\BusinessChain\HF.Cloud.Web\Fakes\Qiniu.fakes : warning : 无法为 Qiniu.Storage.UploadController 生成存根: 类型已密封。
+D:\商务链\BusinessChain\HF.Cloud.Web\Fakes\Qiniu.fakes : warning : 无法为 Qiniu.Storage.UploadProgressHandler 生成存根: 类型已密封。
+D:\商务链\BusinessChain\HF.Cloud.Web\Fakes\Qiniu.fakes : warning : 无法为 <PrivateImplementationDetails> 生成存根: 类型已密封。
+D:\商务链\BusinessChain\HF.Cloud.Web\Fakes\Qiniu.fakes : warning : 无法为 Qiniu.Http.HttpCode 生成填充码: 类型是一个枚举。
+D:\商务链\BusinessChain\HF.Cloud.Web\Fakes\Qiniu.fakes : warning : 无法为 Qiniu.Util.LabMD5+BitHelper 生成填充码: 类型对 exported or assembly(Qiniu.Fakes) 不可见。
+D:\商务链\BusinessChain\HF.Cloud.Web\Fakes\Qiniu.fakes : warning : 无法为 Qiniu.Util.LabMD5+Digest 生成填充码: 类型对 exported or assembly(Qiniu.Fakes) 不可见。
+D:\商务链\BusinessChain\HF.Cloud.Web\Fakes\Qiniu.fakes : warning : 无法为 Qiniu.Storage.QiniuException 生成填充码: 类型对 exported or assembly(Qiniu.Fakes) 不可见。
+D:\商务链\BusinessChain\HF.Cloud.Web\Fakes\Qiniu.fakes : warning : 无法为 Qiniu.Storage.ResumeBlocker 生成填充码: 类型对 exported or assembly(Qiniu.Fakes) 不可见。
+D:\商务链\BusinessChain\HF.Cloud.Web\Fakes\Qiniu.fakes : warning : 无法为 Qiniu.Storage.ZoneInfo 生成填充码: 类型对 exported or assembly(Qiniu.Fakes) 不可见。
+D:\商务链\BusinessChain\HF.Cloud.Web\Fakes\Qiniu.fakes : warning : 无法为 Qiniu.Storage.Io 生成填充码: 类型对 exported or assembly(Qiniu.Fakes) 不可见。
+D:\商务链\BusinessChain\HF.Cloud.Web\Fakes\Qiniu.fakes : warning : 无法为 Qiniu.Storage.Src 生成填充码: 类型对 exported or assembly(Qiniu.Fakes) 不可见。
+D:\商务链\BusinessChain\HF.Cloud.Web\Fakes\Qiniu.fakes : warning : 无法为 Qiniu.Storage.Up 生成填充码: 类型对 exported or assembly(Qiniu.Fakes) 不可见。
+D:\商务链\BusinessChain\HF.Cloud.Web\Fakes\Qiniu.fakes : warning : 无法为 Qiniu.Storage.UpDomain 生成填充码: 类型对 exported or assembly(Qiniu.Fakes) 不可见。
+D:\商务链\BusinessChain\HF.Cloud.Web\Fakes\Qiniu.fakes : warning : 无法为 Qiniu.Storage.ChunkUnit 生成填充码: 类型是一个枚举。
+D:\商务链\BusinessChain\HF.Cloud.Web\Fakes\Qiniu.fakes : warning : 无法为 Qiniu.Storage.UploadControllerAction 生成填充码: 类型是一个枚举。
+D:\商务链\BusinessChain\HF.Cloud.Web\Fakes\Qiniu.fakes : warning : 无法为 Qiniu.Storage.UploadController 生成填充码: 类型是一个委托。
+D:\商务链\BusinessChain\HF.Cloud.Web\Fakes\Qiniu.fakes : warning : 无法为 Qiniu.Storage.UploadProgressHandler 生成填充码: 类型是一个委托。
+D:\商务链\BusinessChain\HF.Cloud.Web\Fakes\Qiniu.fakes : warning : 无法为 <PrivateImplementationDetails> 生成填充码: 类型不受支持，因为存在内部限制。

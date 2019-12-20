@@ -1,0 +1,204 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HF.Cloud.BLL", "HF.Cloud.BLL\HF.Cloud.BLL.csproj", "{051817FD-BEBF-48B4-9CED-7F0EE3BFAA22}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HF.Cloud.Model", "HF.Cloud.Model\HF.Cloud.Model.csproj", "{24F578F2-7160-45AA-BFC0-6096EE9EA5D1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HF.Cloud.WcfLibrary", "HF.Cloud.WcfLibrary\HF.Cloud.WcfLibrary.csproj", "{3BFFE60B-BC47-4A74-9845-2E19E3F9A5E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HF.Cloud.WcfService", "HF.Cloud.WcfService\HF.Cloud.WcfService.csproj", "{F39D9BC5-D353-46EE-B5B6-B4ADBB797445}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HF.Cloud.WcfForm", "HF.Cloud.WcfForm\HF.Cloud.WcfForm.csproj", "{D50C0D16-5D69-4A5A-836A-141DED5B42B0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HF.Cloud.Web", "HF.Cloud.Web\HF.Cloud.Web.csproj", "{164495B0-B405-48B5-BFCF-3DDC892094E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HF.Cloud.WcfJpush", "HF.Cloud.WcfJpush\HF.Cloud.WcfJpush.csproj", "{2C09296D-4C04-4954-B54F-F61365C2EC9A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HF.Cloud.CommonDAL", "HF.Cloud.CommonDAL\HF.Cloud.CommonDAL.csproj", "{40EFB0BD-CFAA-4775-99EE-E03F711C4756}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HF.Cloud.JPushForm", "HF.Cloud.JPushForm\HF.Cloud.JPushForm.csproj", "{4192A420-A9C2-4C4B-95B6-8EF2FBB4B9C7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HF.Cloud.CustomerWeb", "HF.Cloud.CustomerWeb\HF.Cloud.CustomerWeb.csproj", "{73B046B0-5B93-4042-8D25-F333FD7B755C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HF.Cloud.Document", "HF.Cloud.Document\HF.Cloud.Document.csproj", "{A6B02825-5A27-484A-81C3-B003A2F8F91F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinformTest", "WinformTest\WinformTest.csproj", "{8464810C-91DA-493A-A696-5524C89C4B9D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HF.Cloud.SWL", "HF.Cloud.SWL\HF.Cloud.SWL.csproj", "{F46733DD-3149-4148-9EFC-6A1ACA7A155E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wxHongBaoTest", "wxHongBaoTest\wxHongBaoTest.csproj", "{CA0BC37A-1D7F-49F0-B1C3-D987C03E13E5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{051817FD-BEBF-48B4-9CED-7F0EE3BFAA22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{051817FD-BEBF-48B4-9CED-7F0EE3BFAA22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{051817FD-BEBF-48B4-9CED-7F0EE3BFAA22}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{051817FD-BEBF-48B4-9CED-7F0EE3BFAA22}.Debug|x86.Build.0 = Debug|Any CPU
+		{051817FD-BEBF-48B4-9CED-7F0EE3BFAA22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{051817FD-BEBF-48B4-9CED-7F0EE3BFAA22}.Release|Any CPU.Build.0 = Release|Any CPU
+		{051817FD-BEBF-48B4-9CED-7F0EE3BFAA22}.Release|x86.ActiveCfg = Release|Any CPU
+		{051817FD-BEBF-48B4-9CED-7F0EE3BFAA22}.Release|x86.Build.0 = Release|Any CPU
+		{24F578F2-7160-45AA-BFC0-6096EE9EA5D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24F578F2-7160-45AA-BFC0-6096EE9EA5D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24F578F2-7160-45AA-BFC0-6096EE9EA5D1}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{24F578F2-7160-45AA-BFC0-6096EE9EA5D1}.Debug|x86.Build.0 = Debug|Any CPU
+		{24F578F2-7160-45AA-BFC0-6096EE9EA5D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24F578F2-7160-45AA-BFC0-6096EE9EA5D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24F578F2-7160-45AA-BFC0-6096EE9EA5D1}.Release|x86.ActiveCfg = Release|Any CPU
+		{24F578F2-7160-45AA-BFC0-6096EE9EA5D1}.Release|x86.Build.0 = Release|Any CPU
+		{3BFFE60B-BC47-4A74-9845-2E19E3F9A5E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BFFE60B-BC47-4A74-9845-2E19E3F9A5E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BFFE60B-BC47-4A74-9845-2E19E3F9A5E8}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{3BFFE60B-BC47-4A74-9845-2E19E3F9A5E8}.Debug|x86.Build.0 = Debug|Any CPU
+		{3BFFE60B-BC47-4A74-9845-2E19E3F9A5E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BFFE60B-BC47-4A74-9845-2E19E3F9A5E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BFFE60B-BC47-4A74-9845-2E19E3F9A5E8}.Release|x86.ActiveCfg = Release|Any CPU
+		{3BFFE60B-BC47-4A74-9845-2E19E3F9A5E8}.Release|x86.Build.0 = Release|Any CPU
+		{F39D9BC5-D353-46EE-B5B6-B4ADBB797445}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F39D9BC5-D353-46EE-B5B6-B4ADBB797445}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F39D9BC5-D353-46EE-B5B6-B4ADBB797445}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{F39D9BC5-D353-46EE-B5B6-B4ADBB797445}.Debug|x86.Build.0 = Debug|Any CPU
+		{F39D9BC5-D353-46EE-B5B6-B4ADBB797445}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F39D9BC5-D353-46EE-B5B6-B4ADBB797445}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F39D9BC5-D353-46EE-B5B6-B4ADBB797445}.Release|x86.ActiveCfg = Release|Any CPU
+		{F39D9BC5-D353-46EE-B5B6-B4ADBB797445}.Release|x86.Build.0 = Release|Any CPU
+		{D50C0D16-5D69-4A5A-836A-141DED5B42B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D50C0D16-5D69-4A5A-836A-141DED5B42B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D50C0D16-5D69-4A5A-836A-141DED5B42B0}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{D50C0D16-5D69-4A5A-836A-141DED5B42B0}.Debug|x86.Build.0 = Debug|Any CPU
+		{D50C0D16-5D69-4A5A-836A-141DED5B42B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D50C0D16-5D69-4A5A-836A-141DED5B42B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D50C0D16-5D69-4A5A-836A-141DED5B42B0}.Release|x86.ActiveCfg = Release|Any CPU
+		{D50C0D16-5D69-4A5A-836A-141DED5B42B0}.Release|x86.Build.0 = Release|Any CPU
+		{164495B0-B405-48B5-BFCF-3DDC892094E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{164495B0-B405-48B5-BFCF-3DDC892094E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{164495B0-B405-48B5-BFCF-3DDC892094E2}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{164495B0-B405-48B5-BFCF-3DDC892094E2}.Debug|x86.Build.0 = Debug|Any CPU
+		{164495B0-B405-48B5-BFCF-3DDC892094E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{164495B0-B405-48B5-BFCF-3DDC892094E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{164495B0-B405-48B5-BFCF-3DDC892094E2}.Release|x86.ActiveCfg = Release|Any CPU
+		{164495B0-B405-48B5-BFCF-3DDC892094E2}.Release|x86.Build.0 = Release|Any CPU
+		{2C09296D-4C04-4954-B54F-F61365C2EC9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C09296D-4C04-4954-B54F-F61365C2EC9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C09296D-4C04-4954-B54F-F61365C2EC9A}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{2C09296D-4C04-4954-B54F-F61365C2EC9A}.Debug|x86.Build.0 = Debug|Any CPU
+		{2C09296D-4C04-4954-B54F-F61365C2EC9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C09296D-4C04-4954-B54F-F61365C2EC9A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C09296D-4C04-4954-B54F-F61365C2EC9A}.Release|x86.ActiveCfg = Release|Any CPU
+		{2C09296D-4C04-4954-B54F-F61365C2EC9A}.Release|x86.Build.0 = Release|Any CPU
+		{40EFB0BD-CFAA-4775-99EE-E03F711C4756}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40EFB0BD-CFAA-4775-99EE-E03F711C4756}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40EFB0BD-CFAA-4775-99EE-E03F711C4756}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{40EFB0BD-CFAA-4775-99EE-E03F711C4756}.Debug|x86.Build.0 = Debug|Any CPU
+		{40EFB0BD-CFAA-4775-99EE-E03F711C4756}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40EFB0BD-CFAA-4775-99EE-E03F711C4756}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40EFB0BD-CFAA-4775-99EE-E03F711C4756}.Release|x86.ActiveCfg = Release|Any CPU
+		{40EFB0BD-CFAA-4775-99EE-E03F711C4756}.Release|x86.Build.0 = Release|Any CPU
+		{4192A420-A9C2-4C4B-95B6-8EF2FBB4B9C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4192A420-A9C2-4C4B-95B6-8EF2FBB4B9C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4192A420-A9C2-4C4B-95B6-8EF2FBB4B9C7}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{4192A420-A9C2-4C4B-95B6-8EF2FBB4B9C7}.Debug|x86.Build.0 = Debug|Any CPU
+		{4192A420-A9C2-4C4B-95B6-8EF2FBB4B9C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4192A420-A9C2-4C4B-95B6-8EF2FBB4B9C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4192A420-A9C2-4C4B-95B6-8EF2FBB4B9C7}.Release|x86.ActiveCfg = Release|Any CPU
+		{4192A420-A9C2-4C4B-95B6-8EF2FBB4B9C7}.Release|x86.Build.0 = Release|Any CPU
+		{73B046B0-5B93-4042-8D25-F333FD7B755C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73B046B0-5B93-4042-8D25-F333FD7B755C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73B046B0-5B93-4042-8D25-F333FD7B755C}.Debug|x86.ActiveCfg = Debug|x86
+		{73B046B0-5B93-4042-8D25-F333FD7B755C}.Debug|x86.Build.0 = Debug|x86
+		{73B046B0-5B93-4042-8D25-F333FD7B755C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73B046B0-5B93-4042-8D25-F333FD7B755C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73B046B0-5B93-4042-8D25-F333FD7B755C}.Release|x86.ActiveCfg = Release|x86
+		{73B046B0-5B93-4042-8D25-F333FD7B755C}.Release|x86.Build.0 = Release|x86
+		{A6B02825-5A27-484A-81C3-B003A2F8F91F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6B02825-5A27-484A-81C3-B003A2F8F91F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6B02825-5A27-484A-81C3-B003A2F8F91F}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{A6B02825-5A27-484A-81C3-B003A2F8F91F}.Debug|x86.Build.0 = Debug|Any CPU
+		{A6B02825-5A27-484A-81C3-B003A2F8F91F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6B02825-5A27-484A-81C3-B003A2F8F91F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6B02825-5A27-484A-81C3-B003A2F8F91F}.Release|x86.ActiveCfg = Release|Any CPU
+		{A6B02825-5A27-484A-81C3-B003A2F8F91F}.Release|x86.Build.0 = Release|Any CPU
+		{8464810C-91DA-493A-A696-5524C89C4B9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8464810C-91DA-493A-A696-5524C89C4B9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8464810C-91DA-493A-A696-5524C89C4B9D}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{8464810C-91DA-493A-A696-5524C89C4B9D}.Debug|x86.Build.0 = Debug|Any CPU
+		{8464810C-91DA-493A-A696-5524C89C4B9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8464810C-91DA-493A-A696-5524C89C4B9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8464810C-91DA-493A-A696-5524C89C4B9D}.Release|x86.ActiveCfg = Release|Any CPU
+		{8464810C-91DA-493A-A696-5524C89C4B9D}.Release|x86.Build.0 = Release|Any CPU
+		{F46733DD-3149-4148-9EFC-6A1ACA7A155E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F46733DD-3149-4148-9EFC-6A1ACA7A155E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F46733DD-3149-4148-9EFC-6A1ACA7A155E}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{F46733DD-3149-4148-9EFC-6A1ACA7A155E}.Debug|x86.Build.0 = Debug|Any CPU
+		{F46733DD-3149-4148-9EFC-6A1ACA7A155E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F46733DD-3149-4148-9EFC-6A1ACA7A155E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F46733DD-3149-4148-9EFC-6A1ACA7A155E}.Release|x86.ActiveCfg = Release|Any CPU
+		{F46733DD-3149-4148-9EFC-6A1ACA7A155E}.Release|x86.Build.0 = Release|Any CPU
+		{CA0BC37A-1D7F-49F0-B1C3-D987C03E13E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA0BC37A-1D7F-49F0-B1C3-D987C03E13E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA0BC37A-1D7F-49F0-B1C3-D987C03E13E5}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{CA0BC37A-1D7F-49F0-B1C3-D987C03E13E5}.Debug|x86.Build.0 = Debug|Any CPU
+		{CA0BC37A-1D7F-49F0-B1C3-D987C03E13E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA0BC37A-1D7F-49F0-B1C3-D987C03E13E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA0BC37A-1D7F-49F0-B1C3-D987C03E13E5}.Release|x86.ActiveCfg = Release|Any CPU
+		{CA0BC37A-1D7F-49F0-B1C3-D987C03E13E5}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 15
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = HF.Cloud.BLL\\HF.Cloud.BLL.csproj
+		SccLocalPath1 = .
+		SccProjectFilePathRelativizedFromConnection1 = HF.Cloud.BLL\\
+		SccProjectUniqueName2 = HF.Cloud.Model\\HF.Cloud.Model.csproj
+		SccLocalPath2 = .
+		SccProjectFilePathRelativizedFromConnection2 = HF.Cloud.Model\\
+		SccProjectUniqueName3 = HF.Cloud.WcfLibrary\\HF.Cloud.WcfLibrary.csproj
+		SccLocalPath3 = .
+		SccProjectFilePathRelativizedFromConnection3 = HF.Cloud.WcfLibrary\\
+		SccProjectUniqueName4 = HF.Cloud.WcfService\\HF.Cloud.WcfService.csproj
+		SccLocalPath4 = .
+		SccProjectFilePathRelativizedFromConnection4 = HF.Cloud.WcfService\\
+		SccProjectUniqueName5 = HF.Cloud.WcfForm\\HF.Cloud.WcfForm.csproj
+		SccLocalPath5 = .
+		SccProjectFilePathRelativizedFromConnection5 = HF.Cloud.WcfForm\\
+		SccProjectUniqueName6 = HF.Cloud.Web\\HF.Cloud.Web.csproj
+		SccLocalPath6 = .
+		SccProjectFilePathRelativizedFromConnection6 = HF.Cloud.Web\\
+		SccProjectUniqueName7 = HF.Cloud.WcfJpush\\HF.Cloud.WcfJpush.csproj
+		SccLocalPath7 = .
+		SccProjectFilePathRelativizedFromConnection7 = HF.Cloud.WcfJpush\\
+		SccProjectUniqueName8 = HF.Cloud.CommonDAL\\HF.Cloud.CommonDAL.csproj
+		SccLocalPath8 = .
+		SccProjectFilePathRelativizedFromConnection8 = HF.Cloud.CommonDAL\\
+		SccProjectUniqueName9 = HF.Cloud.JPushForm\\HF.Cloud.JPushForm.csproj
+		SccLocalPath9 = .
+		SccProjectFilePathRelativizedFromConnection9 = HF.Cloud.JPushForm\\
+		SccProjectUniqueName10 = HF.Cloud.CustomerWeb\\HF.Cloud.CustomerWeb.csproj
+		SccLocalPath10 = .
+		SccProjectFilePathRelativizedFromConnection10 = HF.Cloud.CustomerWeb\\
+		SccProjectUniqueName11 = HF.Cloud.Document\\HF.Cloud.Document.csproj
+		SccLocalPath11 = .
+		SccProjectFilePathRelativizedFromConnection11 = HF.Cloud.Document\\
+		SccProjectUniqueName12 = WinformTest\\WinformTest.csproj
+		SccLocalPath12 = .
+		SccProjectFilePathRelativizedFromConnection12 = WinformTest\\
+		SccProjectUniqueName13 = HF.Cloud.SWL\\HF.Cloud.SWL.csproj
+		SccLocalPath13 = .
+		SccProjectFilePathRelativizedFromConnection13 = HF.Cloud.SWL\\
+		SccProjectUniqueName14 = wxHongBaoTest\\wxHongBaoTest.csproj
+		SccLocalPath14 = .
+		SccProjectFilePathRelativizedFromConnection14 = wxHongBaoTest\\
+	EndGlobalSection
+EndGlobal

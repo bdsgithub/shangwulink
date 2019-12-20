@@ -1,0 +1,7 @@
+ 
+记录时间：2017-03-28 14:28:46,560  线程ID:[18]  日志级别：  ERROR  错误描述：Application_Error Error  System.Web.HttpException (0x80004005): System.Web.UI.WebControls.ListItemCollection 必须具有类型为“System.Web.UI.WebControls.ListItem”的项。“option”的类型为“System.Web.UI.HtmlControls.HtmlGenericControl”。
+   在 System.Web.UI.CollectionBuilder.GetChildControlType(String tagName, IDictionary attribs)
+   在 System.Web.UI.ControlBuilder.CreateChildBuilder(String filter, String tagName, IDictionary attribs, TemplateParser parser, ControlBuilder parentBuilder, String id, Int32 line, VirtualPath virtualPath, Type& childType, Boolean defaultProperty)
+   在 System.Web.UI.ControlBuilder.CreateChildBuilder(String filter, String tagName, IDictionary attribs, TemplateParser parser, ControlBuilder parentBuilder, String id, Int32 line, VirtualPath virtualPath, Type& childType, Boolean defaultProperty)
+   在 System.Web.UI.TemplateParser.ProcessBeginTag(Match match, String inputText)
+   在 System.Web.UI.TemplateParser.ParseStringInternal(String text, Encoding fileEncoding)

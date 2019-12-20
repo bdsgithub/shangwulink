@@ -1,0 +1,162 @@
+D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Web\bin\HF.Cloud.Web.dll.config
+D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Web\bin\HF.Cloud.Web.dll
+D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Web\bin\HF.Cloud.Web.pdb
+D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Web\bin\AspNetPager.dll
+D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Web\bin\HF.Cloud.BLL.dll
+D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Web\bin\HF.Cloud.Model.dll
+D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Web\bin\HF.Cloud.CommonDAL.dll
+D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Web\bin\HF.Cloud.BLL.pdb
+D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Web\bin\HF.Cloud.Model.pdb
+D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Web\bin\HF.Cloud.CommonDAL.pdb
+D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Web\obj\Release\HF.Cloud.Web.csprojResolveAssemblyReference.cache
+D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Web\obj\Release\HF.Cloud.Web.dll
+D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Web\obj\Release\HF.Cloud.Web.pdb
+D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Web\bin\Newtonsoft.Json.dll
+D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Web\bin\NPOI.dll
+D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Web\bin\ThoughtWorks.QRCode.dll
+D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Web\bin\NPOI.OOXML.dll
+D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Web\bin\ICSharpCode.SharpZipLib.dll
+D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Web\bin\NPOI.OpenXmlFormats.dll
+D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Web\bin\NPOI.OpenXml4Net.dll
+D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Web\bin\NPOI.xml
+D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Web\bin\log4net.dll
+D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Web\bin\BeeCloud.dll
+D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Web\bin\LitJson.dll
+D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Web\bin\BeeCloud.xml
+D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Web\bin\HF.Cloud.WcfLibrary.dll
+D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Web\bin\HF.Cloud.WcfService.dll
+D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Web\bin\HF.Cloud.WcfLibrary.pdb
+D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Web\bin\HF.Cloud.WcfService.pdb
+D:\易维客\AssetCloudSolutionV1.4 - 副本\HF.Cloud.Web\bin\HF.Cloud.Web.dll.config
+D:\易维客\AssetCloudSolutionV1.4 - 副本\HF.Cloud.Web\bin\HF.Cloud.Web.dll
+D:\易维客\AssetCloudSolutionV1.4 - 副本\HF.Cloud.Web\bin\HF.Cloud.Web.pdb
+D:\易维客\AssetCloudSolutionV1.4 - 副本\HF.Cloud.Web\bin\AspNetPager.dll
+D:\易维客\AssetCloudSolutionV1.4 - 副本\HF.Cloud.Web\bin\BeeCloud.dll
+D:\易维客\AssetCloudSolutionV1.4 - 副本\HF.Cloud.Web\bin\HF.Cloud.BLL.dll
+D:\易维客\AssetCloudSolutionV1.4 - 副本\HF.Cloud.Web\bin\HF.Cloud.CommonDAL.dll
+D:\易维客\AssetCloudSolutionV1.4 - 副本\HF.Cloud.Web\bin\HF.Cloud.Model.dll
+D:\易维客\AssetCloudSolutionV1.4 - 副本\HF.Cloud.Web\bin\HF.Cloud.WcfLibrary.dll
+D:\易维客\AssetCloudSolutionV1.4 - 副本\HF.Cloud.Web\bin\LitJson.dll
+D:\易维客\AssetCloudSolutionV1.4 - 副本\HF.Cloud.Web\bin\Newtonsoft.Json.dll
+D:\易维客\AssetCloudSolutionV1.4 - 副本\HF.Cloud.Web\bin\NPOI.dll
+D:\易维客\AssetCloudSolutionV1.4 - 副本\HF.Cloud.Web\bin\ThoughtWorks.QRCode.dll
+D:\易维客\AssetCloudSolutionV1.4 - 副本\HF.Cloud.Web\bin\log4net.dll
+D:\易维客\AssetCloudSolutionV1.4 - 副本\HF.Cloud.Web\bin\NPOI.OOXML.dll
+D:\易维客\AssetCloudSolutionV1.4 - 副本\HF.Cloud.Web\bin\HF.Cloud.WcfService.dll
+D:\易维客\AssetCloudSolutionV1.4 - 副本\HF.Cloud.Web\bin\ICSharpCode.SharpZipLib.dll
+D:\易维客\AssetCloudSolutionV1.4 - 副本\HF.Cloud.Web\bin\NPOI.OpenXmlFormats.dll
+D:\易维客\AssetCloudSolutionV1.4 - 副本\HF.Cloud.Web\bin\NPOI.OpenXml4Net.dll
+D:\易维客\AssetCloudSolutionV1.4 - 副本\HF.Cloud.Web\bin\HF.Cloud.BLL.pdb
+D:\易维客\AssetCloudSolutionV1.4 - 副本\HF.Cloud.Web\bin\HF.Cloud.CommonDAL.pdb
+D:\易维客\AssetCloudSolutionV1.4 - 副本\HF.Cloud.Web\bin\HF.Cloud.Model.pdb
+D:\易维客\AssetCloudSolutionV1.4 - 副本\HF.Cloud.Web\bin\HF.Cloud.WcfLibrary.pdb
+D:\易维客\AssetCloudSolutionV1.4 - 副本\HF.Cloud.Web\bin\BeeCloud.xml
+D:\易维客\AssetCloudSolutionV1.4 - 副本\HF.Cloud.Web\bin\NPOI.xml
+D:\易维客\AssetCloudSolutionV1.4 - 副本\HF.Cloud.Web\bin\HF.Cloud.WcfService.pdb
+D:\易维客\AssetCloudSolutionV1.4 - 副本\HF.Cloud.Web\obj\Release\HF.Cloud.Web.csprojResolveAssemblyReference.cache
+D:\易维客\AssetCloudSolutionV1.4 - 副本\HF.Cloud.Web\obj\Release\HF.Cloud.Web.dll
+D:\易维客\AssetCloudSolutionV1.4 - 副本\HF.Cloud.Web\obj\Release\HF.Cloud.Web.pdb
+D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.Web\bin\HF.Cloud.Web.dll.config
+D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.Web\bin\HF.Cloud.Web.dll
+D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.Web\bin\HF.Cloud.Web.pdb
+D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.Web\bin\AspNetPager.dll
+D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.Web\bin\BeeCloud.dll
+D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.Web\bin\HF.Cloud.BLL.dll
+D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.Web\bin\HF.Cloud.CommonDAL.dll
+D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.Web\bin\HF.Cloud.Model.dll
+D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.Web\bin\HF.Cloud.WcfLibrary.dll
+D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.Web\bin\LitJson.dll
+D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.Web\bin\Newtonsoft.Json.dll
+D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.Web\bin\NPOI.dll
+D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.Web\bin\ThoughtWorks.QRCode.dll
+D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.Web\bin\log4net.dll
+D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.Web\bin\NPOI.OOXML.dll
+D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.Web\bin\HF.Cloud.WcfService.dll
+D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.Web\bin\ICSharpCode.SharpZipLib.dll
+D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.Web\bin\NPOI.OpenXmlFormats.dll
+D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.Web\bin\NPOI.OpenXml4Net.dll
+D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.Web\bin\HF.Cloud.BLL.pdb
+D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.Web\bin\HF.Cloud.CommonDAL.pdb
+D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.Web\bin\HF.Cloud.Model.pdb
+D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.Web\bin\HF.Cloud.WcfLibrary.pdb
+D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.Web\bin\BeeCloud.xml
+D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.Web\bin\NPOI.xml
+D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.Web\bin\HF.Cloud.WcfService.pdb
+D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.Web\obj\Release\HF.Cloud.Web.csprojResolveAssemblyReference.cache
+D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.Web\obj\Release\HF.Cloud.Web.dll
+D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.Web\obj\Release\HF.Cloud.Web.pdb
+D:\商务链\BusinessChain\HF.Cloud.Web\bin\HF.Cloud.Web.dll.config
+D:\商务链\BusinessChain\HF.Cloud.Web\bin\HF.Cloud.Web.dll
+D:\商务链\BusinessChain\HF.Cloud.Web\bin\HF.Cloud.Web.pdb
+D:\商务链\BusinessChain\HF.Cloud.Web\bin\BeeCloud.dll
+D:\商务链\BusinessChain\HF.Cloud.Web\bin\HF.Cloud.BLL.dll
+D:\商务链\BusinessChain\HF.Cloud.Web\bin\HF.Cloud.CommonDAL.dll
+D:\商务链\BusinessChain\HF.Cloud.Web\bin\HF.Cloud.Model.dll
+D:\商务链\BusinessChain\HF.Cloud.Web\bin\HF.Cloud.WcfLibrary.dll
+D:\商务链\BusinessChain\HF.Cloud.Web\bin\LitJson.dll
+D:\商务链\BusinessChain\HF.Cloud.Web\bin\NPOI.dll
+D:\商务链\BusinessChain\HF.Cloud.Web\bin\ThoughtWorks.QRCode.dll
+D:\商务链\BusinessChain\HF.Cloud.Web\bin\log4net.dll
+D:\商务链\BusinessChain\HF.Cloud.Web\bin\NPOI.OOXML.dll
+D:\商务链\BusinessChain\HF.Cloud.Web\bin\HF.Cloud.WcfService.dll
+D:\商务链\BusinessChain\HF.Cloud.Web\bin\ICSharpCode.SharpZipLib.dll
+D:\商务链\BusinessChain\HF.Cloud.Web\bin\NPOI.OpenXmlFormats.dll
+D:\商务链\BusinessChain\HF.Cloud.Web\bin\NPOI.OpenXml4Net.dll
+D:\商务链\BusinessChain\HF.Cloud.Web\bin\HF.Cloud.BLL.pdb
+D:\商务链\BusinessChain\HF.Cloud.Web\bin\HF.Cloud.CommonDAL.pdb
+D:\商务链\BusinessChain\HF.Cloud.Web\bin\HF.Cloud.Model.pdb
+D:\商务链\BusinessChain\HF.Cloud.Web\bin\HF.Cloud.WcfLibrary.pdb
+D:\商务链\BusinessChain\HF.Cloud.Web\bin\BeeCloud.xml
+D:\商务链\BusinessChain\HF.Cloud.Web\bin\NPOI.xml
+D:\商务链\BusinessChain\HF.Cloud.Web\bin\HF.Cloud.WcfService.pdb
+D:\商务链\BusinessChain\HF.Cloud.Web\obj\Release\HF.Cloud.Web.csprojResolveAssemblyReference.cache
+D:\商务链\BusinessChain\HF.Cloud.Web\obj\Release\HF.Cloud.Web.dll
+D:\商务链\BusinessChain\HF.Cloud.Web\obj\Release\HF.Cloud.Web.pdb
+D:\商务链\BusinessChain\HF.Cloud.Web\bin\Qiniu.dll
+D:\商务链\BusinessChain\HF.Cloud.Web\bin\Qiniu.Fakes.fakesconfig
+D:\商务链\BusinessChain\HF.Cloud.Web\bin\Microsoft.QualityTools.Testing.Fakes.dll
+D:\商务链\BusinessChain\HF.Cloud.Web\bin\zh-Hans\Microsoft.QualityTools.Testing.Fakes.resources.dll
+D:\商务链\BusinessChain\HF.Cloud.Web\obj\Release\HF.Cloud.Web.csprojFakesResolveAssemblyReference.cache
+D:\商务链\BusinessChain\HF.Cloud.Web\obj\Release\Fakes\fakes.args
+D:\商务链\BusinessChain\HF.Cloud.Web\obj\Release\Fakes\q\b\BeeCloud.dll
+D:\商务链\BusinessChain\HF.Cloud.Web\obj\Release\Fakes\q\b\BeeCloud.xml
+D:\商务链\BusinessChain\HF.Cloud.Web\obj\Release\Fakes\q\b\HF.Cloud.BLL.dll
+D:\商务链\BusinessChain\HF.Cloud.Web\obj\Release\Fakes\q\b\HF.Cloud.BLL.pdb
+D:\商务链\BusinessChain\HF.Cloud.Web\obj\Release\Fakes\q\b\HF.Cloud.CommonDAL.dll
+D:\商务链\BusinessChain\HF.Cloud.Web\obj\Release\Fakes\q\b\HF.Cloud.CommonDAL.pdb
+D:\商务链\BusinessChain\HF.Cloud.Web\obj\Release\Fakes\q\b\HF.Cloud.Model.dll
+D:\商务链\BusinessChain\HF.Cloud.Web\obj\Release\Fakes\q\b\HF.Cloud.Model.pdb
+D:\商务链\BusinessChain\HF.Cloud.Web\obj\Release\Fakes\q\b\HF.Cloud.WcfLibrary.dll
+D:\商务链\BusinessChain\HF.Cloud.Web\obj\Release\Fakes\q\b\HF.Cloud.WcfLibrary.pdb
+D:\商务链\BusinessChain\HF.Cloud.Web\obj\Release\Fakes\q\b\HF.Cloud.WcfService.dll
+D:\商务链\BusinessChain\HF.Cloud.Web\obj\Release\Fakes\q\b\HF.Cloud.WcfService.pdb
+D:\商务链\BusinessChain\HF.Cloud.Web\obj\Release\Fakes\q\b\ICSharpCode.SharpZipLib.dll
+D:\商务链\BusinessChain\HF.Cloud.Web\obj\Release\Fakes\q\b\LitJson.dll
+D:\商务链\BusinessChain\HF.Cloud.Web\obj\Release\Fakes\q\b\log4net.dll
+D:\商务链\BusinessChain\HF.Cloud.Web\obj\Release\Fakes\q\b\Microsoft.QualityTools.Testing.Fakes.dll
+D:\商务链\BusinessChain\HF.Cloud.Web\obj\Release\Fakes\q\b\Newtonsoft.Json.dll
+D:\商务链\BusinessChain\HF.Cloud.Web\obj\Release\Fakes\q\b\Newtonsoft.Json.pdb
+D:\商务链\BusinessChain\HF.Cloud.Web\obj\Release\Fakes\q\b\Newtonsoft.Json.xml
+D:\商务链\BusinessChain\HF.Cloud.Web\obj\Release\Fakes\q\b\NPOI.dll
+D:\商务链\BusinessChain\HF.Cloud.Web\obj\Release\Fakes\q\b\NPOI.OOXML.dll
+D:\商务链\BusinessChain\HF.Cloud.Web\obj\Release\Fakes\q\b\NPOI.OpenXml4Net.dll
+D:\商务链\BusinessChain\HF.Cloud.Web\obj\Release\Fakes\q\b\NPOI.OpenXmlFormats.dll
+D:\商务链\BusinessChain\HF.Cloud.Web\obj\Release\Fakes\q\b\NPOI.xml
+D:\商务链\BusinessChain\HF.Cloud.Web\obj\Release\Fakes\q\b\Qiniu.dll
+D:\商务链\BusinessChain\HF.Cloud.Web\obj\Release\Fakes\q\b\Qiniu.Fakes.dll
+D:\商务链\BusinessChain\HF.Cloud.Web\obj\Release\Fakes\q\b\Qiniu.Fakes.fakesconfig
+D:\商务链\BusinessChain\HF.Cloud.Web\obj\Release\Fakes\q\b\Qiniu.Fakes.pdb
+D:\商务链\BusinessChain\HF.Cloud.Web\obj\Release\Fakes\q\b\Qiniu.Fakes.xml
+D:\商务链\BusinessChain\HF.Cloud.Web\obj\Release\Fakes\q\b\ThoughtWorks.QRCode.dll
+D:\商务链\BusinessChain\HF.Cloud.Web\obj\Release\Fakes\q\b\zh-Hans\Microsoft.QualityTools.Testing.Fakes.resources.dll
+D:\商务链\BusinessChain\HF.Cloud.Web\obj\Release\Fakes\q\f.ah
+D:\商务链\BusinessChain\HF.Cloud.Web\obj\Release\Fakes\q\f.ch
+D:\商务链\BusinessChain\HF.Cloud.Web\obj\Release\Fakes\q\f.cs
+D:\商务链\BusinessChain\HF.Cloud.Web\obj\Release\Fakes\q\f.csproj
+D:\商务链\BusinessChain\HF.Cloud.Web\obj\Release\Fakes\q\f.fakes
+D:\商务链\BusinessChain\HF.Cloud.Web\obj\Release\Fakes\q\f.fakesconfig
+D:\商务链\BusinessChain\HF.Cloud.Web\obj\Release\Fakes\q\o\f.csproj.FileListAbsolute.txt
+D:\商务链\BusinessChain\HF.Cloud.Web\obj\Release\Fakes\q\o\f.csprojResolveAssemblyReference.cache
+D:\商务链\BusinessChain\HF.Cloud.Web\obj\Release\Fakes\q\o\Qiniu.Fakes.dll
+D:\商务链\BusinessChain\HF.Cloud.Web\obj\Release\Fakes\q\o\Qiniu.Fakes.pdb
+D:\商务链\BusinessChain\HF.Cloud.Web\bin\Newtonsoft.Json.dll

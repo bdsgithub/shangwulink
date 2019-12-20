@@ -1,0 +1,28 @@
+ 
+记录时间：2017-04-01 09:13:18,067  线程ID:[8]  日志级别：  INFO   错误描述：服务启动   
+记录时间：2017-04-01 09:20:13,967  线程ID:[10]  日志级别：  INFO   错误描述：服务启动   
+记录时间：2017-04-01 09:29:08,547  线程ID:[18]  日志级别：  ERROR  错误描述：GetAsset Error  System.InvalidCastException: 指定的转换无效。
+   在 HF.Cloud.BLL.AssetBL.GetAPPAssetBYQBCode(String strQBCode, Int64 MainID) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.BLL\AssetBL.cs:行号 440
+   在 HF.Cloud.WcfLibrary.AssetService.GetAsset(String strQBCode, String MainID) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.WcfLibrary\AssetService.cs:行号 29
+ 
+记录时间：2017-04-01 17:43:50,183  线程ID:[8]  日志级别：  INFO   错误描述：服务启动   
+记录时间：2017-04-01 17:48:36,475  线程ID:[9]  日志级别：  INFO   错误描述：服务启动   
+记录时间：2017-04-01 17:51:08,831  线程ID:[10]  日志级别：  INFO   错误描述：服务启动   
+记录时间：2017-04-01 17:57:59,474  线程ID:[9]  日志级别：  INFO   错误描述：服务启动   
+记录时间：2017-04-01 17:58:55,307  线程ID:[10]  日志级别：  ERROR  错误描述：AssetBind Error  System.FormatException: 输入字符串的格式不正确。
+   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt64(String value, NumberStyles options, NumberFormatInfo numfmt)
+   在 HF.Cloud.BLL.AssetBL.APPBindAsset(String str) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.BLL\AssetBL.cs:行号 671
+   在 HF.Cloud.WcfLibrary.AssetBindService.AssetBind(Stream stream) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.WcfLibrary\AssetBindService.cs:行号 32
+ 
+记录时间：2017-04-01 18:02:51,234  线程ID:[15]  日志级别：  ERROR  错误描述：AssetBind Error  System.FormatException: 输入字符串的格式不正确。
+   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt64(String value, NumberStyles options, NumberFormatInfo numfmt)
+   在 HF.Cloud.BLL.AssetBL.APPBindAsset(String str) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.BLL\AssetBL.cs:行号 671
+   在 HF.Cloud.WcfLibrary.AssetBindService.AssetBind(Stream stream) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.WcfLibrary\AssetBindService.cs:行号 32
+ 
+记录时间：2017-04-01 18:11:49,031  线程ID:[19]  日志级别：  ERROR  错误描述：AssetBind Error  System.FormatException: 输入字符串的格式不正确。
+   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt64(String value, NumberStyles options, NumberFormatInfo numfmt)
+   在 HF.Cloud.BLL.AssetBL.APPBindAsset(String str) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.BLL\AssetBL.cs:行号 671
+   在 HF.Cloud.WcfLibrary.AssetBindService.AssetBind(Stream stream) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.WcfLibrary\AssetBindService.cs:行号 32

@@ -1,0 +1,90 @@
+ 
+记录时间：2016-09-18 14:44:07,313  线程ID:[318]  日志级别：  ERROR  错误描述：Application_Error Error  System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 HF.Cloud.Model.A_AssetBrandEL.InitCmd(Int32 iOperateFlag) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Model\A_AssetBrandEL.cs:行号 195
+   在 HF.Cloud.Model.A_AssetBrandEL.ExecNonQuery(Int32 iOperateFlag) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Model\A_AssetBrandEL.cs:行号 77
+   在 HF.Cloud.Web.ashx.ExecuteAssetBrand.ProcessRequest(HttpContext context) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Web\ashx\ExecuteAssetBrand.ashx.cs:行号 43
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+ 
+记录时间：2016-09-18 14:48:03,152  线程ID:[316]  日志级别：  ERROR  错误描述：Application_Error Error  System.ArgumentNullException: 值不能为 null。
+参数名: String
+   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt64(String value, NumberStyles options, NumberFormatInfo numfmt)
+   在 System.Int64.Parse(String s)
+   在 HF.Cloud.Web.ashx.ExecuteAssetBrand.ProcessRequest(HttpContext context) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Web\ashx\ExecuteAssetBrand.ashx.cs:行号 69
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+ 
+记录时间：2016-09-18 14:48:16,040  线程ID:[316]  日志级别：  ERROR  错误描述：Application_Error Error  System.ArgumentNullException: 值不能为 null。
+参数名: String
+   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt64(String value, NumberStyles options, NumberFormatInfo numfmt)
+   在 System.Int64.Parse(String s)
+   在 HF.Cloud.Web.ashx.ExecuteAssetBrand.ProcessRequest(HttpContext context) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Web\ashx\ExecuteAssetBrand.ashx.cs:行号 69
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+ 
+记录时间：2016-09-18 14:48:54,191  线程ID:[318]  日志级别：  ERROR  错误描述：Application_Error Error  System.ArgumentNullException: 值不能为 null。
+参数名: String
+   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt64(String value, NumberStyles options, NumberFormatInfo numfmt)
+   在 System.Int64.Parse(String s)
+   在 HF.Cloud.Web.ashx.ExecuteAssetBrand.ProcessRequest(HttpContext context) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Web\ashx\ExecuteAssetBrand.ashx.cs:行号 69
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+ 
+记录时间：2016-09-18 15:11:40,851  线程ID:[271]  日志级别：  INFO   错误描述：QBModelList InitPage 2   
+记录时间：2016-09-18 15:27:32,085  线程ID:[307]  日志级别：  ERROR  错误描述：Application_Error Error  System.Web.HttpException (0x80004005): DataBinding:“System.Data.DataRowView”不包含名为“typeName”的属性。
+   在 System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName)
+   在 System.Web.UI.DataBinder.Eval(Object container, String[] expressionParts)
+   在 System.Web.UI.DataBinder.Eval(Object container, String expression)
+   在 System.Web.UI.TemplateControl.Eval(String expression)
+   在 ASP.sheet_sheetcustomer_customerlook_aspx.__DataBind__control24(Object sender, EventArgs e) 位置 d:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Web\Sheet\SheetCustomer\CustomerLook.aspx:行号 204
+   在 System.Web.UI.Control.OnDataBinding(EventArgs e)
+   在 System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   在 System.Web.UI.Control.DataBind()
+   在 System.Web.UI.Control.DataBindChildren()
+   在 System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   在 System.Web.UI.Control.DataBind()
+   在 System.Web.UI.WebControls.Repeater.CreateItem(Int32 itemIndex, ListItemType itemType, Boolean dataBind, Object dataItem)
+   在 System.Web.UI.WebControls.Repeater.AddDataItemsIntoItemsArray(IEnumerable dataSource, Boolean useDataSource)
+   在 System.Web.UI.WebControls.Repeater.PostGetDataAction(IEnumerable dataSource)
+   在 System.Web.UI.WebControls.Repeater.CreateControlHierarchy(Boolean useDataSource)
+   在 System.Web.UI.WebControls.Repeater.OnDataBinding(EventArgs e)
+   在 System.Web.UI.WebControls.Repeater.DataBind()
+   在 HF.Cloud.Web.Sheet.SheetCustomer.CustomerLook.BindDataList() 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Web\Sheet\SheetCustomer\CustomerLook.aspx.cs:行号 198
+   在 HF.Cloud.Web.Sheet.SheetCustomer.CustomerLook.Page_Load(Object sender, EventArgs e) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Web\Sheet\SheetCustomer\CustomerLook.aspx.cs:行号 26
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.EventHandler.Invoke(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ 
+记录时间：2016-09-18 16:07:29,391  线程ID:[7]  日志级别：  ERROR  错误描述：Application_Error Error  System.Web.HttpException (0x80004005): 文件“/SheetManage/SheetLook.aspx”不存在。
+   在 System.Web.UI.Util.CheckVirtualFileExists(VirtualPath virtualPath)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   在 System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   在 System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   在 System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String virtualPath, String path)
+   在 System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+ 
+记录时间：2016-09-18 17:22:49,137  线程ID:[34]  日志级别：  INFO   错误描述：QBModelList InitPage 2   
+记录时间：2016-09-18 17:22:52,043  线程ID:[38]  日志级别：  INFO   错误描述：QBModelList InitPage 2   
+记录时间：2016-09-18 17:24:13,011  线程ID:[44]  日志级别：  INFO   错误描述：QBModelList InitPage 2   
+记录时间：2016-09-18 17:35:28,026  线程ID:[34]  日志级别：  INFO   错误描述：QBModelList InitPage 2   
+记录时间：2016-09-18 17:37:30,914  线程ID:[8]  日志级别：  INFO   错误描述：QBModelList InitPage 2   
+记录时间：2016-09-18 17:44:49,000  线程ID:[7]  日志级别：  INFO   错误描述：QBModelList InitPage 2   
+记录时间：2016-09-18 17:45:38,030  线程ID:[8]  日志级别：  INFO   错误描述：QBModelList InitPage 2   
+记录时间：2016-09-18 17:50:33,693  线程ID:[6]  日志级别：  INFO   错误描述：QBModelList InitPage 2   
+记录时间：2016-09-18 17:51:22,765  线程ID:[7]  日志级别：  INFO   错误描述：QBModelList InitPage 2   
+记录时间：2016-09-18 17:52:34,575  线程ID:[9]  日志级别：  INFO   错误描述：QBModelList InitPage 2   
+记录时间：2016-09-18 17:53:23,904  线程ID:[7]  日志级别：  INFO   错误描述：QBModelList InitPage 2   
+记录时间：2016-09-18 17:56:54,456  线程ID:[26]  日志级别：  INFO   错误描述：QBModelList InitPage 2   
+记录时间：2016-09-18 17:57:12,108  线程ID:[8]  日志级别：  INFO   错误描述：QBModelList InitPage 2   
+记录时间：2016-09-18 17:58:54,569  线程ID:[8]  日志级别：  INFO   错误描述：QBModelList InitPage 2   
+记录时间：2016-09-18 17:59:12,443  线程ID:[35]  日志级别：  INFO   错误描述：QBModelList InitPage 2   
+记录时间：2016-09-18 18:01:07,576  线程ID:[26]  日志级别：  INFO   错误描述：QBModelList InitPage 2   
+记录时间：2016-09-18 18:01:23,969  线程ID:[8]  日志级别：  INFO   错误描述：QBModelList InitPage 2  

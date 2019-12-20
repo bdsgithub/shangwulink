@@ -1,0 +1,4 @@
+D:\商务链\BusinessChain\wxHongBaoTest\bin\Debug\wxHongBaoTest.exe
+D:\商务链\BusinessChain\wxHongBaoTest\bin\Debug\wxHongBaoTest.pdb
+D:\商务链\BusinessChain\wxHongBaoTest\obj\Debug\wxHongBaoTest.exe
+D:\商务链\BusinessChain\wxHongBaoTest\obj\Debug\wxHongBaoTest.pdb

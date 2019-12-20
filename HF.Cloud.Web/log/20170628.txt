@@ -1,0 +1,72 @@
+ 
+记录时间：2017-06-28 17:32:54,484  线程ID:[6]  日志级别：  ERROR  错误描述：登陆 Error  System.InvalidCastException: 指定的转换无效。
+   在 HF.Cloud.Model.SB_UserEL.InitByRow(DataRow dr) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.Model\SB_UserEL.cs:行号 359
+   在 HF.Cloud.Model.SB_UserEL.ExecuteEL(Int32 iOperateFlag) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.Model\SB_UserEL.cs:行号 179
+   在 HF.Cloud.BLL.SysBL.GetDUserByCodePWD(String strSBCode, String strPWD) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.BLL\SysBL.cs:行号 214
+   在 HF.Cloud.Web.ashx.LoginHandler.ProcessRequest(HttpContext context) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.Web\ashx\LoginHandler.ashx.cs:行号 33
+ 
+记录时间：2017-06-28 17:33:10,585  线程ID:[9]  日志级别：  ERROR  错误描述：登陆 Error  System.InvalidCastException: 指定的转换无效。
+   在 HF.Cloud.Model.SB_UserEL.InitByRow(DataRow dr) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.Model\SB_UserEL.cs:行号 359
+   在 HF.Cloud.Model.SB_UserEL.ExecuteEL(Int32 iOperateFlag) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.Model\SB_UserEL.cs:行号 179
+   在 HF.Cloud.BLL.SysBL.GetDUserByCodePWD(String strSBCode, String strPWD) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.BLL\SysBL.cs:行号 214
+   在 HF.Cloud.Web.ashx.LoginHandler.ProcessRequest(HttpContext context) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.Web\ashx\LoginHandler.ashx.cs:行号 33
+ 
+记录时间：2017-06-28 17:33:15,309  线程ID:[6]  日志级别：  ERROR  错误描述：登陆 Error  System.InvalidCastException: 指定的转换无效。
+   在 HF.Cloud.Model.SB_UserEL.InitByRow(DataRow dr) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.Model\SB_UserEL.cs:行号 359
+   在 HF.Cloud.Model.SB_UserEL.ExecuteEL(Int32 iOperateFlag) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.Model\SB_UserEL.cs:行号 179
+   在 HF.Cloud.BLL.SysBL.GetDUserByCodePWD(String strSBCode, String strPWD) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.BLL\SysBL.cs:行号 214
+   在 HF.Cloud.Web.ashx.LoginHandler.ProcessRequest(HttpContext context) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.Web\ashx\LoginHandler.ashx.cs:行号 33
+ 
+记录时间：2017-06-28 17:37:49,883  线程ID:[8]  日志级别：  ERROR  错误描述：登陆 Error  System.InvalidCastException: 指定的转换无效。
+   在 HF.Cloud.Model.SB_UserEL.InitByRow(DataRow dr) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.Model\SB_UserEL.cs:行号 359
+   在 HF.Cloud.Model.SB_UserEL.ExecuteEL(Int32 iOperateFlag) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.Model\SB_UserEL.cs:行号 179
+   在 HF.Cloud.BLL.SysBL.GetDUserByCodePWD(String strSBCode, String strPWD) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.BLL\SysBL.cs:行号 214
+   在 HF.Cloud.Web.ashx.LoginHandler.ProcessRequest(HttpContext context) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.Web\ashx\LoginHandler.ashx.cs:行号 33
+ 
+记录时间：2017-06-28 17:39:06,131  线程ID:[8]  日志级别：  ERROR  错误描述：登陆 Error  System.InvalidCastException: 指定的转换无效。
+   在 HF.Cloud.Model.SB_UserEL.InitByRow(DataRow dr) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.Model\SB_UserEL.cs:行号 359
+   在 HF.Cloud.Model.SB_UserEL.ExecuteEL(Int32 iOperateFlag) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.Model\SB_UserEL.cs:行号 179
+   在 HF.Cloud.BLL.SysBL.GetDUserByCodePWD(String strSBCode, String strPWD) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.BLL\SysBL.cs:行号 214
+   在 HF.Cloud.Web.ashx.LoginHandler.ProcessRequest(HttpContext context) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.Web\ashx\LoginHandler.ashx.cs:行号 33
+ 
+记录时间：2017-06-28 17:39:21,628  线程ID:[8]  日志级别：  ERROR  错误描述：登陆 Error  System.InvalidCastException: 指定的转换无效。
+   在 HF.Cloud.Model.SB_UserEL.InitByRow(DataRow dr) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.Model\SB_UserEL.cs:行号 359
+   在 HF.Cloud.Model.SB_UserEL.ExecuteEL(Int32 iOperateFlag) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.Model\SB_UserEL.cs:行号 179
+   在 HF.Cloud.BLL.SysBL.GetDUserByCodePWD(String strSBCode, String strPWD) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.BLL\SysBL.cs:行号 214
+   在 HF.Cloud.Web.ashx.LoginHandler.ProcessRequest(HttpContext context) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.Web\ashx\LoginHandler.ashx.cs:行号 33
+ 
+记录时间：2017-06-28 17:39:44,773  线程ID:[8]  日志级别：  ERROR  错误描述：登陆 Error  System.InvalidCastException: 指定的转换无效。
+   在 HF.Cloud.Model.SB_UserEL.InitByRow(DataRow dr) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.Model\SB_UserEL.cs:行号 359
+   在 HF.Cloud.Model.SB_UserEL.ExecuteEL(Int32 iOperateFlag) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.Model\SB_UserEL.cs:行号 179
+   在 HF.Cloud.BLL.SysBL.GetDUserByCodePWD(String strSBCode, String strPWD) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.BLL\SysBL.cs:行号 214
+   在 HF.Cloud.Web.ashx.LoginHandler.ProcessRequest(HttpContext context) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.Web\ashx\LoginHandler.ashx.cs:行号 33
+ 
+记录时间：2017-06-28 17:42:55,736  线程ID:[10]  日志级别：  ERROR  错误描述：登陆 Error  System.InvalidCastException: 指定的转换无效。
+   在 HF.Cloud.Model.SB_UserEL.InitByRow(DataRow dr) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.Model\SB_UserEL.cs:行号 359
+   在 HF.Cloud.Model.SB_UserEL.ExecuteEL(Int32 iOperateFlag) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.Model\SB_UserEL.cs:行号 179
+   在 HF.Cloud.BLL.SysBL.GetDUserByCodePWD(String strSBCode, String strPWD) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.BLL\SysBL.cs:行号 214
+   在 HF.Cloud.Web.ashx.LoginHandler.ProcessRequest(HttpContext context) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.Web\ashx\LoginHandler.ashx.cs:行号 33
+ 
+记录时间：2017-06-28 17:46:06,392  线程ID:[10]  日志级别：  ERROR  错误描述：登陆 Error  System.InvalidCastException: 指定的转换无效。
+   在 HF.Cloud.Model.SB_UserEL.InitByRow(DataRow dr) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.Model\SB_UserEL.cs:行号 359
+   在 HF.Cloud.Model.SB_UserEL.ExecuteEL(Int32 iOperateFlag) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.Model\SB_UserEL.cs:行号 179
+   在 HF.Cloud.BLL.SysBL.GetDUserByCodePWD(String strSBCode, String strPWD) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.BLL\SysBL.cs:行号 214
+   在 HF.Cloud.Web.ashx.LoginHandler.ProcessRequest(HttpContext context) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.Web\ashx\LoginHandler.ashx.cs:行号 33
+ 
+记录时间：2017-06-28 17:46:08,406  线程ID:[10]  日志级别：  ERROR  错误描述：登陆 Error  System.InvalidCastException: 指定的转换无效。
+   在 HF.Cloud.Model.SB_UserEL.InitByRow(DataRow dr) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.Model\SB_UserEL.cs:行号 359
+   在 HF.Cloud.Model.SB_UserEL.ExecuteEL(Int32 iOperateFlag) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.Model\SB_UserEL.cs:行号 179
+   在 HF.Cloud.BLL.SysBL.GetDUserByCodePWD(String strSBCode, String strPWD) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.BLL\SysBL.cs:行号 214
+   在 HF.Cloud.Web.ashx.LoginHandler.ProcessRequest(HttpContext context) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.Web\ashx\LoginHandler.ashx.cs:行号 33
+ 
+记录时间：2017-06-28 17:50:20,863  线程ID:[16]  日志级别：  ERROR  错误描述：登陆 Error  System.InvalidCastException: 指定的转换无效。
+   在 HF.Cloud.Model.SB_UserEL.InitByRow(DataRow dr) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.Model\SB_UserEL.cs:行号 359
+   在 HF.Cloud.Model.SB_UserEL.ExecuteEL(Int32 iOperateFlag) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.Model\SB_UserEL.cs:行号 179
+   在 HF.Cloud.BLL.SysBL.GetDUserByCodePWD(String strSBCode, String strPWD) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.BLL\SysBL.cs:行号 214
+   在 HF.Cloud.Web.ashx.LoginHandler.ProcessRequest(HttpContext context) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.Web\ashx\LoginHandler.ashx.cs:行号 33
+ 
+记录时间：2017-06-28 17:52:43,799  线程ID:[16]  日志级别：  ERROR  错误描述：登陆 Error  System.InvalidCastException: 指定的转换无效。
+   在 HF.Cloud.Model.SB_UserEL.InitByRow(DataRow dr) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.Model\SB_UserEL.cs:行号 359
+   在 HF.Cloud.Model.SB_UserEL.ExecuteEL(Int32 iOperateFlag) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.Model\SB_UserEL.cs:行号 179
+   在 HF.Cloud.BLL.SysBL.GetDUserByCodePWD(String strSBCode, String strPWD) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.BLL\SysBL.cs:行号 214
+   在 HF.Cloud.Web.ashx.LoginHandler.ProcessRequest(HttpContext context) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.Web\ashx\LoginHandler.ashx.cs:行号 33

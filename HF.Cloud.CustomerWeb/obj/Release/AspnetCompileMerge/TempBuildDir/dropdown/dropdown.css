@@ -1,0 +1,36 @@
+﻿.inputsearch {
+    width: 190px;
+    margin-bottom: -1px;
+    background: url(http://bbs.blueidea.com/data/attachment/album/201410/28/114755leueqeys1ps8dtzy.jpg.thumb.jpg) no-repeat scroll right center;
+    border: 1px solid #ccc;
+    box-shadow: 0 1px 0 0 #eee inset;
+    cursor: default;
+}
+
+    .inputsearch:focus {
+        cursor: text;
+    }
+
+.soption {
+    display: block;
+    padding: 10px 5px;
+    color: #666;
+    cursor:pointer;
+}
+
+    .soption:hover {
+        background: #f9f9f9;
+        border-top: 1px dotted #ddd;
+        border-bottom: 1px dotted #ddd;
+        padding: 10px 5px;
+    }
+
+.pre {
+    position: relative;
+    max-height: 150px;
+    overflow-y: scroll;
+    float: left;
+    z-index: 10001;
+    border:1px solid #ccc;
+    background-color: white;
+}

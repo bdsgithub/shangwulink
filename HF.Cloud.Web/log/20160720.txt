@@ -1,0 +1,309 @@
+ 
+记录时间：2016-07-20 09:23:13,872  线程ID:[8]  日志级别：  ERROR  错误描述：Application_Error Error  System.FormatException: 输入字符串的格式不正确。
+   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt64(String value, NumberStyles options, NumberFormatInfo numfmt)
+   在 System.Int64.Parse(String s)
+   在 HF.Cloud.Web.ashx.ExecutePatrol.ProcessRequest(HttpContext context) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Web\ashx\ExecutePatrol.ashx.cs:行号 25
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+ 
+记录时间：2016-07-20 09:24:40,130  线程ID:[8]  日志级别：  ERROR  错误描述：Application_Error Error  System.FormatException: 输入字符串的格式不正确。
+   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt64(String value, NumberStyles options, NumberFormatInfo numfmt)
+   在 System.Int64.Parse(String s)
+   在 HF.Cloud.Web.ashx.ExecutePatrol.ProcessRequest(HttpContext context) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Web\ashx\ExecutePatrol.ashx.cs:行号 25
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+ 
+记录时间：2016-07-20 09:32:47,669  线程ID:[9]  日志级别：  ERROR  错误描述：Application_Error Error  System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'sp_GetPatrolRecordInfo'。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   在 System.Data.SqlClient.SqlDataReader.get_MetaData()
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)
+   在 HF.Cloud.CommonDAL.DbHelperSQL.RunProcedure(String storedProcName, IDataParameter[] parameters, String tableName) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.CommonDAL\DbHelperSQL.cs:行号 817
+   在 HF.Cloud.Model.P_PatrolRecord.GetPatrolDetail(Int64 id) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Model\P_PatrolRecord.cs:行号 351
+   在 HF.Cloud.Web.ashx.ExecutePatrol.ProcessRequest(HttpContext context) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Web\ashx\ExecutePatrol.ashx.cs:行号 25
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+ClientConnectionId:06664c81-9471-4f77-91ed-c3271f1e9429
+Error Number:2812,State:62,Class:16
+ 
+记录时间：2016-07-20 09:33:24,047  线程ID:[9]  日志级别：  ERROR  错误描述：Application_Error Error  System.IndexOutOfRangeException: 无法找到表 0。
+   在 System.Data.DataTableCollection.get_Item(Int32 index)
+   在 HF.Cloud.Model.P_PatrolRecord.GetPatrolDetail(Int64 id) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Model\P_PatrolRecord.cs:行号 351
+   在 HF.Cloud.Web.ashx.ExecutePatrol.ProcessRequest(HttpContext context) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Web\ashx\ExecutePatrol.ashx.cs:行号 25
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+ 
+记录时间：2016-07-20 16:15:36,449  线程ID:[7]  日志级别：  ERROR  错误描述：Application_Error Error  System.Web.HttpException (0x80004005): 文件“/Patrol/PatrolPlanManage.aspx.aspx”不存在。
+   在 System.Web.UI.Util.CheckVirtualFileExists(VirtualPath virtualPath)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   在 System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   在 System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   在 System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String virtualPath, String path)
+   在 System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+ 
+记录时间：2016-07-20 17:18:53,658  线程ID:[8]  日志级别：  ERROR  错误描述：Application_Error Error  System.Data.SqlClient.SqlException (0x80131904): 将截断字符串或二进制数据。
+语句已终止。
+select top         10 * from  (select * from #temp) as T where [ID] not in  (select top          0 [ID] from  (select * from #temp) as T order by ID desc) order by ID desc select count(1) as RecordCount,case when count(1)%        10>0 then count(1)/        10+1 else count(1)/        10 end as PageCount from  (select * from #temp) as T
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlDataReader.TrySetMetaData(_SqlMetaDataSet metaData, Boolean moreInfo)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   在 System.Data.SqlClient.SqlDataReader.get_MetaData()
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)
+   在 HF.Cloud.CommonDAL.DbHelperSQL.RunProcedure(String storedProcName, IDataParameter[] parameters, String tableName) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.CommonDAL\DbHelperSQL.cs:行号 817
+   在 HF.Cloud.Model.P_PatrolAsset.GetDataList(Int32 PageIndex, String filter, String strOrder, String order, Int32 isAllData) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Model\P_PatrolAsset.cs:行号 354
+   在 HF.Cloud.Web.Patrol.PatrolAsset.BindData(String filter) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Web\Patrol\PatrolAsset.aspx.cs:行号 70
+   在 HF.Cloud.Web.Patrol.PatrolAsset.Page_Load(Object sender, EventArgs e) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Web\Patrol\PatrolAsset.aspx.cs:行号 36
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.EventHandler.Invoke(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ClientConnectionId:607e051d-db6c-49a2-acc4-91380afcef72
+Error Number:8152,State:13,Class:16
+ 
+记录时间：2016-07-20 17:22:34,336  线程ID:[8]  日志级别：  ERROR  错误描述：Application_Error Error  System.Data.SqlClient.SqlException (0x80131904): 将截断字符串或二进制数据。
+语句已终止。
+select top         10 * from  (select * from #temp) as T where [ID] not in  (select top          0 [ID] from  (select * from #temp) as T order by ID desc) order by ID desc select count(1) as RecordCount,case when count(1)%        10>0 then count(1)/        10+1 else count(1)/        10 end as PageCount from  (select * from #temp) as T
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlDataReader.TrySetMetaData(_SqlMetaDataSet metaData, Boolean moreInfo)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   在 System.Data.SqlClient.SqlDataReader.get_MetaData()
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)
+   在 HF.Cloud.CommonDAL.DbHelperSQL.RunProcedure(String storedProcName, IDataParameter[] parameters, String tableName) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.CommonDAL\DbHelperSQL.cs:行号 817
+   在 HF.Cloud.Model.P_PatrolAsset.GetDataList(Int32 PageIndex, String filter, String strOrder, String order, Int32 isAllData) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Model\P_PatrolAsset.cs:行号 354
+   在 HF.Cloud.Web.Patrol.PatrolAsset.BindData(String filter) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Web\Patrol\PatrolAsset.aspx.cs:行号 70
+   在 HF.Cloud.Web.Patrol.PatrolAsset.Page_Load(Object sender, EventArgs e) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Web\Patrol\PatrolAsset.aspx.cs:行号 36
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.EventHandler.Invoke(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ClientConnectionId:607e051d-db6c-49a2-acc4-91380afcef72
+Error Number:8152,State:13,Class:16
+ 
+记录时间：2016-07-20 17:22:37,545  线程ID:[13]  日志级别：  ERROR  错误描述：Application_Error Error  System.Data.SqlClient.SqlException (0x80131904): 将截断字符串或二进制数据。
+语句已终止。
+select top         10 * from  (select * from #temp) as T where [ID] not in  (select top          0 [ID] from  (select * from #temp) as T order by ID desc) order by ID desc select count(1) as RecordCount,case when count(1)%        10>0 then count(1)/        10+1 else count(1)/        10 end as PageCount from  (select * from #temp) as T
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlDataReader.TrySetMetaData(_SqlMetaDataSet metaData, Boolean moreInfo)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   在 System.Data.SqlClient.SqlDataReader.get_MetaData()
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)
+   在 HF.Cloud.CommonDAL.DbHelperSQL.RunProcedure(String storedProcName, IDataParameter[] parameters, String tableName) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.CommonDAL\DbHelperSQL.cs:行号 817
+   在 HF.Cloud.Model.P_PatrolAsset.GetDataList(Int32 PageIndex, String filter, String strOrder, String order, Int32 isAllData) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Model\P_PatrolAsset.cs:行号 354
+   在 HF.Cloud.Web.Patrol.PatrolAsset.BindData(String filter) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Web\Patrol\PatrolAsset.aspx.cs:行号 70
+   在 HF.Cloud.Web.Patrol.PatrolAsset.Page_Load(Object sender, EventArgs e) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Web\Patrol\PatrolAsset.aspx.cs:行号 36
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.EventHandler.Invoke(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ClientConnectionId:607e051d-db6c-49a2-acc4-91380afcef72
+Error Number:8152,State:13,Class:16
+ 
+记录时间：2016-07-20 17:22:39,804  线程ID:[9]  日志级别：  ERROR  错误描述：Application_Error Error  System.Data.SqlClient.SqlException (0x80131904): 将截断字符串或二进制数据。
+语句已终止。
+select top         10 * from  (select * from #temp) as T where [ID] not in  (select top          0 [ID] from  (select * from #temp) as T order by ID desc) order by ID desc select count(1) as RecordCount,case when count(1)%        10>0 then count(1)/        10+1 else count(1)/        10 end as PageCount from  (select * from #temp) as T
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlDataReader.TrySetMetaData(_SqlMetaDataSet metaData, Boolean moreInfo)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   在 System.Data.SqlClient.SqlDataReader.get_MetaData()
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)
+   在 HF.Cloud.CommonDAL.DbHelperSQL.RunProcedure(String storedProcName, IDataParameter[] parameters, String tableName) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.CommonDAL\DbHelperSQL.cs:行号 817
+   在 HF.Cloud.Model.P_PatrolAsset.GetDataList(Int32 PageIndex, String filter, String strOrder, String order, Int32 isAllData) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Model\P_PatrolAsset.cs:行号 354
+   在 HF.Cloud.Web.Patrol.PatrolAsset.BindData(String filter) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Web\Patrol\PatrolAsset.aspx.cs:行号 70
+   在 HF.Cloud.Web.Patrol.PatrolAsset.Page_Load(Object sender, EventArgs e) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Web\Patrol\PatrolAsset.aspx.cs:行号 36
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.EventHandler.Invoke(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ClientConnectionId:607e051d-db6c-49a2-acc4-91380afcef72
+Error Number:8152,State:13,Class:16
+ 
+记录时间：2016-07-20 17:22:41,755  线程ID:[18]  日志级别：  ERROR  错误描述：Application_Error Error  System.Data.SqlClient.SqlException (0x80131904): 将截断字符串或二进制数据。
+语句已终止。
+select top         10 * from  (select * from #temp) as T where [ID] not in  (select top          0 [ID] from  (select * from #temp) as T order by ID desc) order by ID desc select count(1) as RecordCount,case when count(1)%        10>0 then count(1)/        10+1 else count(1)/        10 end as PageCount from  (select * from #temp) as T
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlDataReader.TrySetMetaData(_SqlMetaDataSet metaData, Boolean moreInfo)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   在 System.Data.SqlClient.SqlDataReader.get_MetaData()
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)
+   在 HF.Cloud.CommonDAL.DbHelperSQL.RunProcedure(String storedProcName, IDataParameter[] parameters, String tableName) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.CommonDAL\DbHelperSQL.cs:行号 817
+   在 HF.Cloud.Model.P_PatrolAsset.GetDataList(Int32 PageIndex, String filter, String strOrder, String order, Int32 isAllData) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Model\P_PatrolAsset.cs:行号 354
+   在 HF.Cloud.Web.Patrol.PatrolAsset.BindData(String filter) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Web\Patrol\PatrolAsset.aspx.cs:行号 70
+   在 HF.Cloud.Web.Patrol.PatrolAsset.Page_Load(Object sender, EventArgs e) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Web\Patrol\PatrolAsset.aspx.cs:行号 36
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.EventHandler.Invoke(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ClientConnectionId:607e051d-db6c-49a2-acc4-91380afcef72
+Error Number:8152,State:13,Class:16
+ 
+记录时间：2016-07-20 17:23:07,919  线程ID:[6]  日志级别：  ERROR  错误描述：Application_Error Error  System.Data.SqlClient.SqlException (0x80131904): 将截断字符串或二进制数据。
+语句已终止。
+select top         10 * from  (select * from #temp) as T where [ID] not in  (select top          0 [ID] from  (select * from #temp) as T order by ID desc) order by ID desc select count(1) as RecordCount,case when count(1)%        10>0 then count(1)/        10+1 else count(1)/        10 end as PageCount from  (select * from #temp) as T
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlDataReader.TrySetMetaData(_SqlMetaDataSet metaData, Boolean moreInfo)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   在 System.Data.SqlClient.SqlDataReader.get_MetaData()
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)
+   在 HF.Cloud.CommonDAL.DbHelperSQL.RunProcedure(String storedProcName, IDataParameter[] parameters, String tableName) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.CommonDAL\DbHelperSQL.cs:行号 817
+   在 HF.Cloud.Model.P_PatrolAsset.GetDataList(Int32 PageIndex, String filter, String strOrder, String order, Int32 isAllData) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Model\P_PatrolAsset.cs:行号 354
+   在 HF.Cloud.Web.Patrol.PatrolAsset.BindData(String filter) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Web\Patrol\PatrolAsset.aspx.cs:行号 70
+   在 HF.Cloud.Web.Patrol.PatrolAsset.Page_Load(Object sender, EventArgs e) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Web\Patrol\PatrolAsset.aspx.cs:行号 36
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.EventHandler.Invoke(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ClientConnectionId:e9acf678-51cd-4917-8fa1-4c661625e91a
+Error Number:8152,State:13,Class:16
+ 
+记录时间：2016-07-20 17:34:29,404  线程ID:[14]  日志级别：  ERROR  错误描述：Application_Error Error  System.Web.HttpException (0x80004005): DataBinding:“System.Data.DataRowView”不包含名为“AssetCode”的属性。
+   在 System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName)
+   在 System.Web.UI.DataBinder.Eval(Object container, String[] expressionParts)
+   在 System.Web.UI.DataBinder.Eval(Object container, String expression)
+   在 System.Web.UI.TemplateControl.Eval(String expression)
+   在 ASP.patrol_patrolasset_aspx.__DataBind__control21(Object sender, EventArgs e) 位置 d:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Web\Patrol\PatrolAsset.aspx:行号 137
+   在 System.Web.UI.Control.OnDataBinding(EventArgs e)
+   在 System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   在 System.Web.UI.Control.DataBind()
+   在 System.Web.UI.Control.DataBindChildren()
+   在 System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   在 System.Web.UI.Control.DataBind()
+   在 System.Web.UI.WebControls.Repeater.CreateItem(Int32 itemIndex, ListItemType itemType, Boolean dataBind, Object dataItem)
+   在 System.Web.UI.WebControls.Repeater.AddDataItemsIntoItemsArray(IEnumerable dataSource, Boolean useDataSource)
+   在 System.Web.UI.WebControls.Repeater.PostGetDataAction(IEnumerable dataSource)
+   在 System.Web.UI.WebControls.Repeater.CreateControlHierarchy(Boolean useDataSource)
+   在 System.Web.UI.WebControls.Repeater.OnDataBinding(EventArgs e)
+   在 System.Web.UI.WebControls.Repeater.DataBind()
+   在 HF.Cloud.Web.Patrol.PatrolAsset.BindData(String filter) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Web\Patrol\PatrolAsset.aspx.cs:行号 75
+   在 HF.Cloud.Web.Patrol.PatrolAsset.Page_Load(Object sender, EventArgs e) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Web\Patrol\PatrolAsset.aspx.cs:行号 36
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.EventHandler.Invoke(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ 
+记录时间：2016-07-20 17:50:30,076  线程ID:[33]  日志级别：  ERROR  错误描述：Application_Error Error  System.Web.HttpException (0x80004005): DataBinding:“System.Data.DataRowView”不包含名为“AssetCode”的属性。
+   在 System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName)
+   在 System.Web.UI.DataBinder.Eval(Object container, String[] expressionParts)
+   在 System.Web.UI.DataBinder.Eval(Object container, String expression)
+   在 System.Web.UI.TemplateControl.Eval(String expression)
+   在 ASP.patrol_patrolasset_aspx.__DataBind__control21(Object sender, EventArgs e) 位置 d:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Web\Patrol\PatrolAsset.aspx:行号 137
+   在 System.Web.UI.Control.OnDataBinding(EventArgs e)
+   在 System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   在 System.Web.UI.Control.DataBind()
+   在 System.Web.UI.Control.DataBindChildren()
+   在 System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   在 System.Web.UI.Control.DataBind()
+   在 System.Web.UI.WebControls.Repeater.CreateItem(Int32 itemIndex, ListItemType itemType, Boolean dataBind, Object dataItem)
+   在 System.Web.UI.WebControls.Repeater.AddDataItemsIntoItemsArray(IEnumerable dataSource, Boolean useDataSource)
+   在 System.Web.UI.WebControls.Repeater.PostGetDataAction(IEnumerable dataSource)
+   在 System.Web.UI.WebControls.Repeater.CreateControlHierarchy(Boolean useDataSource)
+   在 System.Web.UI.WebControls.Repeater.OnDataBinding(EventArgs e)
+   在 System.Web.UI.WebControls.Repeater.DataBind()
+   在 HF.Cloud.Web.Patrol.PatrolAsset.BindData(String filter) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Web\Patrol\PatrolAsset.aspx.cs:行号 75
+   在 HF.Cloud.Web.Patrol.PatrolAsset.Page_Load(Object sender, EventArgs e) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Web\Patrol\PatrolAsset.aspx.cs:行号 36
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.EventHandler.Invoke(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)

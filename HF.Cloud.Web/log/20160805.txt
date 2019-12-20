@@ -1,0 +1,12 @@
+ 
+记录时间：2016-08-05 16:55:11,483  线程ID:[6]  日志级别：  ERROR  错误描述：Application_Error Error  System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 HF.Cloud.Web.Patrol.PatrolPlanCreate.SetInputValue() 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Web\Patrol\PatrolPlanCreate.aspx.cs:行号 91
+   在 HF.Cloud.Web.Patrol.PatrolPlanCreate.Page_Load(Object sender, EventArgs e) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Web\Patrol\PatrolPlanCreate.aspx.cs:行号 30
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.EventHandler.Invoke(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)

@@ -1,0 +1,318 @@
+ 
+记录时间：2017-07-13 09:52:22,553  线程ID:[6]  日志级别：  ERROR  错误描述：登陆 Error  System.InvalidOperationException: 超时时间已到。超时时间已到，但是尚未从池中获取连接。出现这种情况可能是因为所有池连接均在使用，并且达到了最大池大小。
+   在 System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.Open()
+   在 HF.Cloud.CommonDAL.DbHelperSQL.RunProcedure(String storedProcName, SqlParameterCollection parameters, String tableName) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.CommonDAL\DbHelperSQL.cs:行号 918
+   在 HF.Cloud.Model.SB_UserEL.ExecuteEL(Int32 iOperateFlag) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.Model\SB_UserEL.cs:行号 175
+   在 HF.Cloud.BLL.SysBL.GetDUserByCodePWD(String strSBCode, String strPWD) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.BLL\SysBL.cs:行号 214
+   在 HF.Cloud.Web.ashx.LoginHandler.ProcessRequest(HttpContext context) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.Web\ashx\LoginHandler.ashx.cs:行号 33
+ 
+记录时间：2017-07-13 09:52:31,448  线程ID:[7]  日志级别：  ERROR  错误描述：登陆 Error  System.InvalidOperationException: 超时时间已到。超时时间已到，但是尚未从池中获取连接。出现这种情况可能是因为所有池连接均在使用，并且达到了最大池大小。
+   在 System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.Open()
+   在 HF.Cloud.CommonDAL.DbHelperSQL.RunProcedure(String storedProcName, SqlParameterCollection parameters, String tableName) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.CommonDAL\DbHelperSQL.cs:行号 918
+   在 HF.Cloud.Model.SB_UserEL.ExecuteEL(Int32 iOperateFlag) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.Model\SB_UserEL.cs:行号 175
+   在 HF.Cloud.BLL.SysBL.GetDUserByCodePWD(String strSBCode, String strPWD) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.BLL\SysBL.cs:行号 214
+   在 HF.Cloud.Web.ashx.LoginHandler.ProcessRequest(HttpContext context) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.Web\ashx\LoginHandler.ashx.cs:行号 33
+ 
+记录时间：2017-07-13 09:52:31,758  线程ID:[12]  日志级别：  ERROR  错误描述：登陆 Error  System.Data.SqlClient.SqlException (0x80131904): 在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: Named Pipes Provider, error: 40 - 无法打开到 SQL Server 的连接) ---> System.ComponentModel.Win32Exception (0x80004005): 找不到网络路径。
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.Open()
+   在 HF.Cloud.CommonDAL.DbHelperSQL.RunProcedure(String storedProcName, SqlParameterCollection parameters, String tableName) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.CommonDAL\DbHelperSQL.cs:行号 918
+   在 HF.Cloud.Model.SB_UserEL.ExecuteEL(Int32 iOperateFlag) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.Model\SB_UserEL.cs:行号 175
+   在 HF.Cloud.BLL.SysBL.GetDUserByCodePWD(String strSBCode, String strPWD) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.BLL\SysBL.cs:行号 214
+   在 HF.Cloud.Web.ashx.LoginHandler.ProcessRequest(HttpContext context) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.Web\ashx\LoginHandler.ashx.cs:行号 33
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:53,State:0,Class:20
+ 
+记录时间：2017-07-13 09:52:31,899  线程ID:[10]  日志级别：  ERROR  错误描述：登陆 Error  System.Data.SqlClient.SqlException (0x80131904): 在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: Named Pipes Provider, error: 40 - 无法打开到 SQL Server 的连接) ---> System.ComponentModel.Win32Exception (0x80004005): 找不到网络路径。
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.Open()
+   在 HF.Cloud.CommonDAL.DbHelperSQL.RunProcedure(String storedProcName, SqlParameterCollection parameters, String tableName) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.CommonDAL\DbHelperSQL.cs:行号 918
+   在 HF.Cloud.Model.SB_UserEL.ExecuteEL(Int32 iOperateFlag) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.Model\SB_UserEL.cs:行号 175
+   在 HF.Cloud.BLL.SysBL.GetDUserByCodePWD(String strSBCode, String strPWD) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.BLL\SysBL.cs:行号 214
+   在 HF.Cloud.Web.ashx.LoginHandler.ProcessRequest(HttpContext context) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.Web\ashx\LoginHandler.ashx.cs:行号 33
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:53,State:0,Class:20
+ 
+记录时间：2017-07-13 09:52:31,941  线程ID:[11]  日志级别：  ERROR  错误描述：登陆 Error  System.Data.SqlClient.SqlException (0x80131904): 在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: Named Pipes Provider, error: 40 - 无法打开到 SQL Server 的连接) ---> System.ComponentModel.Win32Exception (0x80004005): 找不到网络路径。
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.Open()
+   在 HF.Cloud.CommonDAL.DbHelperSQL.RunProcedure(String storedProcName, SqlParameterCollection parameters, String tableName) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.CommonDAL\DbHelperSQL.cs:行号 918
+   在 HF.Cloud.Model.SB_UserEL.ExecuteEL(Int32 iOperateFlag) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.Model\SB_UserEL.cs:行号 175
+   在 HF.Cloud.BLL.SysBL.GetDUserByCodePWD(String strSBCode, String strPWD) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.BLL\SysBL.cs:行号 214
+   在 HF.Cloud.Web.ashx.LoginHandler.ProcessRequest(HttpContext context) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.Web\ashx\LoginHandler.ashx.cs:行号 33
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:53,State:0,Class:20
+ 
+记录时间：2017-07-13 09:52:32,058  线程ID:[8]  日志级别：  ERROR  错误描述：登陆 Error  System.Data.SqlClient.SqlException (0x80131904): 在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: Named Pipes Provider, error: 40 - 无法打开到 SQL Server 的连接) ---> System.ComponentModel.Win32Exception (0x80004005): 找不到网络路径。
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.Open()
+   在 HF.Cloud.CommonDAL.DbHelperSQL.RunProcedure(String storedProcName, SqlParameterCollection parameters, String tableName) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.CommonDAL\DbHelperSQL.cs:行号 918
+   在 HF.Cloud.Model.SB_UserEL.ExecuteEL(Int32 iOperateFlag) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.Model\SB_UserEL.cs:行号 175
+   在 HF.Cloud.BLL.SysBL.GetDUserByCodePWD(String strSBCode, String strPWD) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.BLL\SysBL.cs:行号 214
+   在 HF.Cloud.Web.ashx.LoginHandler.ProcessRequest(HttpContext context) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.Web\ashx\LoginHandler.ashx.cs:行号 33
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:53,State:0,Class:20
+ 
+记录时间：2017-07-13 09:52:32,058  线程ID:[6]  日志级别：  ERROR  错误描述：登陆 Error  System.Data.SqlClient.SqlException (0x80131904): 在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: Named Pipes Provider, error: 40 - 无法打开到 SQL Server 的连接) ---> System.ComponentModel.Win32Exception (0x80004005): 找不到网络路径。
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.Open()
+   在 HF.Cloud.CommonDAL.DbHelperSQL.RunProcedure(String storedProcName, SqlParameterCollection parameters, String tableName) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.CommonDAL\DbHelperSQL.cs:行号 918
+   在 HF.Cloud.Model.SB_UserEL.ExecuteEL(Int32 iOperateFlag) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.Model\SB_UserEL.cs:行号 175
+   在 HF.Cloud.BLL.SysBL.GetDUserByCodePWD(String strSBCode, String strPWD) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.BLL\SysBL.cs:行号 214
+   在 HF.Cloud.Web.ashx.LoginHandler.ProcessRequest(HttpContext context) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.Web\ashx\LoginHandler.ashx.cs:行号 33
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:53,State:0,Class:20
+ 
+记录时间：2017-07-13 09:52:32,067  线程ID:[5]  日志级别：  ERROR  错误描述：登陆 Error  System.Data.SqlClient.SqlException (0x80131904): 在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: Named Pipes Provider, error: 40 - 无法打开到 SQL Server 的连接) ---> System.ComponentModel.Win32Exception (0x80004005): 找不到网络路径。
+   在 System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling)
+   在 System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   在 System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.Open()
+   在 HF.Cloud.CommonDAL.DbHelperSQL.RunProcedure(String storedProcName, SqlParameterCollection parameters, String tableName) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.CommonDAL\DbHelperSQL.cs:行号 918
+   在 HF.Cloud.Model.SB_UserEL.ExecuteEL(Int32 iOperateFlag) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.Model\SB_UserEL.cs:行号 175
+   在 HF.Cloud.BLL.SysBL.GetDUserByCodePWD(String strSBCode, String strPWD) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.BLL\SysBL.cs:行号 214
+   在 HF.Cloud.Web.ashx.LoginHandler.ProcessRequest(HttpContext context) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.Web\ashx\LoginHandler.ashx.cs:行号 33
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:53,State:0,Class:20
+ 
+记录时间：2017-07-13 09:52:33,521  线程ID:[5]  日志级别：  ERROR  错误描述：登陆 Error  System.Data.SqlClient.SqlException (0x80131904): 在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: Named Pipes Provider, error: 40 - 无法打开到 SQL Server 的连接) ---> System.ComponentModel.Win32Exception (0x80004005): 找不到网络路径。
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.Open()
+   在 HF.Cloud.CommonDAL.DbHelperSQL.RunProcedure(String storedProcName, SqlParameterCollection parameters, String tableName) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.CommonDAL\DbHelperSQL.cs:行号 918
+   在 HF.Cloud.Model.SB_UserEL.ExecuteEL(Int32 iOperateFlag) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.Model\SB_UserEL.cs:行号 175
+   在 HF.Cloud.BLL.SysBL.GetDUserByCodePWD(String strSBCode, String strPWD) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.BLL\SysBL.cs:行号 214
+   在 HF.Cloud.Web.ashx.LoginHandler.ProcessRequest(HttpContext context) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.Web\ashx\LoginHandler.ashx.cs:行号 33
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:53,State:0,Class:20
+ 
+记录时间：2017-07-13 09:53:22,796  线程ID:[6]  日志级别：  ERROR  错误描述：登陆 Error  System.InvalidOperationException: 超时时间已到。超时时间已到，但是尚未从池中获取连接。出现这种情况可能是因为所有池连接均在使用，并且达到了最大池大小。
+   在 System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.Open()
+   在 HF.Cloud.CommonDAL.DbHelperSQL.RunProcedure(String storedProcName, SqlParameterCollection parameters, String tableName) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.CommonDAL\DbHelperSQL.cs:行号 918
+   在 HF.Cloud.Model.SB_UserEL.ExecuteEL(Int32 iOperateFlag) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.Model\SB_UserEL.cs:行号 175
+   在 HF.Cloud.BLL.SysBL.GetDUserByCodePWD(String strSBCode, String strPWD) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.BLL\SysBL.cs:行号 214
+   在 HF.Cloud.Web.ashx.LoginHandler.ProcessRequest(HttpContext context) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.Web\ashx\LoginHandler.ashx.cs:行号 33
+ 
+记录时间：2017-07-13 09:53:26,278  线程ID:[7]  日志级别：  ERROR  错误描述：登陆 Error  System.InvalidOperationException: 超时时间已到。超时时间已到，但是尚未从池中获取连接。出现这种情况可能是因为所有池连接均在使用，并且达到了最大池大小。
+   在 System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.Open()
+   在 HF.Cloud.CommonDAL.DbHelperSQL.RunProcedure(String storedProcName, SqlParameterCollection parameters, String tableName) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.CommonDAL\DbHelperSQL.cs:行号 918
+   在 HF.Cloud.Model.SB_UserEL.ExecuteEL(Int32 iOperateFlag) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.Model\SB_UserEL.cs:行号 175
+   在 HF.Cloud.BLL.SysBL.GetDUserByCodePWD(String strSBCode, String strPWD) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.BLL\SysBL.cs:行号 214
+   在 HF.Cloud.Web.ashx.LoginHandler.ProcessRequest(HttpContext context) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.Web\ashx\LoginHandler.ashx.cs:行号 33
+ 
+记录时间：2017-07-13 09:53:28,731  线程ID:[10]  日志级别：  ERROR  错误描述：登陆 Error  System.InvalidOperationException: 超时时间已到。超时时间已到，但是尚未从池中获取连接。出现这种情况可能是因为所有池连接均在使用，并且达到了最大池大小。
+   在 System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.Open()
+   在 HF.Cloud.CommonDAL.DbHelperSQL.RunProcedure(String storedProcName, SqlParameterCollection parameters, String tableName) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.CommonDAL\DbHelperSQL.cs:行号 918
+   在 HF.Cloud.Model.SB_UserEL.ExecuteEL(Int32 iOperateFlag) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.Model\SB_UserEL.cs:行号 175
+   在 HF.Cloud.BLL.SysBL.GetDUserByCodePWD(String strSBCode, String strPWD) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.BLL\SysBL.cs:行号 214
+   在 HF.Cloud.Web.ashx.LoginHandler.ProcessRequest(HttpContext context) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.Web\ashx\LoginHandler.ashx.cs:行号 33
+ 
+记录时间：2017-07-13 09:53:36,778  线程ID:[6]  日志级别：  ERROR  错误描述：登陆 Error  System.Data.SqlClient.SqlException (0x80131904): 在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: Named Pipes Provider, error: 40 - 无法打开到 SQL Server 的连接) ---> System.ComponentModel.Win32Exception (0x80004005): 找不到网络路径。
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.Open()
+   在 HF.Cloud.CommonDAL.DbHelperSQL.RunProcedure(String storedProcName, SqlParameterCollection parameters, String tableName) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.CommonDAL\DbHelperSQL.cs:行号 918
+   在 HF.Cloud.Model.SB_UserEL.ExecuteEL(Int32 iOperateFlag) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.Model\SB_UserEL.cs:行号 175
+   在 HF.Cloud.BLL.SysBL.GetDUserByCodePWD(String strSBCode, String strPWD) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.BLL\SysBL.cs:行号 214
+   在 HF.Cloud.Web.ashx.LoginHandler.ProcessRequest(HttpContext context) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.Web\ashx\LoginHandler.ashx.cs:行号 33
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:53,State:0,Class:20
+ 
+记录时间：2017-07-13 09:53:36,802  线程ID:[5]  日志级别：  ERROR  错误描述：登陆 Error  System.Data.SqlClient.SqlException (0x80131904): 在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: Named Pipes Provider, error: 40 - 无法打开到 SQL Server 的连接) ---> System.ComponentModel.Win32Exception (0x80004005): 找不到网络路径。
+   在 System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling)
+   在 System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   在 System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.Open()
+   在 HF.Cloud.CommonDAL.DbHelperSQL.RunProcedure(String storedProcName, SqlParameterCollection parameters, String tableName) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.CommonDAL\DbHelperSQL.cs:行号 918
+   在 HF.Cloud.Model.SB_UserEL.ExecuteEL(Int32 iOperateFlag) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.Model\SB_UserEL.cs:行号 175
+   在 HF.Cloud.BLL.SysBL.GetDUserByCodePWD(String strSBCode, String strPWD) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.BLL\SysBL.cs:行号 214
+   在 HF.Cloud.Web.ashx.LoginHandler.ProcessRequest(HttpContext context) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.Web\ashx\LoginHandler.ashx.cs:行号 33
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:53,State:0,Class:20
+ 
+记录时间：2017-07-13 09:54:41,712  线程ID:[7]  日志级别：  ERROR  错误描述：登陆 Error  System.Data.SqlClient.SqlException (0x80131904): 在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: Named Pipes Provider, error: 40 - 无法打开到 SQL Server 的连接) ---> System.ComponentModel.Win32Exception (0x80004005): 找不到网络路径。
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.Open()
+   在 HF.Cloud.CommonDAL.DbHelperSQL.RunProcedure(String storedProcName, SqlParameterCollection parameters, String tableName) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.CommonDAL\DbHelperSQL.cs:行号 918
+   在 HF.Cloud.Model.SB_UserEL.ExecuteEL(Int32 iOperateFlag) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.Model\SB_UserEL.cs:行号 175
+   在 HF.Cloud.BLL.SysBL.GetDUserByCodePWD(String strSBCode, String strPWD) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.BLL\SysBL.cs:行号 214
+   在 HF.Cloud.Web.ashx.LoginHandler.ProcessRequest(HttpContext context) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.Web\ashx\LoginHandler.ashx.cs:行号 33
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:53,State:0,Class:20
+ 
+记录时间：2017-07-13 09:54:41,712  线程ID:[6]  日志级别：  ERROR  错误描述：登陆 Error  System.Data.SqlClient.SqlException (0x80131904): 在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: Named Pipes Provider, error: 40 - 无法打开到 SQL Server 的连接) ---> System.ComponentModel.Win32Exception (0x80004005): 找不到网络路径。
+   在 System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling)
+   在 System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   在 System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.Open()
+   在 HF.Cloud.CommonDAL.DbHelperSQL.RunProcedure(String storedProcName, SqlParameterCollection parameters, String tableName) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.CommonDAL\DbHelperSQL.cs:行号 918
+   在 HF.Cloud.Model.SB_UserEL.ExecuteEL(Int32 iOperateFlag) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.Model\SB_UserEL.cs:行号 175
+   在 HF.Cloud.BLL.SysBL.GetDUserByCodePWD(String strSBCode, String strPWD) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.BLL\SysBL.cs:行号 214
+   在 HF.Cloud.Web.ashx.LoginHandler.ProcessRequest(HttpContext context) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.Web\ashx\LoginHandler.ashx.cs:行号 33
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:53,State:0,Class:20
+ 
+记录时间：2017-07-13 09:55:47,260  线程ID:[6]  日志级别：  ERROR  错误描述：登陆 Error  System.Data.SqlClient.SqlException (0x80131904): 在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: Named Pipes Provider, error: 40 - 无法打开到 SQL Server 的连接) ---> System.ComponentModel.Win32Exception (0x80004005): 找不到网络路径。
+   在 System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling)
+   在 System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   在 System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.Open()
+   在 HF.Cloud.CommonDAL.DbHelperSQL.RunProcedure(String storedProcName, SqlParameterCollection parameters, String tableName) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.CommonDAL\DbHelperSQL.cs:行号 918
+   在 HF.Cloud.Model.SB_UserEL.ExecuteEL(Int32 iOperateFlag) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.Model\SB_UserEL.cs:行号 175
+   在 HF.Cloud.BLL.SysBL.GetDUserByCodePWD(String strSBCode, String strPWD) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.BLL\SysBL.cs:行号 214
+   在 HF.Cloud.Web.ashx.LoginHandler.ProcessRequest(HttpContext context) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.Web\ashx\LoginHandler.ashx.cs:行号 33
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:53,State:0,Class:20
+ 
+记录时间：2017-07-13 09:55:56,523  线程ID:[6]  日志级别：  ERROR  错误描述：登陆 Error  System.Data.SqlClient.SqlException (0x80131904): 在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: Named Pipes Provider, error: 40 - 无法打开到 SQL Server 的连接) ---> System.ComponentModel.Win32Exception (0x80004005): 找不到网络路径。
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.Open()
+   在 HF.Cloud.CommonDAL.DbHelperSQL.RunProcedure(String storedProcName, SqlParameterCollection parameters, String tableName) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.CommonDAL\DbHelperSQL.cs:行号 918
+   在 HF.Cloud.Model.SB_UserEL.ExecuteEL(Int32 iOperateFlag) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.Model\SB_UserEL.cs:行号 175
+   在 HF.Cloud.BLL.SysBL.GetDUserByCodePWD(String strSBCode, String strPWD) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.BLL\SysBL.cs:行号 214
+   在 HF.Cloud.Web.ashx.LoginHandler.ProcessRequest(HttpContext context) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.Web\ashx\LoginHandler.ashx.cs:行号 33
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:53,State:0,Class:20
+ 
+记录时间：2017-07-13 09:57:13,402  线程ID:[6]  日志级别：  ERROR  错误描述：登陆 Error  System.Data.SqlClient.SqlException (0x80131904): 在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: Named Pipes Provider, error: 40 - 无法打开到 SQL Server 的连接) ---> System.ComponentModel.Win32Exception (0x80004005): 找不到网络路径。
+   在 System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling)
+   在 System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   在 System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.Open()
+   在 HF.Cloud.CommonDAL.DbHelperSQL.RunProcedure(String storedProcName, SqlParameterCollection parameters, String tableName) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.CommonDAL\DbHelperSQL.cs:行号 918
+   在 HF.Cloud.Model.SB_UserEL.ExecuteEL(Int32 iOperateFlag) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.Model\SB_UserEL.cs:行号 175
+   在 HF.Cloud.BLL.SysBL.GetDUserByCodePWD(String strSBCode, String strPWD) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.BLL\SysBL.cs:行号 214
+   在 HF.Cloud.Web.ashx.LoginHandler.ProcessRequest(HttpContext context) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.Web\ashx\LoginHandler.ashx.cs:行号 33
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:53,State:0,Class:20
+ 
+记录时间：2017-07-13 16:04:58,292  线程ID:[6]  日志级别：  ERROR  错误描述：获取到受理人DingID：085736461526294282   
+记录时间：2017-07-13 16:04:58,320  线程ID:[6]  日志级别：  ERROR  错误描述：获取到客户ClientName：电厂路支行   
+记录时间：2017-07-13 16:04:58,328  线程ID:[6]  日志级别：  ERROR  错误描述：获取到客户sheetTypeName_Ding：故障   
+记录时间：2017-07-13 16:04:58,337  线程ID:[6]  日志级别：  ERROR  错误描述：钉钉json会话消息：{"touser":"085736461526294282","toparty":"","agentid":"9162364","msgtype":"oa","oa":{"message_url":"http://192.168.1.41:8123/Sheet/SheetDetail.aspx?dd_nav_bgcolor=FF5E97F6\u0026sheetID=66086","head":{"bgcolor":"3333ff","text":"新工单！"},"body":{"title":"您有新工单，请注意查收！","form":[{"key":"客户：","value":"电厂路支行"},{"key":"工单类型：","value":"故障"}]}}}   
+记录时间：2017-07-13 16:04:58,852  线程ID:[6]  日志级别：  ERROR  错误描述：accessToken:bdb9a93021aa3907a767f94ce413d4c0   
+记录时间：2017-07-13 16:04:59,055  线程ID:[6]  日志级别：  ERROR  错误描述：conversationString:{"invalidparty":"","messageId":"ad8ec349c83c3d60a2d9414452c6c708","errmsg":"ok","invaliduser":"","errcode":0}
+   
+记录时间：2017-07-13 16:04:59,056  线程ID:[6]  日志级别：  ERROR  错误描述：受理人:李勇发送会话消息成功！  

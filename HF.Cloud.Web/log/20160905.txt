@@ -1,0 +1,14 @@
+ 
+记录时间：2016-09-05 08:45:54,268  线程ID:[24]  日志级别：  INFO   错误描述：QBModelList InitPage 3   
+记录时间：2016-09-05 08:48:48,886  线程ID:[26]  日志级别：  INFO   错误描述：QBModelList InitPage 3   
+记录时间：2016-09-05 08:49:38,402  线程ID:[23]  日志级别：  INFO   错误描述：QBModelList InitPage 3   
+记录时间：2016-09-05 16:42:11,699  线程ID:[6]  日志级别：  ERROR  错误描述：Application_Error Error  System.Web.HttpCompileException (0x80004005): d:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Web\BasicSet\PowerManage\PowerMenuManage.aspx(138): error CS1061: “ASP.basicset_powermanage_powermenumanage_aspx”不包含“btnUpdateCount_Click”的定义，并且找不到可接受类型为“ASP.basicset_powermanage_powermenumanage_aspx”的第一个参数的扩展方法“btnUpdateCount_Click”(是否缺少 using 指令或程序集引用?)
+   在 System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   在 System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   在 System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   在 System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String virtualPath, String path)
+   在 System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)

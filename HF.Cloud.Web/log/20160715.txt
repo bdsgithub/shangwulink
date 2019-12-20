@@ -1,0 +1,30 @@
+ 
+记录时间：2016-07-15 11:55:45,305  线程ID:[66]  日志级别：  ERROR  错误描述：Application_Error Error  System.Web.HttpException (0x80004005): “'D:/HFCloud1.4/1/SheetFile/20160715111628u167.png'”不是有效的虚拟路径。
+   在 System.Web.Util.UrlPath.CheckValidVirtualPath(String path)
+   在 System.Web.Util.UrlPath.Combine(String appPath, String basepath, String relative)
+   在 System.Web.VirtualPath.Combine(VirtualPath relativePath)
+   在 System.Web.HttpRequest.MapPath(VirtualPath virtualPath, VirtualPath baseVirtualDir, Boolean allowCrossAppMapping)
+   在 System.Web.HttpRequest.MapPath(VirtualPath virtualPath)
+   在 System.Web.HttpResponse.GetNormalizedFilename(String fn)
+   在 System.Web.HttpResponse.WriteFile(String filename, Boolean readIntoMemory)
+   在 System.Web.HttpResponse.WriteFile(String filename)
+   在 HF.Cloud.Web.Sheet.SheetManage.imageurl.Page_Load(Object sender, EventArgs e) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Web\Sheet\SheetManage\imageurl.aspx.cs:行号 14
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ 
+记录时间：2016-07-15 11:56:51,538  线程ID:[66]  日志级别：  ERROR  错误描述：Application_Error Error  System.Web.HttpException (0x80004005): “'D:/HFCloud1.4/1/SheetFile/20160715111628u167.png'”不是有效的虚拟路径。
+   在 System.Web.Util.UrlPath.CheckValidVirtualPath(String path)
+   在 System.Web.Util.UrlPath.Combine(String appPath, String basepath, String relative)
+   在 System.Web.VirtualPath.Combine(VirtualPath relativePath)
+   在 System.Web.HttpRequest.MapPath(VirtualPath virtualPath, VirtualPath baseVirtualDir, Boolean allowCrossAppMapping)
+   在 System.Web.HttpRequest.MapPath(VirtualPath virtualPath)
+   在 System.Web.HttpResponse.GetNormalizedFilename(String fn)
+   在 System.Web.HttpResponse.WriteFile(String filename, Boolean readIntoMemory)
+   在 System.Web.HttpResponse.WriteFile(String filename)
+   在 HF.Cloud.Web.Sheet.SheetManage.imageurl.Page_Load(Object sender, EventArgs e) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Web\Sheet\SheetManage\imageurl.aspx.cs:行号 14
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)

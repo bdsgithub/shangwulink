@@ -1,0 +1,68 @@
+ 
+记录时间：2017-08-22 08:21:28,822  线程ID:[7]  日志级别：  ERROR  错误描述：优惠券修改账户余额结果(大于0说明成功)：20002   
+记录时间：2017-08-22 08:21:28,880  线程ID:[7]  日志级别：  ERROR  错误描述：优惠券添加充值记录结果(大于0说明成功)：50002   
+记录时间：2017-08-22 08:24:03,755  线程ID:[12]  日志级别：  ERROR  错误描述：优惠券修改账户余额结果(大于0说明成功)：20002   
+记录时间：2017-08-22 08:24:03,785  线程ID:[12]  日志级别：  ERROR  错误描述：优惠券添加充值记录结果(大于0说明成功)：50003   
+记录时间：2017-08-22 08:25:12,231  线程ID:[8]  日志级别：  ERROR  错误描述：优惠券修改账户余额结果(大于0说明成功)：20002   
+记录时间：2017-08-22 08:25:12,241  线程ID:[8]  日志级别：  ERROR  错误描述：优惠券添加充值记录结果(大于0说明成功)：50004   
+记录时间：2017-08-22 08:25:17,012  线程ID:[8]  日志级别：  ERROR  错误描述：优惠券修改账户余额结果(大于0说明成功)：20002   
+记录时间：2017-08-22 08:25:17,025  线程ID:[8]  日志级别：  ERROR  错误描述：优惠券添加充值记录结果(大于0说明成功)：50005   
+记录时间：2017-08-22 08:25:57,132  线程ID:[8]  日志级别：  ERROR  错误描述：登陆 Error  System.Threading.ThreadAbortException: 正在中止线程。
+   在 System.Threading.Thread.AbortInternal()
+   在 System.Threading.Thread.Abort(Object stateInfo)
+   在 System.Web.HttpResponse.AbortCurrentThread()
+   在 System.Web.HttpResponse.End()
+   在 System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   在 System.Web.HttpResponse.Redirect(String url)
+   在 HF.Cloud.Web.LabelWap.login.lnkBtnLogin_Click(Object sender, EventArgs e) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.Web\LabelWap\login.aspx.cs:行号 44
+ 
+记录时间：2017-08-22 08:26:59,306  线程ID:[8]  日志级别：  ERROR  错误描述：登陆 Error  System.Threading.ThreadAbortException: 正在中止线程。
+   在 System.Threading.Thread.AbortInternal()
+   在 System.Threading.Thread.Abort(Object stateInfo)
+   在 System.Web.HttpResponse.AbortCurrentThread()
+   在 System.Web.HttpResponse.End()
+   在 System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   在 System.Web.HttpResponse.Redirect(String url)
+   在 HF.Cloud.Web.LabelWap.login.lnkBtnLogin_Click(Object sender, EventArgs e) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.Web\LabelWap\login.aspx.cs:行号 44
+ 
+记录时间：2017-08-22 08:27:08,654  线程ID:[8]  日志级别：  ERROR  错误描述：优惠券修改账户余额结果(大于0说明成功)：20002   
+记录时间：2017-08-22 08:27:08,666  线程ID:[8]  日志级别：  ERROR  错误描述：优惠券添加充值记录结果(大于0说明成功)：50006   
+记录时间：2017-08-22 08:32:23,180  线程ID:[11]  日志级别：  ERROR  错误描述：登陆 Error  System.Threading.ThreadAbortException: 正在中止线程。
+   在 System.Threading.Thread.AbortInternal()
+   在 System.Threading.Thread.Abort(Object stateInfo)
+   在 System.Web.HttpResponse.AbortCurrentThread()
+   在 System.Web.HttpResponse.End()
+   在 System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   在 System.Web.HttpResponse.Redirect(String url)
+   在 HF.Cloud.Web.LabelWap.login.lnkBtnLogin_Click(Object sender, EventArgs e) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.Web\LabelWap\login.aspx.cs:行号 44
+ 
+记录时间：2017-08-22 14:29:23,849  线程ID:[82]  日志级别：  ERROR  错误描述：优惠券修改账户余额结果(大于0说明成功)：20002   
+记录时间：2017-08-22 14:29:23,885  线程ID:[82]  日志级别：  ERROR  错误描述：优惠券添加充值记录结果(大于0说明成功)：50007   
+记录时间：2017-08-22 14:53:07,685  线程ID:[88]  日志级别：  ERROR  错误描述：登陆 Error  System.Threading.ThreadAbortException: Thread was being aborted.
+   在 System.Threading.Thread.AbortInternal()
+   在 System.Threading.Thread.Abort(Object stateInfo)
+   在 System.Web.HttpResponse.AbortCurrentThread()
+   在 System.Web.HttpResponse.End()
+   在 System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   在 System.Web.HttpResponse.Redirect(String url)
+   在 HF.Cloud.Web.LabelWap.login.lnkBtnLogin_Click(Object sender, EventArgs e) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.Web\LabelWap\login.aspx.cs:行号 44
+ 
+记录时间：2017-08-22 15:32:41,992  线程ID:[6]  日志级别：  ERROR  错误描述：登陆 Error  System.Threading.ThreadAbortException: 正在中止线程。
+   在 System.Threading.Thread.AbortInternal()
+   在 System.Threading.Thread.Abort(Object stateInfo)
+   在 System.Web.HttpResponse.AbortCurrentThread()
+   在 System.Web.HttpResponse.End()
+   在 System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   在 System.Web.HttpResponse.Redirect(String url)
+   在 HF.Cloud.Web.LabelWap.login.lnkBtnLogin_Click(Object sender, EventArgs e) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.Web\LabelWap\login.aspx.cs:行号 45
+ 
+记录时间：2017-08-22 15:35:43,259  线程ID:[6]  日志级别：  ERROR  错误描述：Application_Error Error  System.Web.HttpException (0x80004005): 文件“/LabelWap/longin.aspx”不存在。
+   在 System.Web.UI.Util.CheckVirtualFileExists(VirtualPath virtualPath)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   在 System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   在 System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   在 System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String virtualPath, String path)
+   在 System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)

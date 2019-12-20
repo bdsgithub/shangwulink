@@ -1,0 +1,26 @@
+ 
+记录时间：2017-07-25 16:54:36,831  线程ID:[6]  日志级别：  ERROR  错误描述：Application_Error Error  System.Web.HttpException (0x80004005): DataBinding:“System.Data.DataRowView”不包含名为“ExpendType”的属性。
+   在 System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName)
+   在 System.Web.UI.DataBinder.Eval(Object container, String[] expressionParts)
+   在 System.Web.UI.DataBinder.Eval(Object container, String expression)
+   在 System.Web.UI.TemplateControl.Eval(String expression)
+   在 ASP.basicset_pay_consumerecord_aspx.__DataBind__control11(Object sender, EventArgs e) 位置 d:\易维客\AssetCloudSolutionV1.5\HF.Cloud.Web\BasicSet\pay\ConsumeRecord.aspx:行号 37
+   在 System.Web.UI.Control.OnDataBinding(EventArgs e)
+   在 System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   在 System.Web.UI.Control.DataBind()
+   在 System.Web.UI.Control.DataBindChildren()
+   在 System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   在 System.Web.UI.Control.DataBind()
+   在 System.Web.UI.WebControls.Repeater.CreateItem(Int32 itemIndex, ListItemType itemType, Boolean dataBind, Object dataItem)
+   在 System.Web.UI.WebControls.Repeater.AddDataItemsIntoItemsArray(IEnumerable dataSource, Boolean useDataSource)
+   在 System.Web.UI.WebControls.Repeater.PostGetDataAction(IEnumerable dataSource)
+   在 System.Web.UI.WebControls.Repeater.CreateControlHierarchy(Boolean useDataSource)
+   在 System.Web.UI.WebControls.Repeater.OnDataBinding(EventArgs e)
+   在 System.Web.UI.WebControls.Repeater.DataBind()
+   在 HF.Cloud.Web.BasicSet.pay.ConsumeRecord.BindData() 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.Web\BasicSet\pay\ConsumeRecord.aspx.cs:行号 28
+   在 HF.Cloud.Web.BasicSet.pay.ConsumeRecord.Page_Load(Object sender, EventArgs e) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.Web\BasicSet\pay\ConsumeRecord.aspx.cs:行号 17
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.EventHandler.Invoke(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)

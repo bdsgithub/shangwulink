@@ -1,0 +1,375 @@
+@import url(reset.css);
+@import url(fram.css);
+
+html, body {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.cient-top {
+    height: 50px;
+    background-color: #fff;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    overflow: hidden;
+}
+
+.cient-left-max {
+    width: 240px;
+}
+
+.cient-left-min {
+    width: 60px;
+}
+
+.cient-left {
+    background-color: #424f63;
+    position: absolute;
+    left: 0;
+    top: 50px;
+    bottom: 0;
+    overflow: hidden;
+}
+
+.cient-main {
+    position: absolute;
+    top: 50px;
+    left: 36px;
+    bottom: 0;
+    right: 0;
+    overflow: hidden;
+}
+
+.cient-left-bar {
+    width: 20px;
+    position: absolute;
+    top: 50px;
+    left: 60px;
+    right: 0;
+    bottom: 0;
+}
+
+.cient-ritht-bar {
+    width: 20px;
+    position: absolute;
+    top: 50px;
+    right: 0;
+    bottom: 0;
+}
+
+.logo {
+    height: 50px;
+    float: left;
+    background: url(../img/logo.jpg) no-repeat;
+}
+
+.scale {
+    width: 82px;
+    height: 50px;
+    float: left;
+    border-left: 1px #ccc solid;
+}
+
+    .scale:hover {
+        cursor: pointer;
+    }
+
+.scale-img {
+    width: 35px;
+    height: 50px;
+    margin: 0 auto;
+    background: url(../img/qie.png) no-repeat center;
+}
+
+.scale-im {
+    background: url(../img/qie.png) no-repeat center;
+}
+
+.cient-slogan {
+    margin-left: 20px;
+    float: left;
+    font-size: 20px;
+    line-height: 64px;
+    font-weight: normal;
+    display: block;
+}
+
+    .cient-slogan span {
+        color: #66f2ea;
+    }
+
+.cient-user {
+    width: 150px;
+    height: 50px;
+    float: right;
+    margin-right: 30px;
+}
+
+    .cient-user:hover {
+        cursor: pointer;
+    }
+
+    .cient-user .user-img {
+        margin-top: 5px;
+        float: left;
+        width: 30px;
+        height: 30px;
+    }
+
+    .cient-user p {
+        line-height: 50px;
+    }
+
+.user-message {
+    width: 108px;
+    height: 196px;
+    position: absolute;
+    z-index: 2;
+    right: 60px;
+    top: 0;
+    display: none;
+}
+
+    .user-message:hover {
+        cursor: pointer;
+    }
+
+    .user-message ul {
+        margin-top: 56px;
+        background-color: #7FC2FC;
+    }
+
+        .user-message ul li {
+            color: #fff;
+            font-size: 16px;
+            text-align: center;
+            line-height: 40px;
+        }
+
+            .user-message ul li:hover {
+                color: #000;
+            }
+
+.new-message {
+    width: 258px;
+    height: 196px;
+    position: absolute;
+    z-index: 2;
+    right: 70px;
+    top: 0;
+    display: none;
+}
+
+    .new-message:hover {
+        cursor: pointer;
+    }
+
+    .new-message ul {
+        margin-top: 56px;
+        border-top: 1px #ccc solid;
+        border-right: 1px #ccc solid;
+        border-left: 1px #ccc solid;
+        background-color: #fff;
+    }
+
+        .new-message ul li {
+            color: #000;
+            font-size: 16px;
+            text-align: center;
+            line-height: 40px;
+            border-bottom: 1px #ccc solid;
+        }
+
+            .new-message ul li:hover {
+                color: #fff;
+                background-color: #7FC2FC;
+            }
+
+#message-li {
+    height: 41px;
+}
+
+    #message-li:hover {
+        background-color: #fff;
+    }
+
+#message-set {
+    width: 18px;
+    height: 18px;
+    background: url(../img/set.png) no-repeat center;
+    display: inline-block;
+    float: left;
+    margin: 10px 4px;
+}
+
+#message-delete {
+    width: 18px;
+    height: 18px;
+    background: url(../img/delete.png) no-repeat center;
+    display: inline-block;
+    float: left;
+    margin: 10px 4px;
+}
+
+.select-box {
+    border: 1px #ccc solid;
+    width: 213px;
+    height: 30px;
+    float: right;
+    margin-top: 9px;
+    position: relative;
+    display: none;
+}
+
+    .select-box p {
+        width: 53px;
+        text-align: center;
+        line-height: 30px;
+        border-left: 1px #ccc solid;
+        float: right;
+    }
+
+    .select-box input {
+        position: absolute;
+        top: 5px;
+        border: none;
+        outline: none;
+    }
+
+.select-option {
+    width: 55px;
+    height: 500px;
+    position: absolute;
+    z-index: 2;
+    right: 229px;
+    top: 17px;
+    display: none;
+}
+
+    .select-option:hover {
+        cursor: pointer;
+    }
+
+    .select-option ul {
+        margin-top: 24px;
+        background-color: #7FC2FC;
+    }
+
+        .select-option ul li {
+            color: #fff;
+            font-size: 14px;
+            text-align: center;
+            line-height: 26px;
+        }
+
+            .select-option ul li:hover {
+                color: #000;
+            }
+
+.cient-left {
+    z-index: 2;
+}
+
+    .cient-left ul li {
+        font-size: 14px;
+        line-height: 60px;
+        position: relative;
+    }
+
+        .cient-left ul li span {
+            width: 29px;
+            height: 30px;
+            top: 15px;
+            left: 15px;
+            display: inline-block;
+            position: absolute;
+        }
+
+        .cient-left ul li p {
+            left: 120px;
+            position: relative;
+            white-space: nowrap;
+            color: #fff;
+        }
+
+        .cient-left ul li:hover {
+            background-color: #2e3745;
+        }
+
+.home span {
+    background: url(../img/home.png) no-repeat center;
+}
+.userManage span {
+    background: url(../img/ren.png) no-repeat center;
+}
+.statistics span {
+    background: url(../img/gong.png) no-repeat center;
+}
+
+.bill span {
+    background: url(../img/zuo.png) no-repeat center;
+}
+
+.equipment span {
+    background: url(../img/ke.png) no-repeat center;
+}
+
+.facility span {
+    background: url(../img/bei.png) no-repeat center;
+}
+
+.set span {
+    background: url(../img/she.png) no-repeat center;
+}
+.client span {
+    background: url(../img/client.png) no-repeat center;
+}
+.redbag span {
+    background: url(../img/redbag.png) no-repeat center;
+}
+.tag span {
+    background: url(../img/tag.png) no-repeat center;
+}
+
+
+
+
+#nav-font-color {
+    color: #fff;
+    background-color: #2e3745;
+}
+
+.nav-title {
+    width: 108px;
+    height: 40px;
+    position: absolute;
+    left: 52px;
+    background: url(../img/maes.png) no-repeat center;
+    display: none;
+    z-index: 1;
+}
+
+    .nav-title p {
+        font-size: 16px;
+        color: #fff;
+        text-align: center;
+        line-height: 37px;
+    }
+
+.cient-select {
+    float: right;
+    width: 40px;
+    height: 40px;
+    background: url(../img/sel.png) no-repeat center;
+}
+
+.cient-message {
+    float: right;
+    width: 50px;
+    height: 50px;
+    background: url(../img/mess.png) no-repeat center;
+}
+/*# sourceMappingURL=eweicStyle.css.map */

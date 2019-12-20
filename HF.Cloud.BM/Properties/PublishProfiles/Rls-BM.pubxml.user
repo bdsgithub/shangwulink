@@ -1,0 +1,294 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+您 Web 项目的发布/打包进程将使用此文件。您可以通过编辑此 MSBuild 文件
+来自定义该进程的行为。若要了解与此相关的详细信息，请访问 http://go.microsoft.com/fwlink/?LinkID=208121。
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_PublishTargetUrl>D:\BM</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="ashx/ExecuteQBCode.ashx">
+      <publishTime>08/30/2017 15:46:52</publishTime>
+    </File>
+    <File Include="bin/App_global.asax.compiled">
+      <publishTime>09/22/2017 17:36:05</publishTime>
+    </File>
+    <File Include="bin/App_global.asax.dll">
+      <publishTime>09/22/2017 17:36:05</publishTime>
+    </File>
+    <File Include="bin/AspNetPager.dll">
+      <publishTime>05/03/2016 15:26:50</publishTime>
+    </File>
+    <File Include="bin/HF.Cloud.BLL.dll">
+      <publishTime>09/22/2017 17:35:55</publishTime>
+    </File>
+    <File Include="bin/HF.Cloud.BM.dll">
+      <publishTime>09/22/2017 17:36:00</publishTime>
+    </File>
+    <File Include="bin/HF.Cloud.CommonDAL.dll">
+      <publishTime>09/01/2017 08:52:42</publishTime>
+    </File>
+    <File Include="bin/HF.Cloud.Model.dll">
+      <publishTime>09/22/2017 17:35:54</publishTime>
+    </File>
+    <File Include="bin/ICSharpCode.SharpZipLib.dll">
+      <publishTime>07/03/2014 10:56:49</publishTime>
+    </File>
+    <File Include="bin/log4net.dll">
+      <publishTime>07/13/2016 09:26:23</publishTime>
+    </File>
+    <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
+      <publishTime>06/15/2015 02:06:24</publishTime>
+    </File>
+    <File Include="bin/NPOI.dll">
+      <publishTime>05/22/2016 04:35:20</publishTime>
+    </File>
+    <File Include="bin/NPOI.OOXML.dll">
+      <publishTime>05/22/2016 04:35:29</publishTime>
+    </File>
+    <File Include="bin/NPOI.OpenXml4Net.dll">
+      <publishTime>05/22/2016 04:35:21</publishTime>
+    </File>
+    <File Include="bin/NPOI.OpenXmlFormats.dll">
+      <publishTime>05/22/2016 04:35:26</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.dll">
+      <publishTime>06/18/2015 20:19:44</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CSharp.Core.targets">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.VisualBasic.Core.targets">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Collections.Immutable.dll">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Reflection.Metadata.dll">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe.config">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/ThoughtWorks.QRCode.dll">
+      <publishTime>10/12/2013 10:34:24</publishTime>
+    </File>
+    <File Include="Common/TicketAdd.aspx">
+      <publishTime>09/05/2017 11:34:07</publishTime>
+    </File>
+    <File Include="Common/TicketList.aspx">
+      <publishTime>09/04/2017 11:21:46</publishTime>
+    </File>
+    <File Include="css/eweicCont.css">
+      <publishTime>08/15/2017 10:27:40</publishTime>
+    </File>
+    <File Include="css/fram.css">
+      <publishTime>08/15/2017 10:27:40</publishTime>
+    </File>
+    <File Include="css/home.css">
+      <publishTime>08/15/2017 10:27:40</publishTime>
+    </File>
+    <File Include="css/myCss.css">
+      <publishTime>08/15/2017 10:27:40</publishTime>
+    </File>
+    <File Include="css/myStyle.css">
+      <publishTime>08/15/2017 10:27:40</publishTime>
+    </File>
+    <File Include="css/phone_style.css">
+      <publishTime>08/15/2017 10:27:40</publishTime>
+    </File>
+    <File Include="css/reset.css">
+      <publishTime>08/15/2017 10:27:40</publishTime>
+    </File>
+    <File Include="css/style.css">
+      <publishTime>08/15/2017 10:27:40</publishTime>
+    </File>
+    <File Include="dropdown/dropdown.css">
+      <publishTime>08/15/2017 10:27:40</publishTime>
+    </File>
+    <File Include="dropdown/dropdown.js">
+      <publishTime>08/15/2017 10:27:40</publishTime>
+    </File>
+    <File Include="dropdownfilter/dfClient.aspx">
+      <publishTime>08/15/2017 10:27:41</publishTime>
+    </File>
+    <File Include="image/b.png">
+      <publishTime>08/15/2017 10:27:41</publishTime>
+    </File>
+    <File Include="image/bage.jpg">
+      <publishTime>08/15/2017 10:27:41</publishTime>
+    </File>
+    <File Include="image/eweic.png">
+      <publishTime>08/15/2017 10:27:41</publishTime>
+    </File>
+    <File Include="image/label-c.png">
+      <publishTime>08/15/2017 10:27:41</publishTime>
+    </File>
+    <File Include="image/label-p.png">
+      <publishTime>08/15/2017 10:27:41</publishTime>
+    </File>
+    <File Include="image/label-r.png">
+      <publishTime>08/15/2017 10:27:41</publishTime>
+    </File>
+    <File Include="image/lo.jpg">
+      <publishTime>08/15/2017 10:27:41</publishTime>
+    </File>
+    <File Include="image/locked.png">
+      <publishTime>08/15/2017 10:27:41</publishTime>
+    </File>
+    <File Include="image/mail.png">
+      <publishTime>08/15/2017 10:27:41</publishTime>
+    </File>
+    <File Include="image/o.png">
+      <publishTime>08/15/2017 10:27:41</publishTime>
+    </File>
+    <File Include="image/QRCode.png">
+      <publishTime>08/15/2017 10:27:41</publishTime>
+    </File>
+    <File Include="image/sad.png">
+      <publishTime>08/15/2017 10:27:41</publishTime>
+    </File>
+    <File Include="image/users.png">
+      <publishTime>08/15/2017 10:27:41</publishTime>
+    </File>
+    <File Include="js/cient.js">
+      <publishTime>09/01/2017 11:19:16</publishTime>
+    </File>
+    <File Include="js/echarts.min.js">
+      <publishTime>08/15/2017 10:27:42</publishTime>
+    </File>
+    <File Include="js/getQueryString.js">
+      <publishTime>08/15/2017 10:27:41</publishTime>
+    </File>
+    <File Include="js/jquery-1.8.3.min.js">
+      <publishTime>08/15/2017 10:27:42</publishTime>
+    </File>
+    <File Include="js/layer/layer.js">
+      <publishTime>08/15/2017 10:27:42</publishTime>
+    </File>
+    <File Include="js/layer/skin/default/icon-ext.png">
+      <publishTime>08/15/2017 10:27:42</publishTime>
+    </File>
+    <File Include="js/layer/skin/default/icon.png">
+      <publishTime>08/15/2017 10:27:42</publishTime>
+    </File>
+    <File Include="js/layer/skin/default/loading-0.gif">
+      <publishTime>08/15/2017 10:27:42</publishTime>
+    </File>
+    <File Include="js/layer/skin/default/loading-1.gif">
+      <publishTime>08/15/2017 10:27:42</publishTime>
+    </File>
+    <File Include="js/layer/skin/default/loading-2.gif">
+      <publishTime>08/15/2017 10:27:42</publishTime>
+    </File>
+    <File Include="js/layer/skin/layer.css">
+      <publishTime>08/15/2017 10:27:42</publishTime>
+    </File>
+    <File Include="js/macarons.js">
+      <publishTime>08/15/2017 10:27:42</publishTime>
+    </File>
+    <File Include="js/My97DatePicker/calendar.js">
+      <publishTime>08/15/2017 10:27:42</publishTime>
+    </File>
+    <File Include="js/My97DatePicker/lang/en.js">
+      <publishTime>08/15/2017 10:27:42</publishTime>
+    </File>
+    <File Include="js/My97DatePicker/lang/zh-cn.js">
+      <publishTime>08/15/2017 10:27:42</publishTime>
+    </File>
+    <File Include="js/My97DatePicker/lang/zh-tw.js">
+      <publishTime>08/15/2017 10:27:43</publishTime>
+    </File>
+    <File Include="js/My97DatePicker/skin/datePicker.gif">
+      <publishTime>08/15/2017 10:27:43</publishTime>
+    </File>
+    <File Include="js/My97DatePicker/skin/default/datepicker.css">
+      <publishTime>08/15/2017 10:27:43</publishTime>
+    </File>
+    <File Include="js/My97DatePicker/skin/default/img.gif">
+      <publishTime>08/15/2017 10:27:43</publishTime>
+    </File>
+    <File Include="js/My97DatePicker/skin/WdatePicker.css">
+      <publishTime>08/15/2017 10:27:43</publishTime>
+    </File>
+    <File Include="js/My97DatePicker/skin/whyGreen/bg.jpg">
+      <publishTime>08/15/2017 10:27:43</publishTime>
+    </File>
+    <File Include="js/My97DatePicker/skin/whyGreen/datepicker.css">
+      <publishTime>08/15/2017 10:27:43</publishTime>
+    </File>
+    <File Include="js/My97DatePicker/skin/whyGreen/img.gif">
+      <publishTime>08/15/2017 10:27:43</publishTime>
+    </File>
+    <File Include="js/My97DatePicker/WdatePicker.js">
+      <publishTime>08/15/2017 10:27:43</publishTime>
+    </File>
+    <File Include="js/region.js">
+      <publishTime>08/15/2017 10:27:43</publishTime>
+    </File>
+    <File Include="js/ShowDialog.js">
+      <publishTime>08/15/2017 10:27:43</publishTime>
+    </File>
+    <File Include="Labels/QBCodePrint.aspx">
+      <publishTime>09/05/2017 10:52:30</publishTime>
+    </File>
+    <File Include="Labels/QBModelAdd.aspx">
+      <publishTime>09/06/2017 15:19:41</publishTime>
+    </File>
+    <File Include="Labels/QBModelList.aspx">
+      <publishTime>08/15/2017 10:27:43</publishTime>
+    </File>
+    <File Include="Labels/QBModePrintSlt.aspx">
+      <publishTime>08/15/2017 10:27:43</publishTime>
+    </File>
+    <File Include="Main.aspx">
+      <publishTime>09/01/2017 11:16:47</publishTime>
+    </File>
+    <File Include="PrecompiledApp.config">
+      <publishTime>09/22/2017 17:36:02</publishTime>
+    </File>
+    <File Include="SaleLabels/QBCodePrint.aspx">
+      <publishTime>09/05/2017 10:52:57</publishTime>
+    </File>
+    <File Include="SaleLabels/QBCodeRecord.aspx">
+      <publishTime>08/22/2017 11:41:06</publishTime>
+    </File>
+    <File Include="SaleLabels/QBModelAdd.aspx">
+      <publishTime>09/06/2017 11:53:09</publishTime>
+    </File>
+    <File Include="SaleLabels/QBModelList.aspx">
+      <publishTime>08/15/2017 10:27:44</publishTime>
+    </File>
+    <File Include="SaleLabels/QBModePrintSlt.aspx">
+      <publishTime>08/15/2017 10:27:44</publishTime>
+    </File>
+    <File Include="ServiceProvider/Add.aspx">
+      <publishTime>09/01/2017 16:18:49</publishTime>
+    </File>
+    <File Include="ServiceProvider/Index.aspx">
+      <publishTime>08/23/2017 09:13:52</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>08/21/2017 09:20:29</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

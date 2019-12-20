@@ -1,0 +1,149 @@
+ 
+记录时间：2017-05-03 16:00:07,906  线程ID:[10]  日志级别：  INFO   错误描述：服务启动   
+记录时间：2017-05-03 16:25:15,770  线程ID:[9]  日志级别：  INFO   错误描述：服务启动   
+记录时间：2017-05-03 16:56:41,584  线程ID:[19]  日志级别：  ERROR  错误描述：GetQRCode Error  System.Data.SqlClient.SqlException (0x80131904): 连接超时时间已到。在尝试使用预登录握手确认时超过了此超时时间。这可能是因为预登录握手失败或服务器未能及时响应。  尝试连接到此服务器时花费的持续时间是 - [Pre-Login] initialization=1019；handshake=0； ---> System.ComponentModel.Win32Exception (0x80004005): 等待的操作过时。
+   在 System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling)
+   在 System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   在 System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.Open()
+   在 HF.Cloud.CommonDAL.DbHelperSQL.RunProcedure(String storedProcName, SqlParameterCollection parameters, String tableName) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.CommonDAL\DbHelperSQL.cs:行号 918
+   在 HF.Cloud.Model.QB_CodeEL.ExecDT(Int32 iOperateFlag) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.Model\QB_CodeEL.cs:行号 102
+   在 HF.Cloud.BLL.AssetBL.GetQRCodeList(String strQRCode, Int64 mainId) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.BLL\AssetBL.cs:行号 1164
+   在 HF.Cloud.WcfLibrary.AssetService.GetQRCode(String strQRCode, Int64 MainID) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.WcfLibrary\AssetService.cs:行号 142
+ClientConnectionId:250d6deb-2edd-4203-beb6-dcc264120674
+Error Number:-2,State:0,Class:11
+ 
+记录时间：2017-05-03 16:59:22,976  线程ID:[28]  日志级别：  ERROR  错误描述：GetQRCode Error  System.Data.SqlClient.SqlException (0x80131904): 连接超时时间已到。在尝试使用预登录握手确认时超过了此超时时间。这可能是因为预登录握手失败或服务器未能及时响应。  尝试连接到此服务器时花费的持续时间是 - [Pre-Login] initialization=13745；handshake=16801； ---> System.ComponentModel.Win32Exception (0x80004005): 等待的操作过时。
+   在 System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling)
+   在 System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   在 System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.Open()
+   在 HF.Cloud.CommonDAL.DbHelperSQL.RunProcedure(String storedProcName, SqlParameterCollection parameters, String tableName) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.CommonDAL\DbHelperSQL.cs:行号 918
+   在 HF.Cloud.Model.QB_CodeEL.ExecDT(Int32 iOperateFlag) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.Model\QB_CodeEL.cs:行号 102
+   在 HF.Cloud.BLL.AssetBL.GetQRCodeList(String strQRCode, Int64 mainId) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.BLL\AssetBL.cs:行号 1164
+   在 HF.Cloud.WcfLibrary.AssetService.GetQRCode(String strQRCode, Int64 MainID) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.WcfLibrary\AssetService.cs:行号 142
+ClientConnectionId:18e24de9-7c9a-4e18-bc72-079bd4440be8
+Error Number:-2,State:0,Class:11
+ 
+记录时间：2017-05-03 17:05:09,092  线程ID:[10]  日志级别：  INFO   错误描述：服务启动   
+记录时间：2017-05-03 17:25:35,173  线程ID:[10]  日志级别：  INFO   错误描述：服务启动   
+记录时间：2017-05-03 17:31:19,040  线程ID:[20]  日志级别：  ERROR  错误描述：AssetService GetAssetByDeviceCode  System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 HF.Cloud.CommonDAL.ConfigHelper.GetConfigString(String key) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.CommonDAL\ConfigHelper.cs:行号 34
+   在 HF.Cloud.BLL.AssetBL.GetAssetByDeviceCode(String deviceCode, Int64 modelID, Int64 mainID) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.BLL\AssetBL.cs:行号 608
+   在 HF.Cloud.WcfLibrary.AssetService.GetAssetByDeviceCode(String deviceCode, Int64 modelID, Int64 mainID) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.WcfLibrary\AssetService.cs:行号 399
+ 
+记录时间：2017-05-03 17:33:47,847  线程ID:[20]  日志级别：  ERROR  错误描述：AssetService GetAssetByDeviceCode  System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 HF.Cloud.CommonDAL.ConfigHelper.GetConfigString(String key) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.CommonDAL\ConfigHelper.cs:行号 34
+   在 HF.Cloud.BLL.AssetBL.GetAssetByDeviceCode(String deviceCode, Int64 modelID, Int64 mainID) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.BLL\AssetBL.cs:行号 608
+   在 HF.Cloud.WcfLibrary.AssetService.GetAssetByDeviceCode(String deviceCode, Int64 modelID, Int64 mainID) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.WcfLibrary\AssetService.cs:行号 399
+ 
+记录时间：2017-05-03 17:35:31,450  线程ID:[20]  日志级别：  ERROR  错误描述：AssetService GetAssetByDeviceCode  System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 HF.Cloud.CommonDAL.ConfigHelper.GetConfigString(String key) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.CommonDAL\ConfigHelper.cs:行号 34
+   在 HF.Cloud.BLL.AssetBL.GetAssetByDeviceCode(String deviceCode, Int64 modelID, Int64 mainID) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.BLL\AssetBL.cs:行号 608
+   在 HF.Cloud.WcfLibrary.AssetService.GetAssetByDeviceCode(String deviceCode, Int64 modelID, Int64 mainID) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.WcfLibrary\AssetService.cs:行号 399
+ 
+记录时间：2017-05-03 17:35:35,512  线程ID:[20]  日志级别：  ERROR  错误描述：AssetService GetAssetByDeviceCode  System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 HF.Cloud.CommonDAL.ConfigHelper.GetConfigString(String key) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.CommonDAL\ConfigHelper.cs:行号 34
+   在 HF.Cloud.BLL.AssetBL.GetAssetByDeviceCode(String deviceCode, Int64 modelID, Int64 mainID) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.BLL\AssetBL.cs:行号 608
+   在 HF.Cloud.WcfLibrary.AssetService.GetAssetByDeviceCode(String deviceCode, Int64 modelID, Int64 mainID) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.WcfLibrary\AssetService.cs:行号 399
+ 
+记录时间：2017-05-03 17:37:45,487  线程ID:[20]  日志级别：  ERROR  错误描述：AssetService GetAssetByDeviceCode  System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 HF.Cloud.CommonDAL.ConfigHelper.GetConfigString(String key) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.CommonDAL\ConfigHelper.cs:行号 34
+   在 HF.Cloud.BLL.AssetBL.GetAssetByDeviceCode(String deviceCode, Int64 modelID, Int64 mainID) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.BLL\AssetBL.cs:行号 608
+   在 HF.Cloud.WcfLibrary.AssetService.GetAssetByDeviceCode(String deviceCode, Int64 modelID, Int64 mainID) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.WcfLibrary\AssetService.cs:行号 399
+ 
+记录时间：2017-05-03 17:43:58,390  线程ID:[20]  日志级别：  ERROR  错误描述：AssetService GetAssetByDeviceCode  System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 HF.Cloud.CommonDAL.ConfigHelper.GetConfigString(String key) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.CommonDAL\ConfigHelper.cs:行号 34
+   在 HF.Cloud.BLL.AssetBL.GetAssetByDeviceCode(String deviceCode, Int64 modelID, Int64 mainID) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.BLL\AssetBL.cs:行号 608
+   在 HF.Cloud.WcfLibrary.AssetService.GetAssetByDeviceCode(String deviceCode, Int64 modelID, Int64 mainID) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.WcfLibrary\AssetService.cs:行号 399
+ 
+记录时间：2017-05-03 17:53:02,437  线程ID:[20]  日志级别：  ERROR  错误描述：AssetService GetAssetByDeviceCode  System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 HF.Cloud.CommonDAL.ConfigHelper.GetConfigString(String key) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.CommonDAL\ConfigHelper.cs:行号 34
+   在 HF.Cloud.BLL.AssetBL.GetAssetByDeviceCode(String deviceCode, Int64 modelID, Int64 mainID) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.BLL\AssetBL.cs:行号 608
+   在 HF.Cloud.WcfLibrary.AssetService.GetAssetByDeviceCode(String deviceCode, Int64 modelID, Int64 mainID) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.WcfLibrary\AssetService.cs:行号 399
+ 
+记录时间：2017-05-03 17:53:02,562  线程ID:[29]  日志级别：  ERROR  错误描述：AssetService GetAssetByDeviceCode  System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 HF.Cloud.CommonDAL.ConfigHelper.GetConfigString(String key) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.CommonDAL\ConfigHelper.cs:行号 34
+   在 HF.Cloud.BLL.AssetBL.GetAssetByDeviceCode(String deviceCode, Int64 modelID, Int64 mainID) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.BLL\AssetBL.cs:行号 608
+   在 HF.Cloud.WcfLibrary.AssetService.GetAssetByDeviceCode(String deviceCode, Int64 modelID, Int64 mainID) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.WcfLibrary\AssetService.cs:行号 399
+ 
+记录时间：2017-05-03 18:01:33,366  线程ID:[29]  日志级别：  ERROR  错误描述：AssetService GetAssetByDeviceCode  System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 HF.Cloud.CommonDAL.ConfigHelper.GetConfigString(String key) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.CommonDAL\ConfigHelper.cs:行号 34
+   在 HF.Cloud.BLL.AssetBL.GetAssetByDeviceCode(String deviceCode, Int64 modelID, Int64 mainID) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.BLL\AssetBL.cs:行号 608
+   在 HF.Cloud.WcfLibrary.AssetService.GetAssetByDeviceCode(String deviceCode, Int64 modelID, Int64 mainID) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.WcfLibrary\AssetService.cs:行号 399
+ 
+记录时间：2017-05-03 18:03:01,313  线程ID:[9]  日志级别：  INFO   错误描述：服务启动   
+记录时间：2017-05-03 18:07:48,149  线程ID:[11]  日志级别：  ERROR  错误描述：AssetService GetAssetByDeviceCode  System.Data.SqlClient.SqlException (0x80131904): 连接超时时间已到。在尝试使用预登录握手确认时超过了此超时时间。这可能是因为预登录握手失败或服务器未能及时响应。  尝试连接到此服务器时花费的持续时间是 - [Pre-Login] initialization=2016；handshake=3945； ---> System.ComponentModel.Win32Exception (0x80004005): 等待的操作过时。
+   在 System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling)
+   在 System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   在 System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.Open()
+   在 HF.Cloud.CommonDAL.DbHelperSQL.RunProcedure(String storedProcName, SqlParameterCollection parameters, String tableName) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.CommonDAL\DbHelperSQL.cs:行号 918
+   在 HF.Cloud.Model.QB_ModelEL.ExecDT(Int32 iOperateFlag) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.Model\QB_ModelEL.cs:行号 132
+   在 HF.Cloud.BLL.AssetBL.GenerateQBCode(String qbCode, Int64 modelID) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.BLL\AssetBL.cs:行号 1657
+   在 HF.Cloud.BLL.AssetBL.GetAssetByDeviceCode(String deviceCode, Int64 modelID, Int64 mainID) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.BLL\AssetBL.cs:行号 610
+   在 HF.Cloud.WcfLibrary.AssetService.GetAssetByDeviceCode(String deviceCode, Int64 modelID, Int64 mainID) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.WcfLibrary\AssetService.cs:行号 399
+ClientConnectionId:a4d3e9d6-498e-4a7d-9f0b-67bf79484064
+Error Number:-2,State:0,Class:11
+ 
+记录时间：2017-05-03 18:07:48,197  线程ID:[13]  日志级别：  ERROR  错误描述：AssetService GetAssetByDeviceCode  System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 HF.Cloud.CommonDAL.ConfigHelper.GetConfigString(String key) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.CommonDAL\ConfigHelper.cs:行号 34
+   在 HF.Cloud.BLL.AssetBL.CreatCode(String str, String fileName, Int64 mainID, Int64 assetID) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.BLL\AssetBL.cs:行号 1706
+   在 HF.Cloud.BLL.AssetBL.GetAssetByDeviceCode(String deviceCode, Int64 modelID, Int64 mainID) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.BLL\AssetBL.cs:行号 620
+   在 HF.Cloud.WcfLibrary.AssetService.GetAssetByDeviceCode(String deviceCode, Int64 modelID, Int64 mainID) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.WcfLibrary\AssetService.cs:行号 399
+ 
+记录时间：2017-05-03 18:07:48,197  线程ID:[14]  日志级别：  ERROR  错误描述：AssetService GetAssetByDeviceCode  System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 HF.Cloud.CommonDAL.ConfigHelper.GetConfigString(String key) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.CommonDAL\ConfigHelper.cs:行号 34
+   在 HF.Cloud.BLL.AssetBL.CreatCode(String str, String fileName, Int64 mainID, Int64 assetID) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.BLL\AssetBL.cs:行号 1706
+   在 HF.Cloud.BLL.AssetBL.GetAssetByDeviceCode(String deviceCode, Int64 modelID, Int64 mainID) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.BLL\AssetBL.cs:行号 620
+   在 HF.Cloud.WcfLibrary.AssetService.GetAssetByDeviceCode(String deviceCode, Int64 modelID, Int64 mainID) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.WcfLibrary\AssetService.cs:行号 399
+ 
+记录时间：2017-05-03 18:07:48,197  线程ID:[15]  日志级别：  ERROR  错误描述：AssetService GetAssetByDeviceCode  System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 HF.Cloud.CommonDAL.ConfigHelper.GetConfigString(String key) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.CommonDAL\ConfigHelper.cs:行号 34
+   在 HF.Cloud.BLL.AssetBL.CreatCode(String str, String fileName, Int64 mainID, Int64 assetID) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.BLL\AssetBL.cs:行号 1706
+   在 HF.Cloud.BLL.AssetBL.GetAssetByDeviceCode(String deviceCode, Int64 modelID, Int64 mainID) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.BLL\AssetBL.cs:行号 620
+   在 HF.Cloud.WcfLibrary.AssetService.GetAssetByDeviceCode(String deviceCode, Int64 modelID, Int64 mainID) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.WcfLibrary\AssetService.cs:行号 399
+ 
+记录时间：2017-05-03 18:07:48,215  线程ID:[12]  日志级别：  ERROR  错误描述：AssetService GetAssetByDeviceCode  System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 HF.Cloud.CommonDAL.ConfigHelper.GetConfigString(String key) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.CommonDAL\ConfigHelper.cs:行号 34
+   在 HF.Cloud.BLL.AssetBL.CreatCode(String str, String fileName, Int64 mainID, Int64 assetID) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.BLL\AssetBL.cs:行号 1706
+   在 HF.Cloud.BLL.AssetBL.GetAssetByDeviceCode(String deviceCode, Int64 modelID, Int64 mainID) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.BLL\AssetBL.cs:行号 620
+   在 HF.Cloud.WcfLibrary.AssetService.GetAssetByDeviceCode(String deviceCode, Int64 modelID, Int64 mainID) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.WcfLibrary\AssetService.cs:行号 399
+ 
+记录时间：2017-05-03 18:10:39,025  线程ID:[27]  日志级别：  ERROR  错误描述：AssetService GetAssetByDeviceCode  System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 HF.Cloud.CommonDAL.ConfigHelper.GetConfigString(String key) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.CommonDAL\ConfigHelper.cs:行号 34
+   在 HF.Cloud.BLL.AssetBL.CreatCode(String str, String fileName, Int64 mainID, Int64 assetID) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.BLL\AssetBL.cs:行号 1706
+   在 HF.Cloud.BLL.AssetBL.GetAssetByDeviceCode(String deviceCode, Int64 modelID, Int64 mainID) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.BLL\AssetBL.cs:行号 620
+   在 HF.Cloud.WcfLibrary.AssetService.GetAssetByDeviceCode(String deviceCode, Int64 modelID, Int64 mainID) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.WcfLibrary\AssetService.cs:行号 399
+ 
+记录时间：2017-05-03 18:11:21,815  线程ID:[27]  日志级别：  ERROR  错误描述：AssetService GetAssetByDeviceCode  System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 HF.Cloud.CommonDAL.ConfigHelper.GetConfigString(String key) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.CommonDAL\ConfigHelper.cs:行号 34
+   在 HF.Cloud.BLL.AssetBL.CreatCode(String str, String fileName, Int64 mainID, Int64 assetID) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.BLL\AssetBL.cs:行号 1706
+   在 HF.Cloud.BLL.AssetBL.GetAssetByDeviceCode(String deviceCode, Int64 modelID, Int64 mainID) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.BLL\AssetBL.cs:行号 620
+   在 HF.Cloud.WcfLibrary.AssetService.GetAssetByDeviceCode(String deviceCode, Int64 modelID, Int64 mainID) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.WcfLibrary\AssetService.cs:行号 399
+ 
+记录时间：2017-05-03 18:17:56,339  线程ID:[9]  日志级别：  INFO   错误描述：服务启动  

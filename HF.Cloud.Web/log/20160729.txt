@@ -1,0 +1,21 @@
+ 
+记录时间：2016-07-29 08:17:46,030  线程ID:[8]  日志级别：  ERROR  错误描述：Application_Error Error  System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 HF.Cloud.Web.ashx.ExecuteAssetType.ProcessRequest(HttpContext context) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Web\ashx\ExecuteAssetType.ashx.cs:行号 36
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+ 
+记录时间：2016-07-29 08:17:46,036  线程ID:[7]  日志级别：  ERROR  错误描述：Application_Error Error  System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 HF.Cloud.Web.ashx.ExecuteAssetType.ProcessRequest(HttpContext context) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Web\ashx\ExecuteAssetType.ashx.cs:行号 36
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+ 
+记录时间：2016-07-29 08:18:17,804  线程ID:[10]  日志级别：  ERROR  错误描述：Application_Error Error  System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 HF.Cloud.Web.ashx.ExecuteAssetType.ProcessRequest(HttpContext context) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Web\ashx\ExecuteAssetType.ashx.cs:行号 36
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+ 
+记录时间：2016-07-29 08:32:55,718  线程ID:[6]  日志级别：  INFO   错误描述：QBModelList InitPage 2   
+记录时间：2016-07-29 08:37:25,508  线程ID:[8]  日志级别：  INFO   错误描述：QBModelList InitPage 3   
+记录时间：2016-07-29 08:57:42,270  线程ID:[9]  日志级别：  INFO   错误描述：QBModelList InitPage 3   
+记录时间：2016-07-29 09:29:08,216  线程ID:[6]  日志级别：  INFO   错误描述：QBModelList InitPage 3   
+记录时间：2016-07-29 11:10:59,315  线程ID:[57]  日志级别：  INFO   错误描述：QBModelList InitPage 3  

@@ -1,0 +1,6 @@
+ 
+记录时间：2016-08-29 15:34:14,395  线程ID:[5]  日志级别：  INFO   错误描述：QBModelList InitPage 3   
+记录时间：2016-08-29 15:36:14,305  线程ID:[7]  日志级别：  INFO   错误描述：QBModelList InitPage 3   
+记录时间：2016-08-29 15:51:32,893  线程ID:[6]  日志级别：  INFO   错误描述：QBModelList InitPage 3   
+记录时间：2016-08-29 15:53:50,208  线程ID:[6]  日志级别：  INFO   错误描述：QBModelList InitPage 3   
+记录时间：2016-08-29 16:07:36,519  线程ID:[6]  日志级别：  INFO   错误描述：QBModelList InitPage 3  

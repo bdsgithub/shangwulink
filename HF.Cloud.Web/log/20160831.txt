@@ -1,0 +1,12 @@
+ 
+记录时间：2016-08-31 09:19:27,913  线程ID:[9]  日志级别：  ERROR  错误描述：Application_Error Error  System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 HF.Cloud.Web.BasePage.OnInit(EventArgs e) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Web\Base\BasePage.cs:行号 45
+   在 System.Web.UI.Control.InitRecursive(Control namingContainer)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ 
+记录时间：2016-08-31 10:15:45,243  线程ID:[24]  日志级别：  INFO   错误描述：QBModelList InitPage 3   
+记录时间：2016-08-31 10:48:14,895  线程ID:[6]  日志级别：  INFO   错误描述：QBModelList InitPage 3   
+记录时间：2016-08-31 10:55:57,803  线程ID:[8]  日志级别：  INFO   错误描述：QBModelList InitPage 3   
+记录时间：2016-08-31 11:05:49,674  线程ID:[7]  日志级别：  INFO   错误描述：QBModelList InitPage 3   
+记录时间：2016-08-31 11:15:25,850  线程ID:[6]  日志级别：  INFO   错误描述：QBModelList InitPage 3   
+记录时间：2016-08-31 11:33:02,555  线程ID:[20]  日志级别：  INFO   错误描述：QBModelList InitPage 3  

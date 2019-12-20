@@ -1,0 +1,5 @@
+D:\商务链\BusinessChain\HF.Cloud.SWL\bin\HF.Cloud.SWL.dll.config
+D:\商务链\BusinessChain\HF.Cloud.SWL\bin\HF.Cloud.SWL.dll
+D:\商务链\BusinessChain\HF.Cloud.SWL\bin\HF.Cloud.SWL.pdb
+D:\商务链\BusinessChain\HF.Cloud.SWL\obj\Debug\HF.Cloud.SWL.dll
+D:\商务链\BusinessChain\HF.Cloud.SWL\obj\Debug\HF.Cloud.SWL.pdb

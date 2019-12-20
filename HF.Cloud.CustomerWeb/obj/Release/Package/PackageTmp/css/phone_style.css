@@ -1,0 +1,359 @@
+*{margin:0;padding: 0;}
+a img, :link img, :visited img {border:0px;}
+ul{list-style: none;}
+ul li{float: left}
+a:link ,a:visited, a:hover, a:active{color: #000;text-decoration: underline;text-decoration:none;}
+img{
+    width: 100%;
+    height:100%;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ reset ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+body{
+    max-width: 480px;
+    margin: 0 auto;
+    font-size: 100%;
+    font-family: "Microsoft Yahei","Helvetica Neue","Helvetica","Arial",sans-serif;
+    background-color: #f4f4f4;
+    color: #505050;
+}
+
+.phone-cont{
+    width: 90%;
+    margin: 0 auto;
+    padding: 2px;
+}
+.login{
+    height: 160px;
+    margin-top: 15%;
+    background-color: #fff;
+}
+.shadow{
+    box-shadow: 0 0 6px #d2d2d2;
+}
+.fillet{
+    border-radius: 5px;
+}
+.button{
+    text-align: center;
+    font-size: 1.5em;
+    color: #fff;
+    /*line-height: 2.3em;*/
+    line-height: 1.5em;
+    margin-top: 5%;
+}
+.button_color{
+    background-color: #8fc31f;
+}
+.button_color1{
+    background-color: #00a0e9;
+}
+.button_color_c{
+    background-color: #ccc;
+}
+
+.hint{
+    margin-top: 5%;
+    color: #b6b6b6;
+}
+
+/*登录框*/
+.l_up{
+    height: 50%;
+    border-bottom: 1px #eee solid;
+}
+.login input{
+    width: 85%;
+    border: none;
+    font-size: 1.5em;
+    color: #dedddd;
+    float: right;
+    margin-top: 30px;
+}
+.login input:focus{
+    color: #000;
+}
+.l_bu{
+    height: 50%;
+}
+.login img{
+    width: 10%;
+    height: 57%;
+    margin-top: 20px;
+    margin-left: 2%;
+}
+/*资产已绑定*/
+.details{
+    overflow: hidden;
+    padding: 10px;
+    background-color: #fff;
+}
+.de_m{
+    margin-top: 12%;
+}
+.de_m1{
+    margin-top: 5%;
+}
+
+.de_con{
+    width: 90%;
+    margin: 0 auto;
+}
+.de_cont h3{
+    padding: 10px 0 10px 0;
+    font-size: 1.5em;
+    color: #00a0e9;
+}.de_cont p{
+    padding: 5px 0 5px 0;
+    color: #959595;
+}.de_cont span{
+    display: inline-block;
+    color: #959595;
+}
+
+/*绑定设备*/
+.tag{
+    font-size: 1.5em;
+    color: #00a0e9;
+}
+.input_none{
+    border: none;
+}
+.de_p{
+    line-height: 3.5em;
+    border-bottom: 1px #eee solid;
+}
+.de_p input ,.de_p select{
+    width: 70%;
+    font-size: 1em;
+    color: #000;
+}
+.de_p select option{
+    text-align: center;
+}
+.de_p textarea{
+    width: 100%;
+}
+
+
+.de_color{
+    color: #959595;
+}
+.b-img{
+    display: block;
+    width: 40px;
+    height: 35px;
+    background: url(images/i.png);
+    float: right;
+}
+
+/*新增静态页面css*/
+
+
+.image{
+    display: inline-block;
+    padding: 2px;
+    margin-top: 5%;
+}
+
+.image li{
+    float: left;
+    width: 30%;
+    height: 20%;
+    margin-left: 2%;
+
+}
+
+.list{
+    margin: 0 auto;
+}
+
+.list ul li{
+    display: inline-block;
+    width: 100%;
+    border-bottom: 1px #ccc solid;
+    margin-top: 5%;
+}
+.list ul{
+    display: inline-block;
+    width: 100%;
+}
+
+.list-right{
+    float: right;
+    width: 40%;
+}
+
+.list-right span{
+    text-align：right;
+    float: right;
+}
+
+.list-left {
+    float: left;
+    width: 60%;
+
+}
+
+.icon-color-yellow{
+    background-color: #80c269;
+}
+
+.icon-color-red{
+    background-color: #e7434b;
+
+}
+
+.icon-color-blue{
+    background-color: #00a0e9;
+
+}
+
+.icon-color-orange{
+    background-color: #f39800;
+
+}
+.icon-color-white{
+    background-color: #F0EDED;
+    border: 1px #ccc solid;
+}
+.icon-color-margin{
+    margin-left: 3%;
+}
+.selectt{
+    padding: 2% 3%;
+    width: 90%;
+    min-width: 90%;
+}
+.se{
+    width: 80%;
+}
+
+.list-icon{
+    padding: 1px 11px;
+}
+
+#list-icon-font{
+    color: #fff;
+}
+.list-icon-font{
+    color: #fff;
+    text-align: center;
+    padding: 0 20px;
+    line-height: 3em;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ user ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.phone-map{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.6);
+    position: absolute;
+    left:0;
+    z-index: 20;
+    display: none;
+}
+.phone-user{
+    left:0;
+    width: 200px;
+    height: 100%;
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 4px 0px 4px rgba(0, 0, 0, 0.5);;
+    z-index: 22;
+    display: none;
+}
+.phone-user li{
+    line-height: 45px;
+    text-align: center;
+    padding: 2px;
+    margin: 3px auto;
+}
+.phone-user li b{
+    margin-left: 2px;
+}
+.phone-user hr{
+    width: 90%;
+    margin: 0 auto;
+    color: #ededed;
+}
+.phone-user li i{
+    width: 36px;
+    height: 35px;
+    display: inline-block;
+    float: left;
+    margin: 0 20px;
+}
+.user-name{
+    background: url(images/u.jpg);
+}
+.property-name{
+    background: url(images/u1.jpg);
+}
+.operate-name{
+    background: url(images/u2.jpg);
+}
+.refer-name{
+    background: url(images/u3.jpg);
+}
+.check-name{
+    background: url(images/u4.jpg);
+}
+.out-name{
+    background: url(images/u5.jpg);
+}
+.use{
+    width: 36px;
+    height: 35px;
+    background: url(images/us.png);
+}
+
+
+.f-r{
+    float: right;
+}
+.f-l{
+    float: left;
+}
+.phone-se{
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    position: absolute;
+    left:0;
+    z-index: 20;
+    display: none;
+}
+.phone-s{
+    margin: 10% auto;
+    max-width: 480px;
+}
+
+
+.sol img{
+    width: 30px;
+    height: 32px;
+    float: left;
+}
+.sol-span{
+     float: left;
+ }
+.sol span{
+      margin-top: 6px;
+
+}
+
+
+
+.b-title{
+    text-align: center;
+    font-size: 18px;
+}
+.list-right input{
+    height: 35px;
+    border-top:none;
+    border-right:none;
+    border-left:none;
+    border-bottom：1px #000 solid;
+
+}

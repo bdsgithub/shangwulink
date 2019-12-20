@@ -1,0 +1,10 @@
+D:\易维客\AssetCloudSolutionV1.4\HFCloudWebV1.4\bin\HFCloudWebV1.4.dll.config
+D:\易维客\AssetCloudSolutionV1.4\HFCloudWebV1.4\bin\HFCloudWebV1.4.dll
+D:\易维客\AssetCloudSolutionV1.4\HFCloudWebV1.4\bin\HFCloudWebV1.4.pdb
+D:\易维客\AssetCloudSolutionV1.4\HFCloudWebV1.4\bin\HF.Cloud.BLL.dll
+D:\易维客\AssetCloudSolutionV1.4\HFCloudWebV1.4\bin\HF.Cloud.Model.dll
+D:\易维客\AssetCloudSolutionV1.4\HFCloudWebV1.4\bin\HF.Cloud.BLL.pdb
+D:\易维客\AssetCloudSolutionV1.4\HFCloudWebV1.4\bin\HF.Cloud.Model.pdb
+D:\易维客\AssetCloudSolutionV1.4\HFCloudWebV1.4\obj\Debug\HFCloudWebV1.4.csprojResolveAssemblyReference.cache
+D:\易维客\AssetCloudSolutionV1.4\HFCloudWebV1.4\obj\Debug\HFCloudWebV1.4.dll
+D:\易维客\AssetCloudSolutionV1.4\HFCloudWebV1.4\obj\Debug\HFCloudWebV1.4.pdb

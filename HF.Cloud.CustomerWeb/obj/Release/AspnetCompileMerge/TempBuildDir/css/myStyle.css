@@ -1,0 +1,952 @@
+﻿/*登录页面的样式*/
+
+html,body{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+body{
+    height: 100%;
+    margin: 0 auto;
+    background: url(/image/lo.jpg)center no-repeat;
+}
+.back{
+    height: 605px;
+    margin: 2% auto;
+    background: url(/image/o.png)center no-repeat;
+}
+.blank{
+    height:160px;
+}
+.blan{
+    height:28px;
+}
+
+.headerTitle {
+    font-size: 24px;
+    font-weight: bolder;
+    color: #006ab8;
+}
+
+@media screen and (min-width:1280px) {
+
+    #loginContent {
+    /*background-color:white;*/
+    width: 25%;
+    height: 300px;
+    margin: 0 auto;
+    text-align: center;
+ 
+    /*margin-left: 30%;*/
+    }
+}
+@media screen and (max-width:1600px) {
+
+    #loginContent {
+    /*background-color:white;*/
+    width: 30%;
+    height: 300px;
+    margin: 0 auto;
+    text-align: center;
+ 
+    /*margin-left: 30%;*/
+    }
+}
+@media screen and (max-width:1300px) {
+
+    #loginContent {
+    /*background-color:white;*/
+    width: 38%;
+    height: 300px;
+    margin: 0 auto;
+    text-align: center;
+ 
+    /*margin-left: 30%;*/
+    }
+}
+
+.userDiv {
+    background-color: white;
+    border: 1px solid lightgray;
+    margin: 20px 0px;
+}
+
+.passDiv {
+    /*font-family: '微软雅黑 Regular', '微软雅黑';*/
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    color: #999999;
+}
+
+    .passDiv span {
+        color: dodgerblue;
+    }
+
+.userDiv img {
+    vertical-align: middle;
+    margin-left: 5px;
+}
+
+
+.userLogin {
+    margin: 20px 0px;
+    height: 38px;
+    /*font-family: '微软雅黑 Regular', '微软雅黑';*/
+    font-weight: 400;
+    font-style: normal;
+    font-size: larger;
+    color: white;
+    padding-top: 10px;
+    background-color: #f39800;
+    border-radius:4px;
+}
+
+.userInput {
+    width: 90%;
+    height: 45px;
+    background-color: white;
+    border: none;
+    margin-left: 2%;
+    margin-right: 0px;
+    /*font-family: '微软雅黑 Regular', '微软雅黑';*/
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    color: #999999;
+}
+ .btnQuery{padding-bottom:5px}
+/*注册页面*/
+#regionContent {
+    position: absolute;
+    left: 0px;
+    width: 100%;
+
+   
+}
+
+#header {
+    background-color: white;
+    width: 100%;
+    height: 50px;
+    border: 1px solid lightgray;
+    vertical-align: middle;
+}
+
+    #header .title {
+        font-weight: 100;
+        font-style: normal;
+        font-size: xx-large;
+        color: #169bd5;
+        padding: 3px 15px;
+        float: left;
+        font-family: '微软雅黑 Regular', '微软雅黑';
+    }
+
+    #header .name {
+        font-weight: 100;
+        font-style: normal;
+        font-size: large;
+        color: #999999;
+        padding: 15px 15px;
+        float: left;
+    }
+
+    #header .btnLogin {
+        float: right;
+        width: 70px;
+        margin: 7px 50px;
+        border: 1px solid lightgray;
+        font-weight: 100;
+        font-style: normal;
+        font-size: small;
+        color: #999999;
+        text-align: center;
+        padding: 10px;
+    }
+
+#content {
+    height: 70%;
+    /*border: 1px solid lightgray;*/
+    margin: 120px auto;
+}
+
+@media screen and (min-width:1280px) {
+
+    #content {
+    width: 25%;
+
+    }
+}
+@media screen and (max-width:1600px) {
+
+    #content {
+    width: 30%;
+
+    }
+
+}
+
+@media screen and (max-width:1300px) {
+
+    #content {
+    width: 38%;
+    
+    }
+}
+
+
+
+
+
+
+
+/*模板页*/
+#master {
+    background-color: #f2f5e9;
+    width: 100%;
+}
+
+#masterHeader {
+    width: 85%;
+    height: 60px;
+    margin: auto;
+    /*border:1px solid red;*/
+}
+
+    #masterHeader ul {
+        list-style: none;
+    }
+
+.top_right {
+    color: #666666;
+    font-size: 14px;
+    font-weight: 500;
+    padding-top: 5px;
+    padding-left: 25px;
+}
+
+    .top_right ul li {
+        position: relative;
+        z-index: 10;
+        float: left;
+        height: 31px;
+        padding-right: 35px;
+        /*margin-right: 10px;*/
+        background: url(images/top_line.jpg) no-repeat right center;
+    }
+
+        .top_right ul li:last-child {
+            background: none;
+            padding-right: 0px;
+            margin-right: 0px;
+        }
+
+        .top_right ul li a {
+            color: #666666;
+            text-decoration: none;
+            font-size: 16px;
+            font-family: '微软雅黑 Regular','微软雅黑';
+            font-style: normal;
+            font-weight: 400;
+            color: #999999;
+        }
+
+            .top_right ul li a:hover {
+                color: cadetblue;
+            }
+
+        .top_right ul li .t_sel {
+            position: relative;
+        }
+
+            .top_right ul li .t_sel a.sel {
+                position: relative;
+                z-index: 10;
+                display: inline-block;
+                min-width: 74px;
+                height: 31px;
+                border: 1px solid #f3f3f3;
+                border-bottom: 0;
+                padding: 0 0px 0 10px;
+                color: #999999;
+            }
+
+                .top_right ul li .t_sel a.sel:hover {
+                    text-decoration: none;
+                    color: cadetblue;
+                }
+
+                .top_right ul li .t_sel a.sel i {
+                    display: inline-block;
+                    width: 7px;
+                    height: 6px;
+                    margin-left: 4px;
+                    background: url(images/icon_index.png) no-repeat -40px 0;
+                }
+
+.hederRight {
+    float: right;
+    width: 35%;
+}
+
+    .hederRight ul li {
+        float: left;
+        margin: 0px 10px;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 14px;
+        cursor: pointer;
+        color: #999999;
+    }
+
+#masterTitle {
+    width: 85%;
+    height: 50px;
+    background-image: url(../images/bg.png);
+    background-repeat: repeat-x;
+    margin: auto;
+}
+
+#masterContent {
+    width: 85%;
+    min-height: 700px;
+    margin: auto;
+    /*border:1px solid red;*/
+    font-family: '微软雅黑 Regular','微软雅黑';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 13px;
+    color: #333333;
+}
+
+#cCenter {
+    width: 100%;
+    float: left;
+    min-height: 500px;
+    background-color: white;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    /*border:1px solid blue;*/
+}
+
+#cRight {
+    /*border:1px solid yellow;*/
+    float: right;
+    width: 9px;
+    background-image: url(../images/bgu05.png);
+    background-repeat: repeat-y;
+    min-height: 500px;
+}
+
+/*主页样式*/
+#indexHeader {
+    width: 90%;
+    height: 49px;
+    float: left;
+    margin: 0 50px;
+}
+
+.indexHeader {
+    float: left;
+    margin: 15px 5px;
+    border: none;
+    height: 20px;
+    width: 120px;
+    color: dimgrey;
+    vertical-align: middle;   
+}
+
+.indexLeft {
+    /*padding-top:10px;*/
+    font-family: '微软雅黑 Regular','微软雅黑';
+    font-weight: 400;
+    font-size: 14px;
+    color: #099FB8;
+    float: left;
+}
+
+.indexRight {
+    background-image: url(../images/u39.png);
+    background-repeat: no-repeat;
+    float: right;
+    font-weight: 400;
+    font-style: normal;
+    font-size: small;
+    color: dimgrey;
+    width: 70px;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding-top: 8px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.map {
+    background-color: #e4e4e4;
+    float: right;
+    width: 70px;
+    height: 30px;
+    margin-top: 8px;
+    margin-left: 10px;
+    padding-top: 5px;
+    text-align: center;
+    cursor: pointer;
+}
+
+    .map img {
+        width: 25px;
+        height: 25px;
+    }
+
+#mapAddmark {
+    width: 96%;
+    height: 600px;
+    border: 1px solid gray;
+}
+
+#setDiv {
+    position: absolute;
+    margin: 25px;
+    padding: 5px;
+    width: 100px;
+    background-color: white;
+    border: 1px solid #cccccc;
+}
+
+    #setDiv li {
+        padding: 5px 0px;
+    }
+
+#box {
+    position: absolute;
+    width: 208px;
+    background: #333333;
+    height: 400px;
+    display: none;
+    margin-top: 6px;
+}
+
+.top_right ul li .t_sel .box {
+    display: none;
+    position: absolute;
+    z-index: 9;
+    left: 10px;
+    top: 25px;
+}
+
+    .top_right ul li .t_sel .box a {
+        color: #787878;
+        text-decoration: none;
+        font-size: small;
+    }
+
+        .top_right ul li .t_sel .box a:hover {
+            color: cadetblue;
+            text-decoration: none;
+        }
+
+
+.top_right ul li .top_order .box {
+    width: auto;
+    padding-left: 10px;
+}
+
+    .top_right ul li .top_order .box a {
+        display: block;
+        line-height: 24px;
+        text-decoration: none;
+    }
+
+.top_right ul li .t_sel a.phone {
+    min-width: 60px;
+    border: 1px solid #FAFAFA;
+}
+
+    .top_right ul li .t_sel a.phone i {
+        display: inline-block;
+        width: 7px;
+        height: 6px;
+        margin-left: 4px;
+        /*background: url(images/icon_index.png) no-repeat -40px 0;*/
+    }
+
+.top_right ul li .top_phone .box {
+    left: -40px;
+    padding: 5px;
+}
+
+.top_right ul li .top_collect b {
+    display: inline-block;
+    vertical-align: middle;
+    width: 12px;
+    height: 13px;
+    margin-right: 5px;
+    background: url(../images/icon_index.png) no-repeat -20px 0px;
+}
+
+.top_right ul li .top_collect .box {
+    width: auto;
+    padding-left: 10px;
+}
+
+    .top_right ul li .top_collect .box a {
+        display: block;
+        line-height: 24px;
+    }
+
+.top_right ul li .on {
+    /*background: #fff;*/
+}
+
+    .top_right ul li .on a.sel {
+        /*border: 1px solid #e0e0e0;*/
+        border-bottom: 0;
+        /*background: #fff;*/
+    }
+
+        .top_right ul li .on a.sel i {
+            background: url(images/icon_index.png) no-repeat -40px -8px;
+        }
+
+    .top_right ul li .on .box {
+        border: 1px solid #e0e0e0;
+        border-top: 0px;
+        background: #fff;
+    }
+
+.mycollection {
+    margin-left: 7px;
+    margin-right: 5px;
+}
+
+.icon_img {
+    vertical-align: middle;
+    margin-top: -3px;
+}
+
+.t_sel_Bubble {
+    margin-left: 5px;
+    margin-top: 5px;
+    color: #fe0c7c;
+    font-size: 12px;
+}
+/*管理页面*/
+.btnAdd {
+    border: none;
+    background-color: #f0f0f0;
+    color: dimgrey;
+}
+
+/*标签页面*/
+#table table {
+    width: auto;
+    margin: auto;
+}
+
+#table td {
+    background-image: url(../images/u11.png);
+    width: 205px;
+    height: 105px;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+    padding: 12px;
+    cursor: pointer;
+}
+
+#table table tr td img {
+    position: relative;
+    top: -25px;
+    left: -15px;
+}
+
+.cb {
+    position: relative;
+    top: -65px;
+    left: -15px;
+}
+
+#table table tr td span {
+    position: relative;
+    top: -10px;
+    left: -68px;
+    margin-bottom: 50px;
+    font-family: '微软雅黑 Regular', '微软雅黑';
+    font-style: normal;
+    font-size: 12px;
+    text-decoration: none;
+    color: darkgray;
+}
+
+#btnPrint, #btnSetModel {
+    font-family: '微软雅黑 Regular', '微软雅黑';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    text-decoration: none;
+    color: white;
+}
+
+.taskLinkResult select {
+    /*position: absolute;*/
+    left: 0px;
+    top: 0px;
+    width: 55px;
+    /*height:100px;*/
+    font-family: '微软雅黑 Regular', '微软雅黑';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 13px;
+    text-decoration: none;
+    color: #000000;
+}
+
+#qrCode {
+    z-index: 9999999999;
+    border: 1px solid lightgray;
+    width: 200px;
+    height: 200px;
+    /*margin-bottom:30px;*/
+}
+
+#icon {
+    position: fixed;
+    _position: absolute;
+    margin: 126px;
+    z-index: 99999997;
+    width: 30px;
+    height: 30px;
+    background: url(../images/codeico.png) no-repeat;
+}
+
+.addTages {
+    width: 200px;
+    margin: 4% 12%;
+    height: 40px;
+    background-image: url(../images/bg1.png);
+    background-repeat: repeat-x;
+    border: 1px solid lightgray;
+}
+
+.qbDevice {
+    width: auto;
+    float: left;
+    margin-left: -60px;
+    margin-top: -20px;
+}
+
+    .qbDevice p {
+        padding-top: 5px;
+        font-family: '微软雅黑 Regular', '微软雅黑';
+        font-style: normal;
+        font-size: 12px;
+        color: darkgray;
+    }
+
+/*弹出框*/
+.addTask {
+    position: absolute;
+    left: 350px;
+    top: 250px;
+    width: 610px;
+    /*height: 500px;*/
+    padding-bottom: 30px;
+    border: 1px solid lightgray;
+    background-color: #f2f5e9;
+}
+.addType {
+    position: absolute;
+    left: 350px;
+    top: 250px;
+    width: 610px;
+    /*height: 500px;*/
+    padding-bottom: 30px;
+    border: 1px solid lightgray;
+    background-color: #f2f5e9;
+}
+.taskTitle {
+    border: 1px solid cadetblue; /*cadetblue*/
+    height: auto;
+    color: white;
+    background-image: url(../images/bg1.png);
+    background-repeat: repeat;
+}
+
+.taskDevice, .taskLinkMessage {
+    font-family: '微软雅黑 Bold', '微软雅黑';
+    /*border-bottom: 1px solid cadetblue;*/
+}
+
+    .taskDevice table {
+        margin: auto;
+        width: 90%;
+        color: #666666;
+    }
+
+        .taskDevice table tr {
+            margin: auto;
+            height: 60px;
+        }
+
+.taskLinkMessage {
+    margin: auto;
+    /*border-bottom: 1px solid cadetblue;*/
+    height: 105px;
+    /*width: 90%;*/
+}
+
+    .taskLinkMessage table {
+        margin: auto;
+        width: 90%;
+    }
+
+.taskLinkResult {
+    margin: auto;
+    width: 90%;
+}
+
+.addTask table {
+    font-family: '微软雅黑 Regular', '微软雅黑';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 13px;
+}
+
+.addTask input, .addTask textarea {
+    font-family: '微软雅黑 Regular', '微软雅黑';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+.tbTitle {
+    font-family: '微软雅黑 Bold', '微软雅黑';
+    font-weight: 700;
+    font-style: normal;
+    font-size: 16px;
+    color: #666666;
+}
+
+.tdleft {
+    width: 120px;
+    font-family: '微软雅黑 Regular', '微软雅黑';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 13px;
+    color: #666666;
+}
+
+
+.tdCenter {
+    width: 200px;
+}
+
+.tableNoBorder {    
+    float: left;
+    text-align: center;
+    color: #333333;
+    width:100%;
+    list-style: none;   
+}
+    .tableNoBorder li {    
+        border: 1px solid gray;  
+        border-top:none;      
+        float:left;
+        border-right:none;
+        padding:10px;
+    }
+
+/*分页控件的样式---拍拍网风格*/
+.paginator {
+    /*position: absolute;*/
+    font: 11px Arial, Helvetica, sans-serif;
+    padding: 10px 20px 10px 0;
+    cursor: pointer;
+}
+
+    .paginator a {
+        padding: 1px 6px;
+        border: solid 1px #ddd;
+        background: #fff;
+        text-decoration: none;
+        margin-right: 2px;
+    }
+
+        .paginator a:visited {
+            padding: 1px 6px;
+            border: solid 1px #ddd;
+            background: #fff;
+            text-decoration: none;
+        }
+
+    .paginator .cpb {
+        padding: 1px 6px;
+        font-weight: bold;
+        font-size: 13px;
+        border: none;
+    }
+
+    .paginator a:hover {
+        color: #fff;
+        background: #ffa501;
+        border-color: #ffa501;
+        text-decoration: none;
+    }
+
+/*类型、部门等网格布局*/
+.GridTypeOrDept table {
+    width: 95%;
+    margin: auto;
+}
+
+    .GridTypeOrDept table tr td {
+        background-repeat: no-repeat;
+        padding: 12px;
+    }
+
+        .GridTypeOrDept table tr td div {
+            background-image: url(../images/u29.png);
+            width: 170px;
+            height: 100px;
+            margin: auto;
+            text-align: center;
+            vertical-align: middle;
+            font-weight: 600;
+            font-style: normal;
+            font-size: 14px;
+            color: #999999;
+            cursor: pointer;
+        }
+
+.Icon {
+    position: fixed;
+    margin-left: 40px;
+    cursor: pointer;
+}
+
+.EditOrDel {
+    position: fixed;
+    margin-top: 12px;
+    margin-left: 75px;
+    cursor: pointer;
+}
+
+    .EditOrDel span {
+        font-size: small;
+        font-weight: 100;
+    }
+
+.GridTypeOrDept table tr td div img {
+    margin: auto;
+    width: 60px;
+    height: 50px;
+    text-align: center;
+    vertical-align: middle;
+    padding: 10px;
+}
+
+.GridTypeOrDept ul {
+    width: 95%;
+    list-style: none;
+    margin: auto;
+    padding: 20px 50px;
+}
+
+    .GridTypeOrDept ul li {
+        width: 170px;
+        height: 100px;
+        float: left;
+        padding: 10px 20px;
+    }
+
+        .GridTypeOrDept ul li div {
+            width: 170px;
+            height: 100px;
+            background-image: url(../images/u29.png);
+            background-repeat: no-repeat;
+            margin: auto;
+            text-align: center;
+            vertical-align: middle;
+            font-weight: 600;
+            font-style: normal;
+            font-size: 14px;
+            color: #999999;
+            cursor: pointer;
+        }
+
+            .GridTypeOrDept ul li div input {
+                border: none;
+                text-align: center;
+                color: #999999;
+            }
+
+            .GridTypeOrDept ul li div img {
+                margin: auto;
+                width: 60px;
+                height: 50px;
+                text-align: center;
+                vertical-align: middle;
+                padding: 10px;
+            }
+
+
+/*tab选项卡*/
+ul {
+    list-style: none;
+}
+
+#tab .tabList ul {
+    width: 85.6%;
+    margin-left: 39px;
+    border-top: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    background-color: #f2f5e9;
+    height: 28px;
+}
+
+    #tab .tabList ul li {
+        float: left;
+        background: #fefefe;
+        background: -moz-linear-gradient(top, #fefefe, #ededed);
+        background: -o-linear-gradient(left top,left bottom, from(#fefefe), to(#ededed));
+        background: -webkit-gradient(linear,left top,left bottom, from(#fefefe), to(#ededed));
+        border: 1px solid #ccc;
+        border-top: none;
+        padding: 5px 0;
+        width: 100px;
+        text-align: center;
+        margin-left: -1px;
+        cursor: pointer;
+        height: 18px;
+    }
+
+#tab .tabCon {
+    border: 1px solid #ccc;
+    border-top: none;
+    width: 89%;
+    height: 280px;
+    margin-top: -24px;
+    margin-left: 39px;
+    /*padding-top: 30px;*/
+}
+
+    #tab .tabCon div {
+        /*padding: 10px;*/
+        /*position: absolute;*/
+        /*opacity: 0;*/
+        filter: alpha(opacity=0);
+    }
+
+#tab .tabList li.cur {
+    border-bottom: none;
+    background: #fff;
+}
+
+#tab .tabCon div.cur {
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+

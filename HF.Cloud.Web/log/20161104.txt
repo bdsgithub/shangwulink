@@ -1,0 +1,44 @@
+ 
+记录时间：2016-11-04 09:38:33,458  线程ID:[10]  日志级别：  ERROR  错误描述：Application_Error Error  System.InvalidCastException: 指定的转换无效。
+   在 HF.Cloud.Model.T_SheetEL.InitByRow(DataRow dr) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Model\T_SheetEL.cs:行号 380
+   在 HF.Cloud.Model.T_SheetEL.ExecuteEL(Int32 iOperateFlag) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Model\T_SheetEL.cs:行号 146
+   在 HF.Cloud.Web.Sheet.SheetManage.SheetLook.BindInputData(Int64 sheetId) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Web\Sheet\SheetManage\SheetLook.aspx.cs:行号 105
+   在 HF.Cloud.Web.Sheet.SheetManage.SheetLook.Page_Load(Object sender, EventArgs e) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Web\Sheet\SheetManage\SheetLook.aspx.cs:行号 36
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.EventHandler.Invoke(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ 
+记录时间：2016-11-04 09:39:04,494  线程ID:[7]  日志级别：  ERROR  错误描述：Application_Error Error  System.InvalidCastException: 指定的转换无效。
+   在 HF.Cloud.Model.T_SheetEL.InitByRow(DataRow dr) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Model\T_SheetEL.cs:行号 380
+   在 HF.Cloud.Model.T_SheetEL.ExecuteEL(Int32 iOperateFlag) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Model\T_SheetEL.cs:行号 146
+   在 HF.Cloud.Web.Sheet.SheetManage.SheetLook.BindInputData(Int64 sheetId) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Web\Sheet\SheetManage\SheetLook.aspx.cs:行号 105
+   在 HF.Cloud.Web.Sheet.SheetManage.SheetLook.Page_Load(Object sender, EventArgs e) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Web\Sheet\SheetManage\SheetLook.aspx.cs:行号 36
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.EventHandler.Invoke(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ 
+记录时间：2016-11-04 09:39:09,259  线程ID:[9]  日志级别：  ERROR  错误描述：Application_Error Error  System.InvalidCastException: 指定的转换无效。
+   在 HF.Cloud.Model.T_SheetEL.InitByRow(DataRow dr) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Model\T_SheetEL.cs:行号 380
+   在 HF.Cloud.Model.T_SheetEL.ExecuteEL(Int32 iOperateFlag) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Model\T_SheetEL.cs:行号 146
+   在 HF.Cloud.Web.Sheet.SheetManage.SheetLook.BindInputData(Int64 sheetId) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Web\Sheet\SheetManage\SheetLook.aspx.cs:行号 105
+   在 HF.Cloud.Web.Sheet.SheetManage.SheetLook.Page_Load(Object sender, EventArgs e) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Web\Sheet\SheetManage\SheetLook.aspx.cs:行号 36
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.EventHandler.Invoke(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ 
+记录时间：2016-11-04 09:40:56,742  线程ID:[6]  日志级别：  ERROR  错误描述：Application_Error Error  System.InvalidCastException: 指定的转换无效。
+   在 HF.Cloud.Model.T_SheetEL.InitByRow(DataRow dr) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Model\T_SheetEL.cs:行号 380
+   在 HF.Cloud.Model.T_SheetEL.ExecuteEL(Int32 iOperateFlag) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Model\T_SheetEL.cs:行号 146
+   在 HF.Cloud.Web.Sheet.SheetManage.SheetLook.BindInputData(Int64 sheetId) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Web\Sheet\SheetManage\SheetLook.aspx.cs:行号 105
+   在 HF.Cloud.Web.Sheet.SheetManage.SheetLook.Page_Load(Object sender, EventArgs e) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Web\Sheet\SheetManage\SheetLook.aspx.cs:行号 36
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.EventHandler.Invoke(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)

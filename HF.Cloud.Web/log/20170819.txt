@@ -1,0 +1,185 @@
+ 
+记录时间：2017-08-19 14:24:23,922  线程ID:[7]  日志级别：  ERROR  错误描述：Application_Error Error  System.ComponentModel.Win32Exception (0x80004005): 找不到网络路径。
+ 
+记录时间：2017-08-19 14:27:30,933  线程ID:[7]  日志级别：  ERROR  错误描述：Application_Error Error  System.ComponentModel.Win32Exception (0x80004005): 找不到网络路径。
+ 
+记录时间：2017-08-19 14:28:38,086  线程ID:[8]  日志级别：  ERROR  错误描述：登陆 Error  System.Data.SqlClient.SqlException (0x80131904): 在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: Named Pipes Provider, error: 40 - 无法打开到 SQL Server 的连接) ---> System.ComponentModel.Win32Exception (0x80004005): 找不到网络路径。
+   在 System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling)
+   在 System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   在 System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.Open()
+   在 HF.Cloud.CommonDAL.DbHelperSQL.RunProcedure(String storedProcName, SqlParameterCollection parameters, String tableName) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.CommonDAL\DbHelperSQL.cs:行号 918
+   在 HF.Cloud.Model.SB_UserEL.ExecuteEL(Int32 iOperateFlag) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.Model\SB_UserEL.cs:行号 175
+   在 HF.Cloud.BLL.SysBL.GetDUserByCodePWD(String strSBCode, String strPWD) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.BLL\SysBL.cs:行号 274
+   在 HF.Cloud.Web.LabelWap.login.lnkBtnLogin_Click(Object sender, EventArgs e) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.Web\LabelWap\login.aspx.cs:行号 32
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:53,State:0,Class:20
+ 
+记录时间：2017-08-19 14:34:57,903  线程ID:[6]  日志级别：  ERROR  错误描述：登陆 Error  System.Data.SqlClient.SqlException (0x80131904): 在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: Named Pipes Provider, error: 40 - 无法打开到 SQL Server 的连接) ---> System.ComponentModel.Win32Exception (0x80004005): 找不到网络路径。
+   在 System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling)
+   在 System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   在 System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.Open()
+   在 HF.Cloud.CommonDAL.DbHelperSQL.RunProcedure(String storedProcName, SqlParameterCollection parameters, String tableName) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.CommonDAL\DbHelperSQL.cs:行号 918
+   在 HF.Cloud.Model.SB_UserEL.ExecuteEL(Int32 iOperateFlag) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.Model\SB_UserEL.cs:行号 175
+   在 HF.Cloud.BLL.SysBL.GetDUserByCodePWD(String strSBCode, String strPWD) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.BLL\SysBL.cs:行号 274
+   在 HF.Cloud.Web.LabelWap.login.lnkBtnLogin_Click(Object sender, EventArgs e) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.Web\LabelWap\login.aspx.cs:行号 32
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:53,State:0,Class:20
+ 
+记录时间：2017-08-19 14:42:05,266  线程ID:[6]  日志级别：  ERROR  错误描述：登陆 Error  System.Threading.ThreadAbortException: 正在中止线程。
+   在 System.Threading.Thread.AbortInternal()
+   在 System.Threading.Thread.Abort(Object stateInfo)
+   在 System.Web.HttpResponse.AbortCurrentThread()
+   在 System.Web.HttpResponse.End()
+   在 System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   在 System.Web.HttpResponse.Redirect(String url)
+   在 HF.Cloud.Web.LabelWap.login.lnkBtnLogin_Click(Object sender, EventArgs e) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.Web\LabelWap\login.aspx.cs:行号 44
+ 
+记录时间：2017-08-19 16:01:23,058  线程ID:[7]  日志级别：  ERROR  错误描述：登陆 Error  System.Threading.ThreadAbortException: 正在中止线程。
+   在 System.Threading.Thread.AbortInternal()
+   在 System.Threading.Thread.Abort(Object stateInfo)
+   在 System.Web.HttpResponse.AbortCurrentThread()
+   在 System.Web.HttpResponse.End()
+   在 System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   在 System.Web.HttpResponse.Redirect(String url)
+   在 HF.Cloud.Web.LabelWap.login.lnkBtnLogin_Click(Object sender, EventArgs e) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.Web\LabelWap\login.aspx.cs:行号 44
+ 
+记录时间：2017-08-19 16:02:21,505  线程ID:[7]  日志级别：  ERROR  错误描述：Application_Error Error  System.Web.HttpException (0x80004005): 文件“/LabelWap/Longin.aspx”不存在。
+   在 System.Web.UI.Util.CheckVirtualFileExists(VirtualPath virtualPath)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   在 System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   在 System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   在 System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String virtualPath, String path)
+   在 System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+ 
+记录时间：2017-08-19 16:02:53,702  线程ID:[8]  日志级别：  ERROR  错误描述：登陆 Error  System.Threading.ThreadAbortException: 正在中止线程。
+   在 System.Threading.Thread.AbortInternal()
+   在 System.Threading.Thread.Abort(Object stateInfo)
+   在 System.Web.HttpResponse.AbortCurrentThread()
+   在 System.Web.HttpResponse.End()
+   在 System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   在 System.Web.HttpResponse.Redirect(String url)
+   在 HF.Cloud.Web.LabelWap.login.lnkBtnLogin_Click(Object sender, EventArgs e) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.Web\LabelWap\login.aspx.cs:行号 44
+ 
+记录时间：2017-08-19 16:20:34,194  线程ID:[6]  日志级别：  ERROR  错误描述：登陆 Error  System.Threading.ThreadAbortException: 正在中止线程。
+   在 System.Threading.Thread.AbortInternal()
+   在 System.Threading.Thread.Abort(Object stateInfo)
+   在 System.Web.HttpResponse.AbortCurrentThread()
+   在 System.Web.HttpResponse.End()
+   在 System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   在 System.Web.HttpResponse.Redirect(String url)
+   在 HF.Cloud.Web.LabelWap.login.lnkBtnLogin_Click(Object sender, EventArgs e) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.Web\LabelWap\login.aspx.cs:行号 44
+ 
+记录时间：2017-08-19 17:07:37,251  线程ID:[7]  日志级别：  ERROR  错误描述：登陆 Error  System.Threading.ThreadAbortException: 正在中止线程。
+   在 System.Threading.Thread.AbortInternal()
+   在 System.Threading.Thread.Abort(Object stateInfo)
+   在 System.Web.HttpResponse.AbortCurrentThread()
+   在 System.Web.HttpResponse.End()
+   在 System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   在 System.Web.HttpResponse.Redirect(String url)
+   在 HF.Cloud.Web.LabelWap.login.lnkBtnLogin_Click(Object sender, EventArgs e) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.Web\LabelWap\login.aspx.cs:行号 44
+ 
+记录时间：2017-08-19 17:53:54,814  线程ID:[8]  日志级别：  ERROR  错误描述：登陆 Error  System.Threading.ThreadAbortException: 正在中止线程。
+   在 System.Threading.Thread.AbortInternal()
+   在 System.Threading.Thread.Abort(Object stateInfo)
+   在 System.Web.HttpResponse.AbortCurrentThread()
+   在 System.Web.HttpResponse.End()
+   在 System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   在 System.Web.HttpResponse.Redirect(String url)
+   在 HF.Cloud.Web.LabelWap.login.lnkBtnLogin_Click(Object sender, EventArgs e) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.Web\LabelWap\login.aspx.cs:行号 44
+ 
+记录时间：2017-08-19 17:54:24,382  线程ID:[10]  日志级别：  ERROR  错误描述：优惠券修改账户余额结果(大于0说明成功)：20002   
+记录时间：2017-08-19 17:54:24,434  线程ID:[10]  日志级别：  ERROR  错误描述：优惠券添加充值记录结果(大于0说明成功)：30002   
+记录时间：2017-08-19 17:55:45,857  线程ID:[6]  日志级别：  ERROR  错误描述：登陆 Error  System.Threading.ThreadAbortException: 正在中止线程。
+   在 System.Threading.Thread.AbortInternal()
+   在 System.Threading.Thread.Abort(Object stateInfo)
+   在 System.Web.HttpResponse.AbortCurrentThread()
+   在 System.Web.HttpResponse.End()
+   在 System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   在 System.Web.HttpResponse.Redirect(String url)
+   在 HF.Cloud.Web.LabelWap.login.lnkBtnLogin_Click(Object sender, EventArgs e) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.Web\LabelWap\login.aspx.cs:行号 44
+ 
+记录时间：2017-08-19 17:56:42,989  线程ID:[6]  日志级别：  ERROR  错误描述：优惠券修改账户余额结果(大于0说明成功)：20002   
+记录时间：2017-08-19 17:57:16,008  线程ID:[6]  日志级别：  ERROR  错误描述：优惠券添加充值记录结果(大于0说明成功)：30003   
+记录时间：2017-08-19 17:58:24,800  线程ID:[6]  日志级别：  ERROR  错误描述：优惠券修改账户余额结果(大于0说明成功)：20002   
+记录时间：2017-08-19 17:58:24,808  线程ID:[6]  日志级别：  ERROR  错误描述：优惠券添加充值记录结果(大于0说明成功)：30004   
+记录时间：2017-08-19 17:58:32,707  线程ID:[7]  日志级别：  ERROR  错误描述：优惠券修改账户余额结果(大于0说明成功)：20002   
+记录时间：2017-08-19 17:58:32,716  线程ID:[7]  日志级别：  ERROR  错误描述：优惠券添加充值记录结果(大于0说明成功)：30005   
+记录时间：2017-08-19 17:58:34,987  线程ID:[6]  日志级别：  ERROR  错误描述：优惠券修改账户余额结果(大于0说明成功)：20002   
+记录时间：2017-08-19 17:58:35,009  线程ID:[6]  日志级别：  ERROR  错误描述：优惠券添加充值记录结果(大于0说明成功)：30006   
+记录时间：2017-08-19 17:58:36,334  线程ID:[6]  日志级别：  ERROR  错误描述：优惠券修改账户余额结果(大于0说明成功)：20002   
+记录时间：2017-08-19 17:58:36,345  线程ID:[6]  日志级别：  ERROR  错误描述：优惠券添加充值记录结果(大于0说明成功)：30007   
+记录时间：2017-08-19 17:59:23,375  线程ID:[6]  日志级别：  ERROR  错误描述：优惠券修改账户余额结果(大于0说明成功)：20002   
+记录时间：2017-08-19 17:59:23,401  线程ID:[6]  日志级别：  ERROR  错误描述：优惠券添加充值记录结果(大于0说明成功)：30008   
+记录时间：2017-08-19 17:59:29,933  线程ID:[6]  日志级别：  ERROR  错误描述：优惠券修改账户余额结果(大于0说明成功)：20002   
+记录时间：2017-08-19 17:59:29,943  线程ID:[6]  日志级别：  ERROR  错误描述：优惠券添加充值记录结果(大于0说明成功)：30009   
+记录时间：2017-08-19 18:10:29,217  线程ID:[7]  日志级别：  ERROR  错误描述：登陆 Error  System.Threading.ThreadAbortException: 正在中止线程。
+   在 System.Threading.Thread.AbortInternal()
+   在 System.Threading.Thread.Abort(Object stateInfo)
+   在 System.Web.HttpResponse.AbortCurrentThread()
+   在 System.Web.HttpResponse.End()
+   在 System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   在 System.Web.HttpResponse.Redirect(String url)
+   在 HF.Cloud.Web.LabelWap.login.lnkBtnLogin_Click(Object sender, EventArgs e) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.Web\LabelWap\login.aspx.cs:行号 44
+ 
+记录时间：2017-08-19 18:10:40,085  线程ID:[10]  日志级别：  ERROR  错误描述：优惠券修改账户余额结果(大于0说明成功)：20002   
+记录时间：2017-08-19 18:10:40,111  线程ID:[10]  日志级别：  ERROR  错误描述：优惠券添加充值记录结果(大于0说明成功)：30010   
+记录时间：2017-08-19 18:11:15,547  线程ID:[7]  日志级别：  ERROR  错误描述：优惠券修改账户余额结果(大于0说明成功)：20002   
+记录时间：2017-08-19 18:11:32,401  线程ID:[7]  日志级别：  ERROR  错误描述：优惠券添加充值记录结果(大于0说明成功)：30011   
+记录时间：2017-08-19 18:14:07,893  线程ID:[5]  日志级别：  ERROR  错误描述：登陆 Error  System.Threading.ThreadAbortException: 正在中止线程。
+   在 System.Threading.Thread.AbortInternal()
+   在 System.Threading.Thread.Abort(Object stateInfo)
+   在 System.Web.HttpResponse.AbortCurrentThread()
+   在 System.Web.HttpResponse.End()
+   在 System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   在 System.Web.HttpResponse.Redirect(String url)
+   在 HF.Cloud.Web.LabelWap.login.lnkBtnLogin_Click(Object sender, EventArgs e) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.Web\LabelWap\login.aspx.cs:行号 44
+ 
+记录时间：2017-08-19 18:14:21,894  线程ID:[8]  日志级别：  ERROR  错误描述：优惠券修改账户余额结果(大于0说明成功)：20002   
+记录时间：2017-08-19 18:14:21,919  线程ID:[8]  日志级别：  ERROR  错误描述：优惠券添加充值记录结果(大于0说明成功)：30012   
+记录时间：2017-08-19 18:15:40,177  线程ID:[10]  日志级别：  ERROR  错误描述：优惠券修改账户余额结果(大于0说明成功)：20002   
+记录时间：2017-08-19 18:15:40,189  线程ID:[10]  日志级别：  ERROR  错误描述：优惠券添加充值记录结果(大于0说明成功)：30013   
+记录时间：2017-08-19 18:16:28,293  线程ID:[5]  日志级别：  ERROR  错误描述：Application_Error Error  System.Web.HttpException (0x80004005): 文件“/LabelWap/longgin.aspx”不存在。
+   在 System.Web.UI.Util.CheckVirtualFileExists(VirtualPath virtualPath)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   在 System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   在 System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   在 System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String virtualPath, String path)
+   在 System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+ 
+记录时间：2017-08-19 18:16:51,955  线程ID:[11]  日志级别：  ERROR  错误描述：登陆 Error  System.Threading.ThreadAbortException: 正在中止线程。
+   在 System.Threading.Thread.AbortInternal()
+   在 System.Threading.Thread.Abort(Object stateInfo)
+   在 System.Web.HttpResponse.AbortCurrentThread()
+   在 System.Web.HttpResponse.End()
+   在 System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   在 System.Web.HttpResponse.Redirect(String url)
+   在 HF.Cloud.Web.LabelWap.login.lnkBtnLogin_Click(Object sender, EventArgs e) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.Web\LabelWap\login.aspx.cs:行号 44
+ 
+记录时间：2017-08-19 18:17:08,234  线程ID:[5]  日志级别：  ERROR  错误描述：优惠券修改账户余额结果(大于0说明成功)：20002   
+记录时间：2017-08-19 18:17:08,264  线程ID:[5]  日志级别：  ERROR  错误描述：优惠券添加充值记录结果(大于0说明成功)：30014  

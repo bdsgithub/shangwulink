@@ -1,0 +1,10 @@
+ 
+记录时间：2016-10-19 11:36:19,357  线程ID:[10]  日志级别：  ERROR  错误描述：Application_Error Error  System.ArgumentNullException: 值不能为 null。
+参数名: String
+   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt64(String value, NumberStyles options, NumberFormatInfo numfmt)
+   在 System.Int64.Parse(String s)
+   在 HF.Cloud.Web.ashx.ExecuteDataSet.AddCustomerValidate(HttpContext context) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Web\ashx\ExecuteDataSet.ashx.cs:行号 195
+   在 HF.Cloud.Web.ashx.ExecuteDataSet.ProcessRequest(HttpContext context) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Web\ashx\ExecuteDataSet.ashx.cs:行号 28
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)

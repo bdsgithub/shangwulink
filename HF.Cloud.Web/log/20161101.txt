@@ -1,0 +1,18 @@
+ 
+记录时间：2016-11-01 16:31:52,784  线程ID:[280]  日志级别：  ERROR  错误描述：Application_Error Error  System.IndexOutOfRangeException: 无法找到表 0。
+   在 System.Data.DataTableCollection.get_Item(Int32 index)
+   在 HF.Cloud.Model.SB_UserMEL.ExecDT(Int32 iOperateFlag) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Model\SB_UserMEL.cs:行号 119
+   在 HF.Cloud.Web.dropdownfilter.dfUserM.Page_Load(Object sender, EventArgs e) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Web\dropdownfilter\dfUserM.aspx.cs:行号 21
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ 
+记录时间：2016-11-01 16:31:58,923  线程ID:[264]  日志级别：  ERROR  错误描述：Application_Error Error  System.Exception: 关键字 'and' 附近有语法错误。
+   在 HF.Cloud.CommonDAL.DbHelperSQL.Query(String SQLString) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.CommonDAL\DbHelperSQL.cs:行号 408
+   在 HF.Cloud.Model.PowerManage.SB_PowerMenu.ExecuteSqlString(String SqlString) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Model\PowerManage\SB_PowerMenu.cs:行号 180
+   在 HF.Cloud.Web.dropdownfilter.dfMenu.Page_Load(Object sender, EventArgs e) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Web\dropdownfilter\dfMenu.aspx.cs:行号 34
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)

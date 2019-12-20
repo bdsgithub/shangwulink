@@ -1,0 +1,492 @@
+ 
+记录时间：2016-09-28 09:31:29,872  线程ID:[7]  日志级别：  ERROR  错误描述：Application_Error Error  System.FormatException: 输入字符串的格式不正确。
+   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt64(String value, NumberStyles options, NumberFormatInfo numfmt)
+   在 System.Int64.Parse(String s)
+   在 HF.Cloud.Web.dropdownfilter.dfClient.Page_Load(Object sender, EventArgs e) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Web\dropdownfilter\dfClient.aspx.cs:行号 25
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ 
+记录时间：2016-09-28 09:31:41,042  线程ID:[6]  日志级别：  ERROR  错误描述：Application_Error Error  System.FormatException: 输入字符串的格式不正确。
+   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt64(String value, NumberStyles options, NumberFormatInfo numfmt)
+   在 System.Int64.Parse(String s)
+   在 HF.Cloud.Web.dropdownfilter.dfClient.Page_Load(Object sender, EventArgs e) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Web\dropdownfilter\dfClient.aspx.cs:行号 25
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ 
+记录时间：2016-09-28 09:31:42,409  线程ID:[8]  日志级别：  ERROR  错误描述：Application_Error Error  System.FormatException: 输入字符串的格式不正确。
+   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt64(String value, NumberStyles options, NumberFormatInfo numfmt)
+   在 System.Int64.Parse(String s)
+   在 HF.Cloud.Web.dropdownfilter.dfClient.Page_Load(Object sender, EventArgs e) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Web\dropdownfilter\dfClient.aspx.cs:行号 25
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ 
+记录时间：2016-09-28 09:31:42,422  线程ID:[6]  日志级别：  ERROR  错误描述：Application_Error Error  System.FormatException: 输入字符串的格式不正确。
+   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt64(String value, NumberStyles options, NumberFormatInfo numfmt)
+   在 System.Int64.Parse(String s)
+   在 HF.Cloud.Web.dropdownfilter.dfClient.Page_Load(Object sender, EventArgs e) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Web\dropdownfilter\dfClient.aspx.cs:行号 25
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ 
+记录时间：2016-09-28 09:31:43,603  线程ID:[6]  日志级别：  ERROR  错误描述：Application_Error Error  System.FormatException: 输入字符串的格式不正确。
+   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt64(String value, NumberStyles options, NumberFormatInfo numfmt)
+   在 System.Int64.Parse(String s)
+   在 HF.Cloud.Web.dropdownfilter.dfClient.Page_Load(Object sender, EventArgs e) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Web\dropdownfilter\dfClient.aspx.cs:行号 25
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ 
+记录时间：2016-09-28 09:31:44,110  线程ID:[7]  日志级别：  ERROR  错误描述：Application_Error Error  System.FormatException: 输入字符串的格式不正确。
+   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt64(String value, NumberStyles options, NumberFormatInfo numfmt)
+   在 System.Int64.Parse(String s)
+   在 HF.Cloud.Web.dropdownfilter.dfClient.Page_Load(Object sender, EventArgs e) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Web\dropdownfilter\dfClient.aspx.cs:行号 25
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ 
+记录时间：2016-09-28 09:31:45,094  线程ID:[8]  日志级别：  ERROR  错误描述：Application_Error Error  System.FormatException: 输入字符串的格式不正确。
+   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt64(String value, NumberStyles options, NumberFormatInfo numfmt)
+   在 System.Int64.Parse(String s)
+   在 HF.Cloud.Web.dropdownfilter.dfClient.Page_Load(Object sender, EventArgs e) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Web\dropdownfilter\dfClient.aspx.cs:行号 25
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ 
+记录时间：2016-09-28 09:31:45,598  线程ID:[9]  日志级别：  ERROR  错误描述：Application_Error Error  System.FormatException: 输入字符串的格式不正确。
+   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt64(String value, NumberStyles options, NumberFormatInfo numfmt)
+   在 System.Int64.Parse(String s)
+   在 HF.Cloud.Web.dropdownfilter.dfClient.Page_Load(Object sender, EventArgs e) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Web\dropdownfilter\dfClient.aspx.cs:行号 25
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ 
+记录时间：2016-09-28 09:32:35,549  线程ID:[9]  日志级别：  ERROR  错误描述：Application_Error Error  System.FormatException: 输入字符串的格式不正确。
+   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt64(String value, NumberStyles options, NumberFormatInfo numfmt)
+   在 System.Int64.Parse(String s)
+   在 HF.Cloud.Web.dropdownfilter.dfClient.Page_Load(Object sender, EventArgs e) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Web\dropdownfilter\dfClient.aspx.cs:行号 25
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ 
+记录时间：2016-09-28 09:34:01,704  线程ID:[7]  日志级别：  ERROR  错误描述：Application_Error Error  System.FormatException: 输入字符串的格式不正确。
+   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt64(String value, NumberStyles options, NumberFormatInfo numfmt)
+   在 System.Int64.Parse(String s)
+   在 HF.Cloud.Web.dropdownfilter.dfClient.Page_Load(Object sender, EventArgs e) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Web\dropdownfilter\dfClient.aspx.cs:行号 25
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ 
+记录时间：2016-09-28 09:34:03,718  线程ID:[11]  日志级别：  ERROR  错误描述：Application_Error Error  System.Web.HttpParseException (0x80004005): 基类包括字段“txtClientID”，但其类型(System.Web.UI.HtmlControls.HtmlInputText)与控件(System.Web.UI.WebControls.TextBox)的类型不兼容。
+   在 System.Web.Compilation.BaseTemplateCodeDomTreeGenerator.BuildFieldDeclaration(ControlBuilder builder)
+   在 System.Web.Compilation.BaseTemplateCodeDomTreeGenerator.BuildSourceDataTreeFromBuilder(ControlBuilder builder, Boolean fInTemplate, Boolean topLevelControlInTemplate, PropertyEntry pse)
+   在 System.Web.Compilation.BaseTemplateCodeDomTreeGenerator.BuildSourceDataTreeFromBuilder(ControlBuilder builder, Boolean fInTemplate, Boolean topLevelControlInTemplate, PropertyEntry pse)
+   在 System.Web.Compilation.BaseTemplateCodeDomTreeGenerator.BuildSourceDataTreeFromBuilder(ControlBuilder builder, Boolean fInTemplate, Boolean topLevelControlInTemplate, PropertyEntry pse)
+   在 System.Web.Compilation.TemplateControlCodeDomTreeGenerator.BuildMiscClassMembers()
+   在 System.Web.Compilation.PageCodeDomTreeGenerator.BuildMiscClassMembers()
+   在 System.Web.Compilation.BaseCodeDomTreeGenerator.BuildSourceDataTree()
+   在 System.Web.Compilation.BaseCodeDomTreeGenerator.GetCodeDomTree(CodeDomProvider codeDomProvider, StringResourceBuilder stringResourceBuilder, VirtualPath virtualPath)
+   在 System.Web.Compilation.BaseTemplateBuildProvider.GenerateCode(AssemblyBuilder assemblyBuilder)
+   在 System.Web.Compilation.AssemblyBuilder.AddBuildProvider(BuildProvider buildProvider)
+ 
+记录时间：2016-09-28 09:36:25,007  线程ID:[7]  日志级别：  ERROR  错误描述：Application_Error Error  System.Data.SqlClient.SqlException (0x80131904): 过程或函数 'sp_R_Task' 需要参数 '@ClientCode'，但未提供该参数。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 HF.Cloud.CommonDAL.DbHelperSQL.RunProcedure(String storedProcName, SqlParameterCollection parameters, Int32& rowsAffected) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.CommonDAL\DbHelperSQL.cs:行号 970
+   在 HF.Cloud.Model.R_Task.ExecNonQuery(Int32 iOperateFlag) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Model\R_Task.cs:行号 203
+   在 HF.Cloud.Web.Repair.RepairTaskAdd.lnkBtnSave_Click(Object sender, EventArgs e) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Web\Repair\RepairTaskAdd.aspx.cs:行号 152
+   在 System.Web.UI.WebControls.LinkButton.OnClick(EventArgs e)
+   在 System.Web.UI.WebControls.LinkButton.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.WebControls.LinkButton.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ClientConnectionId:67cd0370-4fa6-4651-ac51-724866f7c5ab
+Error Number:201,State:4,Class:16
+ 
+记录时间：2016-09-28 11:22:05,268  线程ID:[40]  日志级别：  ERROR  错误描述：Application_Error Error  System.IO.DirectoryNotFoundException: 未能找到路径“D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Web\file\”的一部分。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   在 System.IO.FileStream..ctor(String path, FileMode mode)
+   在 System.Web.HttpPostedFile.SaveAs(String filename)
+   在 System.Web.UI.WebControls.FileUpload.SaveAs(String filename)
+   在 HF.Cloud.Web.FileUp.Button3_Click(Object sender, EventArgs e) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Web\FileUp.aspx.cs:行号 529
+   在 System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   在 System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ 
+记录时间：2016-09-28 11:37:17,316  线程ID:[40]  日志级别：  ERROR  错误描述：Application_Error Error  System.Data.SqlClient.SqlException (0x80131904): 过程或函数 'sp_R_Task' 需要参数 '@TaskCode'，但未提供该参数。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 HF.Cloud.CommonDAL.DbHelperSQL.RunProcedure(String storedProcName, SqlParameterCollection parameters, Int32& rowsAffected) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.CommonDAL\DbHelperSQL.cs:行号 970
+   在 HF.Cloud.Model.R_Task.ExecNonQuery(Int32 iOperateFlag) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Model\R_Task.cs:行号 203
+   在 HF.Cloud.Web.Repair.RepairTaskAdd.lnkBtnSave_Click(Object sender, EventArgs e) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Web\Repair\RepairTaskAdd.aspx.cs:行号 163
+   在 System.Web.UI.WebControls.LinkButton.OnClick(EventArgs e)
+   在 System.Web.UI.WebControls.LinkButton.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.WebControls.LinkButton.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ClientConnectionId:b7fd74a9-ad0a-4214-9a77-7ce091de8059
+Error Number:201,State:4,Class:16
+ 
+记录时间：2016-09-28 15:08:37,888  线程ID:[9]  日志级别：  ERROR  错误描述：Application_Error Error  System.Exception: 列名 'SheetState' 无效。
+   在 HF.Cloud.CommonDAL.DbHelperSQL.Query(String SQLString) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.CommonDAL\DbHelperSQL.cs:行号 408
+   在 HF.Cloud.Model.R_Task.ExecuteSqlString(String SqlString) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Model\R_Task.cs:行号 249
+   在 HF.Cloud.Web.Repair.RepairTaskManage.GetRecordCount(String sqlWhere) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Web\Repair\RepairTaskManage.aspx.cs:行号 333
+   在 HF.Cloud.Web.Repair.RepairTaskManage.BindSheetCount() 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Web\Repair\RepairTaskManage.aspx.cs:行号 344
+   在 HF.Cloud.Web.Repair.RepairTaskManage.Page_Load(Object sender, EventArgs e) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Web\Repair\RepairTaskManage.aspx.cs:行号 23
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.EventHandler.Invoke(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ 
+记录时间：2016-09-28 15:08:40,130  线程ID:[11]  日志级别：  ERROR  错误描述：Application_Error Error  System.Exception: 列名 'SheetState' 无效。
+   在 HF.Cloud.CommonDAL.DbHelperSQL.Query(String SQLString) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.CommonDAL\DbHelperSQL.cs:行号 408
+   在 HF.Cloud.Model.R_Task.ExecuteSqlString(String SqlString) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Model\R_Task.cs:行号 249
+   在 HF.Cloud.Web.Repair.RepairTaskManage.GetRecordCount(String sqlWhere) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Web\Repair\RepairTaskManage.aspx.cs:行号 333
+   在 HF.Cloud.Web.Repair.RepairTaskManage.BindSheetCount() 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Web\Repair\RepairTaskManage.aspx.cs:行号 344
+   在 HF.Cloud.Web.Repair.RepairTaskManage.Page_Load(Object sender, EventArgs e) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Web\Repair\RepairTaskManage.aspx.cs:行号 23
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.EventHandler.Invoke(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ 
+记录时间：2016-09-28 15:08:44,629  线程ID:[9]  日志级别：  ERROR  错误描述：Application_Error Error  System.Exception: 列名 'SheetState' 无效。
+   在 HF.Cloud.CommonDAL.DbHelperSQL.Query(String SQLString) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.CommonDAL\DbHelperSQL.cs:行号 408
+   在 HF.Cloud.Model.R_Task.ExecuteSqlString(String SqlString) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Model\R_Task.cs:行号 249
+   在 HF.Cloud.Web.Repair.RepairTaskManage.GetRecordCount(String sqlWhere) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Web\Repair\RepairTaskManage.aspx.cs:行号 333
+   在 HF.Cloud.Web.Repair.RepairTaskManage.BindSheetCount() 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Web\Repair\RepairTaskManage.aspx.cs:行号 344
+   在 HF.Cloud.Web.Repair.RepairTaskManage.Page_Load(Object sender, EventArgs e) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Web\Repair\RepairTaskManage.aspx.cs:行号 23
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.EventHandler.Invoke(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ 
+记录时间：2016-09-28 15:13:13,413  线程ID:[7]  日志级别：  ERROR  错误描述：Application_Error Error  System.Web.HttpException (0x80004005): DataBinding:“System.Data.DataRowView”不包含名为“SheetTitle”的属性。
+   在 System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName)
+   在 System.Web.UI.DataBinder.Eval(Object container, String[] expressionParts)
+   在 System.Web.UI.DataBinder.Eval(Object container, String expression)
+   在 System.Web.UI.TemplateControl.Eval(String expression)
+   在 ASP.repair_repairtaskmanage_aspx.__DataBind__control32(Object sender, EventArgs e) 位置 d:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Web\Repair\RepairTaskManage.aspx:行号 224
+   在 System.Web.UI.Control.OnDataBinding(EventArgs e)
+   在 System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   在 System.Web.UI.Control.DataBind()
+   在 System.Web.UI.Control.DataBindChildren()
+   在 System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   在 System.Web.UI.Control.DataBind()
+   在 System.Web.UI.WebControls.Repeater.CreateItem(Int32 itemIndex, ListItemType itemType, Boolean dataBind, Object dataItem)
+   在 System.Web.UI.WebControls.Repeater.AddDataItemsIntoItemsArray(IEnumerable dataSource, Boolean useDataSource)
+   在 System.Web.UI.WebControls.Repeater.PostGetDataAction(IEnumerable dataSource)
+   在 System.Web.UI.WebControls.Repeater.CreateControlHierarchy(Boolean useDataSource)
+   在 System.Web.UI.WebControls.Repeater.OnDataBinding(EventArgs e)
+   在 System.Web.UI.WebControls.Repeater.DataBind()
+   在 HF.Cloud.Web.Repair.RepairTaskManage.BindDataList() 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Web\Repair\RepairTaskManage.aspx.cs:行号 92
+   在 HF.Cloud.Web.Repair.RepairTaskManage.Page_Load(Object sender, EventArgs e) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Web\Repair\RepairTaskManage.aspx.cs:行号 24
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.EventHandler.Invoke(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ 
+记录时间：2016-09-28 15:39:03,291  线程ID:[11]  日志级别：  ERROR  错误描述：Application_Error Error  System.Data.SqlTypes.SqlTypeException: SqlDateTime 溢出。必须介于 1/1/1753 12:00:00 AM 和 12/31/9999 11:59:59 PM 之间。
+   在 System.Data.SqlClient.TdsParser.TdsExecuteRPC(SqlCommand cmd, _SqlRPC[] rpcArray, Int32 timeout, Boolean inSchema, SqlNotificationRequest notificationRequest, TdsParserStateObject stateObj, Boolean isCommandProc, Boolean sync, TaskCompletionSource`1 completion, Int32 startRpc, Int32 startParam)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)
+   在 HF.Cloud.CommonDAL.DbHelperSQL.RunProcedure(String storedProcName, SqlParameterCollection parameters, String tableName) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.CommonDAL\DbHelperSQL.cs:行号 921
+   在 HF.Cloud.Model.R_Task.ExecuteEL(Int32 iOperateFlag) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Model\R_Task.cs:行号 231
+   在 HF.Cloud.BLL.RepairTaskBLL.AddMessage(String content, Int64 lSheetID, Int64 lUserID, Int32 messageType, Int64 fileID, Int32 assetID) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.BLL\RepairTaskBLL.cs:行号 48
+   在 HF.Cloud.Web.Repair.RepairTaskAdd.InsertAboutTask(Int64 taskID, R_Task model) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Web\Repair\RepairTaskAdd.aspx.cs:行号 253
+   在 HF.Cloud.Web.Repair.RepairTaskAdd.lnkBtnSave_Click(Object sender, EventArgs e) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Web\Repair\RepairTaskAdd.aspx.cs:行号 167
+   在 System.Web.UI.WebControls.LinkButton.OnClick(EventArgs e)
+   在 System.Web.UI.WebControls.LinkButton.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.WebControls.LinkButton.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ 
+记录时间：2016-09-28 15:42:08,378  线程ID:[19]  日志级别：  ERROR  错误描述：Application_Error Error  System.Data.SqlTypes.SqlTypeException: SqlDateTime 溢出。必须介于 1/1/1753 12:00:00 AM 和 12/31/9999 11:59:59 PM 之间。
+   在 System.Data.SqlClient.TdsParser.TdsExecuteRPC(SqlCommand cmd, _SqlRPC[] rpcArray, Int32 timeout, Boolean inSchema, SqlNotificationRequest notificationRequest, TdsParserStateObject stateObj, Boolean isCommandProc, Boolean sync, TaskCompletionSource`1 completion, Int32 startRpc, Int32 startParam)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)
+   在 HF.Cloud.CommonDAL.DbHelperSQL.RunProcedure(String storedProcName, SqlParameterCollection parameters, String tableName) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.CommonDAL\DbHelperSQL.cs:行号 921
+   在 HF.Cloud.Model.R_Task.ExecuteEL(Int32 iOperateFlag) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Model\R_Task.cs:行号 231
+   在 HF.Cloud.BLL.RepairTaskBLL.AddMessage(String content, Int64 lSheetID, Int64 lUserID, Int32 messageType, Int64 fileID, Int32 assetID) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.BLL\RepairTaskBLL.cs:行号 48
+   在 HF.Cloud.Web.Repair.RepairTaskAdd.InsertAboutTask(Int64 taskID, R_Task model) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Web\Repair\RepairTaskAdd.aspx.cs:行号 253
+   在 HF.Cloud.Web.Repair.RepairTaskAdd.lnkBtnSave_Click(Object sender, EventArgs e) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Web\Repair\RepairTaskAdd.aspx.cs:行号 167
+   在 System.Web.UI.WebControls.LinkButton.OnClick(EventArgs e)
+   在 System.Web.UI.WebControls.LinkButton.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.WebControls.LinkButton.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ 
+记录时间：2016-09-28 15:42:54,003  线程ID:[14]  日志级别：  ERROR  错误描述：Application_Error Error  System.Data.SqlTypes.SqlTypeException: SqlDateTime 溢出。必须介于 1/1/1753 12:00:00 AM 和 12/31/9999 11:59:59 PM 之间。
+   在 System.Data.SqlClient.TdsParser.TdsExecuteRPC(SqlCommand cmd, _SqlRPC[] rpcArray, Int32 timeout, Boolean inSchema, SqlNotificationRequest notificationRequest, TdsParserStateObject stateObj, Boolean isCommandProc, Boolean sync, TaskCompletionSource`1 completion, Int32 startRpc, Int32 startParam)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)
+   在 HF.Cloud.CommonDAL.DbHelperSQL.RunProcedure(String storedProcName, SqlParameterCollection parameters, String tableName) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.CommonDAL\DbHelperSQL.cs:行号 921
+   在 HF.Cloud.Model.R_Task.ExecuteEL(Int32 iOperateFlag) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Model\R_Task.cs:行号 231
+   在 HF.Cloud.BLL.RepairTaskBLL.AddMessage(String content, Int64 lSheetID, Int64 lUserID, Int32 messageType, Int64 fileID, Int32 assetID) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.BLL\RepairTaskBLL.cs:行号 48
+   在 HF.Cloud.Web.Repair.RepairTaskAdd.InsertAboutTask(Int64 taskID, R_Task model) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Web\Repair\RepairTaskAdd.aspx.cs:行号 253
+   在 HF.Cloud.Web.Repair.RepairTaskAdd.lnkBtnSave_Click(Object sender, EventArgs e) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Web\Repair\RepairTaskAdd.aspx.cs:行号 167
+   在 System.Web.UI.WebControls.LinkButton.OnClick(EventArgs e)
+   在 System.Web.UI.WebControls.LinkButton.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.WebControls.LinkButton.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ 
+记录时间：2016-09-28 15:43:29,040  线程ID:[14]  日志级别：  ERROR  错误描述：Application_Error Error  System.Data.SqlTypes.SqlTypeException: SqlDateTime 溢出。必须介于 1/1/1753 12:00:00 AM 和 12/31/9999 11:59:59 PM 之间。
+   在 System.Data.SqlClient.TdsParser.TdsExecuteRPC(SqlCommand cmd, _SqlRPC[] rpcArray, Int32 timeout, Boolean inSchema, SqlNotificationRequest notificationRequest, TdsParserStateObject stateObj, Boolean isCommandProc, Boolean sync, TaskCompletionSource`1 completion, Int32 startRpc, Int32 startParam)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)
+   在 HF.Cloud.CommonDAL.DbHelperSQL.RunProcedure(String storedProcName, SqlParameterCollection parameters, String tableName) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.CommonDAL\DbHelperSQL.cs:行号 921
+   在 HF.Cloud.Model.R_Task.ExecuteEL(Int32 iOperateFlag) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Model\R_Task.cs:行号 231
+   在 HF.Cloud.BLL.RepairTaskBLL.AddMessage(String content, Int64 lSheetID, Int64 lUserID, Int32 messageType, Int64 fileID, Int32 assetID) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.BLL\RepairTaskBLL.cs:行号 48
+   在 HF.Cloud.Web.Repair.RepairTaskAdd.InsertAboutTask(Int64 taskID, R_Task model) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Web\Repair\RepairTaskAdd.aspx.cs:行号 253
+   在 HF.Cloud.Web.Repair.RepairTaskAdd.lnkBtnSave_Click(Object sender, EventArgs e) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Web\Repair\RepairTaskAdd.aspx.cs:行号 167
+   在 System.Web.UI.WebControls.LinkButton.OnClick(EventArgs e)
+   在 System.Web.UI.WebControls.LinkButton.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.WebControls.LinkButton.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ 
+记录时间：2016-09-28 15:46:22,260  线程ID:[17]  日志级别：  ERROR  错误描述：Application_Error Error  System.Data.SqlTypes.SqlTypeException: SqlDateTime 溢出。必须介于 1/1/1753 12:00:00 AM 和 12/31/9999 11:59:59 PM 之间。
+   在 System.Data.SqlClient.TdsParser.TdsExecuteRPC(SqlCommand cmd, _SqlRPC[] rpcArray, Int32 timeout, Boolean inSchema, SqlNotificationRequest notificationRequest, TdsParserStateObject stateObj, Boolean isCommandProc, Boolean sync, TaskCompletionSource`1 completion, Int32 startRpc, Int32 startParam)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)
+   在 HF.Cloud.CommonDAL.DbHelperSQL.RunProcedure(String storedProcName, SqlParameterCollection parameters, String tableName) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.CommonDAL\DbHelperSQL.cs:行号 921
+   在 HF.Cloud.Model.R_Task.ExecuteEL(Int32 iOperateFlag) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Model\R_Task.cs:行号 231
+   在 HF.Cloud.BLL.RepairTaskBLL.AddMessage(String content, Int64 lSheetID, Int64 lUserID, Int32 messageType, Int64 fileID, Int32 assetID) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.BLL\RepairTaskBLL.cs:行号 48
+   在 HF.Cloud.Web.Repair.RepairTaskAdd.InsertAboutTask(Int64 taskID, R_Task model) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Web\Repair\RepairTaskAdd.aspx.cs:行号 253
+   在 HF.Cloud.Web.Repair.RepairTaskAdd.lnkBtnSave_Click(Object sender, EventArgs e) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Web\Repair\RepairTaskAdd.aspx.cs:行号 167
+   在 System.Web.UI.WebControls.LinkButton.OnClick(EventArgs e)
+   在 System.Web.UI.WebControls.LinkButton.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.WebControls.LinkButton.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ 
+记录时间：2016-09-28 15:48:21,507  线程ID:[17]  日志级别：  ERROR  错误描述：Application_Error Error  System.Data.SqlTypes.SqlTypeException: SqlDateTime 溢出。必须介于 1/1/1753 12:00:00 AM 和 12/31/9999 11:59:59 PM 之间。
+   在 System.Data.SqlClient.TdsParser.TdsExecuteRPC(SqlCommand cmd, _SqlRPC[] rpcArray, Int32 timeout, Boolean inSchema, SqlNotificationRequest notificationRequest, TdsParserStateObject stateObj, Boolean isCommandProc, Boolean sync, TaskCompletionSource`1 completion, Int32 startRpc, Int32 startParam)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)
+   在 HF.Cloud.CommonDAL.DbHelperSQL.RunProcedure(String storedProcName, SqlParameterCollection parameters, String tableName) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.CommonDAL\DbHelperSQL.cs:行号 921
+   在 HF.Cloud.Model.R_Task.ExecuteEL(Int32 iOperateFlag) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Model\R_Task.cs:行号 231
+   在 HF.Cloud.BLL.RepairTaskBLL.AddMessage(String content, Int64 lSheetID, Int64 lUserID, Int32 messageType, Int64 fileID, Int32 assetID) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.BLL\RepairTaskBLL.cs:行号 48
+   在 HF.Cloud.Web.Repair.RepairTaskAdd.InsertAboutTask(Int64 taskID, R_Task model) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Web\Repair\RepairTaskAdd.aspx.cs:行号 253
+   在 HF.Cloud.Web.Repair.RepairTaskAdd.lnkBtnSave_Click(Object sender, EventArgs e) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Web\Repair\RepairTaskAdd.aspx.cs:行号 167
+   在 System.Web.UI.WebControls.LinkButton.OnClick(EventArgs e)
+   在 System.Web.UI.WebControls.LinkButton.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.WebControls.LinkButton.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ 
+记录时间：2016-09-28 15:52:48,621  线程ID:[11]  日志级别：  ERROR  错误描述：Application_Error Error  System.Data.SqlTypes.SqlTypeException: SqlDateTime 溢出。必须介于 1/1/1753 12:00:00 AM 和 12/31/9999 11:59:59 PM 之间。
+   在 System.Data.SqlClient.TdsParser.TdsExecuteRPC(SqlCommand cmd, _SqlRPC[] rpcArray, Int32 timeout, Boolean inSchema, SqlNotificationRequest notificationRequest, TdsParserStateObject stateObj, Boolean isCommandProc, Boolean sync, TaskCompletionSource`1 completion, Int32 startRpc, Int32 startParam)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)
+   在 HF.Cloud.CommonDAL.DbHelperSQL.RunProcedure(String storedProcName, SqlParameterCollection parameters, String tableName) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.CommonDAL\DbHelperSQL.cs:行号 921
+   在 HF.Cloud.Model.R_Task.ExecuteEL(Int32 iOperateFlag) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Model\R_Task.cs:行号 231
+   在 HF.Cloud.BLL.RepairTaskBLL.AddMessage(String content, Int64 lSheetID, Int64 lUserID, Int32 messageType, Int64 fileID, Int32 assetID) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.BLL\RepairTaskBLL.cs:行号 48
+   在 HF.Cloud.Web.Repair.RepairTaskAdd.InsertAboutTask(Int64 taskID, R_Task model) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Web\Repair\RepairTaskAdd.aspx.cs:行号 253
+   在 HF.Cloud.Web.Repair.RepairTaskAdd.lnkBtnSave_Click(Object sender, EventArgs e) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Web\Repair\RepairTaskAdd.aspx.cs:行号 167
+   在 System.Web.UI.WebControls.LinkButton.OnClick(EventArgs e)
+   在 System.Web.UI.WebControls.LinkButton.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.WebControls.LinkButton.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ 
+记录时间：2016-09-28 15:58:03,067  线程ID:[6]  日志级别：  ERROR  错误描述：Application_Error Error  System.Data.SqlClient.SqlException (0x80131904): 列名 'DataType' 不明确。
+由于绑定错误，无法使用视图或函数 'VChatBase'。
+列名 'DataType' 不明确。
+由于绑定错误，无法使用视图或函数 'VChatBase'。
+列名 'DataType' 不明确。
+由于绑定错误，无法使用视图或函数 'VChatBase'。
+列名 'DataType' 不明确。
+由于绑定错误，无法使用视图或函数 'VChatBase'。
+列名 'DataType' 不明确。
+由于绑定错误，无法使用视图或函数 'VChatBase'。
+列名 'DataType' 不明确。
+由于绑定错误，无法使用视图或函数 'VChatBase'。
+列名 'DataType' 不明确。
+由于绑定错误，无法使用视图或函数 'VChatBase'。
+列名 'DataType' 不明确。
+由于绑定错误，无法使用视图或函数 'VChatBase'。
+列名 'DataType' 不明确。
+由于绑定错误，无法使用视图或函数 'VChatBase'。
+列名 'DataType' 不明确。
+由于绑定错误，无法使用视图或函数 'dbo.VChatBase'。
+列名 'DataType' 不明确。
+由于绑定错误，无法使用视图或函数 'dbo.VChatBase'。
+列名 'DataType' 不明确。
+由于绑定错误，无法使用视图或函数 'dbo.VChatBase'。
+列名 'DataType' 不明确。
+由于绑定错误，无法使用视图或函数 'dbo.VChatBase'。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 HF.Cloud.CommonDAL.DbHelperSQL.RunProcedure(String storedProcName, SqlParameterCollection parameters, Int32& rowsAffected) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.CommonDAL\DbHelperSQL.cs:行号 970
+   在 HF.Cloud.Model.M_SheetMessageEL.ExecNonQuery(Int32 iOperateFlag) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Model\M_SheetMessageEL.cs:行号 109
+   在 HF.Cloud.BLL.RepairTaskBLL.AddMessage(String content, Int64 lSheetID, Int64 lUserID, Int32 messageType, Int64 fileID, Int32 assetID) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.BLL\RepairTaskBLL.cs:行号 64
+   在 HF.Cloud.Web.Repair.RepairTaskAdd.InsertAboutTask(Int64 taskID, R_Task model) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Web\Repair\RepairTaskAdd.aspx.cs:行号 253
+   在 HF.Cloud.Web.Repair.RepairTaskAdd.lnkBtnSave_Click(Object sender, EventArgs e) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Web\Repair\RepairTaskAdd.aspx.cs:行号 167
+   在 System.Web.UI.WebControls.LinkButton.OnClick(EventArgs e)
+   在 System.Web.UI.WebControls.LinkButton.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.WebControls.LinkButton.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ClientConnectionId:a8c7d786-042a-42c3-93a7-05ab26013e1c
+Error Number:209,State:1,Class:16
+ 
+记录时间：2016-09-28 16:02:09,657  线程ID:[9]  日志级别：  ERROR  错误描述：Application_Error Error  System.Data.SqlClient.SqlException (0x80131904): 列名 'DataType' 不明确。
+由于绑定错误，无法使用视图或函数 'VChatBase'。
+列名 'DataType' 不明确。
+由于绑定错误，无法使用视图或函数 'VChatBase'。
+列名 'DataType' 不明确。
+由于绑定错误，无法使用视图或函数 'VChatBase'。
+列名 'DataType' 不明确。
+由于绑定错误，无法使用视图或函数 'VChatBase'。
+列名 'DataType' 不明确。
+由于绑定错误，无法使用视图或函数 'VChatBase'。
+列名 'DataType' 不明确。
+由于绑定错误，无法使用视图或函数 'VChatBase'。
+列名 'DataType' 不明确。
+由于绑定错误，无法使用视图或函数 'VChatBase'。
+列名 'DataType' 不明确。
+由于绑定错误，无法使用视图或函数 'VChatBase'。
+列名 'DataType' 不明确。
+由于绑定错误，无法使用视图或函数 'VChatBase'。
+列名 'DataType' 不明确。
+由于绑定错误，无法使用视图或函数 'dbo.VChatBase'。
+列名 'DataType' 不明确。
+由于绑定错误，无法使用视图或函数 'dbo.VChatBase'。
+列名 'DataType' 不明确。
+由于绑定错误，无法使用视图或函数 'dbo.VChatBase'。
+列名 'DataType' 不明确。
+由于绑定错误，无法使用视图或函数 'dbo.VChatBase'。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 HF.Cloud.CommonDAL.DbHelperSQL.RunProcedure(String storedProcName, SqlParameterCollection parameters, Int32& rowsAffected) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.CommonDAL\DbHelperSQL.cs:行号 970
+   在 HF.Cloud.Model.M_SheetMessageEL.ExecNonQuery(Int32 iOperateFlag) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Model\M_SheetMessageEL.cs:行号 109
+   在 HF.Cloud.BLL.RepairTaskBLL.AddMessage(String content, Int64 lSheetID, Int64 lUserID, Int32 messageType, Int64 fileID, Int32 assetID) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.BLL\RepairTaskBLL.cs:行号 64
+   在 HF.Cloud.Web.Repair.RepairTaskAdd.InsertAboutTask(Int64 taskID, R_Task model) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Web\Repair\RepairTaskAdd.aspx.cs:行号 253
+   在 HF.Cloud.Web.Repair.RepairTaskAdd.lnkBtnSave_Click(Object sender, EventArgs e) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Web\Repair\RepairTaskAdd.aspx.cs:行号 167
+   在 System.Web.UI.WebControls.LinkButton.OnClick(EventArgs e)
+   在 System.Web.UI.WebControls.LinkButton.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.WebControls.LinkButton.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ClientConnectionId:a8c7d786-042a-42c3-93a7-05ab26013e1c
+Error Number:209,State:1,Class:16

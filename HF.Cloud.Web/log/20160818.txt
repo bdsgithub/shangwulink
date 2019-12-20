@@ -1,0 +1,64 @@
+ 
+记录时间：2016-08-18 08:39:34,510  线程ID:[6]  日志级别：  ERROR  错误描述：Application_Error Error  System.Exception: 列名 'MainID' 不明确。
+   在 HF.Cloud.CommonDAL.DbHelperSQL.Query(String SQLString) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.CommonDAL\DbHelperSQL.cs:行号 408
+   在 HF.Cloud.BLL.NewInterface.GetAssetBrand(String strSql) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.BLL\NewInterface.cs:行号 904
+   在 HF.Cloud.Web.dropdownfilter.dfAssetBrand.Page_Load(Object sender, EventArgs e) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Web\dropdownfilter\dfAssetBrand.aspx.cs:行号 36
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ 
+记录时间：2016-08-18 08:39:42,765  线程ID:[10]  日志级别：  ERROR  错误描述：Application_Error Error  System.Exception: 列名 'MainID' 不明确。
+   在 HF.Cloud.CommonDAL.DbHelperSQL.Query(String SQLString) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.CommonDAL\DbHelperSQL.cs:行号 408
+   在 HF.Cloud.BLL.NewInterface.GetAssetBrand(String strSql) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.BLL\NewInterface.cs:行号 904
+   在 HF.Cloud.Web.dropdownfilter.dfAssetBrand.Page_Load(Object sender, EventArgs e) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Web\dropdownfilter\dfAssetBrand.aspx.cs:行号 36
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ 
+记录时间：2016-08-18 08:39:48,394  线程ID:[10]  日志级别：  ERROR  错误描述：Application_Error Error  System.Exception: 列名 'MainID' 不明确。
+   在 HF.Cloud.CommonDAL.DbHelperSQL.Query(String SQLString) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.CommonDAL\DbHelperSQL.cs:行号 408
+   在 HF.Cloud.BLL.NewInterface.GetAssetBrand(String strSql) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.BLL\NewInterface.cs:行号 904
+   在 HF.Cloud.Web.dropdownfilter.dfAssetBrand.Page_Load(Object sender, EventArgs e) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Web\dropdownfilter\dfAssetBrand.aspx.cs:行号 36
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ 
+记录时间：2016-08-18 11:13:41,503  线程ID:[6]  日志级别：  ERROR  错误描述：Application_Error Error  System.Data.SqlClient.SqlException (0x80131904): 无法绑定由多个部分组成的标识符 "a.valid"。
+无法绑定由多个部分组成的标识符 "a.valid"。
+无法绑定由多个部分组成的标识符 "a.valid"。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   在 System.Data.SqlClient.SqlDataReader.get_MetaData()
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)
+   在 HF.Cloud.CommonDAL.DbHelperSQL.RunProcedure(String storedProcName, IDataParameter[] parameters, String tableName) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.CommonDAL\DbHelperSQL.cs:行号 817
+   在 HF.Cloud.Model.A_AssetModelEL.GetDataList(Int32 PageIndex, String filter, String strOrder, String order, Int32 isAllData) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Model\A_AssetModelEL.cs:行号 304
+   在 HF.Cloud.Web.BasicSet.AssetModel.AssetModelList.BindDataList() 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Web\BasicSet\AssetModel\AssetModelList.aspx.cs:行号 28
+   在 HF.Cloud.Web.BasicSet.AssetModel.AssetModelList.Page_Load(Object sender, EventArgs e) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Web\BasicSet\AssetModel\AssetModelList.aspx.cs:行号 18
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.EventHandler.Invoke(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ClientConnectionId:ce8df115-9290-4cbf-863d-5496738c0f2b
+Error Number:4104,State:1,Class:16
+ 
+记录时间：2016-08-18 16:50:56,632  线程ID:[8]  日志级别：  INFO   错误描述：QBModelList InitPage 3   
+记录时间：2016-08-18 16:51:23,589  线程ID:[6]  日志级别：  INFO   错误描述：QBModelList InitPage 3   
+记录时间：2016-08-18 16:53:19,050  线程ID:[9]  日志级别：  INFO   错误描述：QBModelList InitPage 3   
+记录时间：2016-08-18 16:53:43,426  线程ID:[9]  日志级别：  INFO   错误描述：QBModelList InitPage 3   
+记录时间：2016-08-18 16:57:05,184  线程ID:[8]  日志级别：  INFO   错误描述：QBModelList InitPage 3  

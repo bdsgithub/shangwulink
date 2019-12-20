@@ -1,0 +1,17 @@
+D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Document\bin\Debug\HF.Cloud.Document.dll
+D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Document\bin\Debug\HF.Cloud.Document.pdb
+D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Document\obj\Debug\HF.Cloud.Document.dll
+D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Document\obj\Debug\HF.Cloud.Document.pdb
+D:\易维客\AssetCloudSolutionV1.4 - 副本\HF.Cloud.Document\bin\Debug\HF.Cloud.Document.dll
+D:\易维客\AssetCloudSolutionV1.4 - 副本\HF.Cloud.Document\bin\Debug\HF.Cloud.Document.pdb
+D:\易维客\AssetCloudSolutionV1.4 - 副本\HF.Cloud.Document\obj\Debug\HF.Cloud.Document.dll
+D:\易维客\AssetCloudSolutionV1.4 - 副本\HF.Cloud.Document\obj\Debug\HF.Cloud.Document.pdb
+D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.Document\bin\Debug\HF.Cloud.Document.dll
+D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.Document\bin\Debug\HF.Cloud.Document.pdb
+D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.Document\obj\Debug\HF.Cloud.Document.dll
+D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.Document\obj\Debug\HF.Cloud.Document.pdb
+D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.Document\obj\Debug\HF.Cloud.Document.csprojResolveAssemblyReference.cache
+D:\商务链\BusinessChain\HF.Cloud.Document\bin\Debug\HF.Cloud.Document.dll
+D:\商务链\BusinessChain\HF.Cloud.Document\bin\Debug\HF.Cloud.Document.pdb
+D:\商务链\BusinessChain\HF.Cloud.Document\obj\Debug\HF.Cloud.Document.dll
+D:\商务链\BusinessChain\HF.Cloud.Document\obj\Debug\HF.Cloud.Document.pdb

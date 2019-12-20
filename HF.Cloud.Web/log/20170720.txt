@@ -1,0 +1,11 @@
+ 
+记录时间：2017-07-20 14:23:16,939  线程ID:[7]  日志级别：  ERROR  错误描述：   
+记录时间：2017-07-20 14:23:16,980  线程ID:[7]  日志级别：  ERROR  错误描述：添加工单后返回的工单ID：66087   
+记录时间：2017-07-20 14:23:17,352  线程ID:[7]  日志级别：  ERROR  错误描述：获取到受理人DingID：085736461526294282   
+记录时间：2017-07-20 14:23:17,361  线程ID:[7]  日志级别：  ERROR  错误描述：获取到客户ClientName：登封告成支行   
+记录时间：2017-07-20 14:23:17,371  线程ID:[7]  日志级别：  ERROR  错误描述：获取到客户sheetTypeName_Ding：通用   
+记录时间：2017-07-20 14:23:17,400  线程ID:[7]  日志级别：  ERROR  错误描述：钉钉json会话消息：{"touser":"085736461526294282","toparty":"","agentid":"9162364","msgtype":"oa","oa":{"message_url":"http://192.168.1.41:8123/Sheet/SheetDetail.aspx?dd_nav_bgcolor=FF5E97F6\u0026sheetID=66087","head":{"bgcolor":"3333ff","text":"新工单！"},"body":{"title":"您有新工单，请注意查收！","form":[{"key":"客户：","value":"登封告成支行"},{"key":"工单类型：","value":"通用"}]}}}   
+记录时间：2017-07-20 14:23:17,967  线程ID:[7]  日志级别：  ERROR  错误描述：accessToken:34911f56d2fe3335b9c3623b57c4f63c   
+记录时间：2017-07-20 14:23:18,133  线程ID:[7]  日志级别：  ERROR  错误描述：conversationString:{"invalidparty":"","messageId":"308b50499574399da3a5d7fdf5807c34","errmsg":"ok","invaliduser":"","errcode":0}
+   
+记录时间：2017-07-20 14:23:18,133  线程ID:[7]  日志级别：  ERROR  错误描述：受理人:李勇发送会话消息成功！  

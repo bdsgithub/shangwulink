@@ -1,0 +1,6 @@
+ 
+记录时间：2017-03-21 08:25:09,839  线程ID:[5]  日志级别：  ERROR  错误描述：Application_Error Error  System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 HF.Cloud.Web.ashx.ExecutePowerMenu.GetButtonMenu(HttpContext context) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.Web\ashx\ExecutePowerMenu.ashx.cs:行号 304
+   在 HF.Cloud.Web.ashx.ExecutePowerMenu.ProcessRequest(HttpContext context) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.Web\ashx\ExecutePowerMenu.ashx.cs:行号 35
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)

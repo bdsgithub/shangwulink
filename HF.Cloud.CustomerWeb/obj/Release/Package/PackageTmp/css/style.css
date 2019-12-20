@@ -1,0 +1,665 @@
+@import url(reset.css);
+@import url(fram.css);
+
+html, body {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.cient-top {
+    height: 65px;
+    background-color: #1fb5ac;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    overflow: hidden;
+}
+
+.cient-left-max {
+    width: 175px;
+}
+
+.cient-left-min {
+    width: 65px;
+}
+
+.cient-left {
+    background-color: #f8f8f8;
+    position: absolute;
+    left: 0;
+    top: 65px;
+    bottom: 0;
+    overflow: hidden;
+}
+
+.cient-main {
+    position: absolute;
+    top: 65px;
+    left: 85px;
+    bottom: 0;
+    right: 0;
+    overflow: hidden;
+}
+
+.cient-left-bar {
+    width: 20px;
+    position: absolute;
+    top: 65px;
+    left: 65px;
+    right: 0;
+    bottom: 0;
+}
+
+.cient-ritht-bar {
+    width: 20px;
+    position: absolute;
+    top: 65px;
+    right: 0;
+    bottom: 0;
+}
+
+.logo {
+    height: 65px;
+    float: left;
+    background: url(/image/b.png) 11px 11px;
+}
+
+.logoIT {
+    height: 65px;
+    float: left;
+    background: url(/image/eweic.png) 11px 11px;
+}
+
+
+.scale {
+    width: 82px;
+    height: 65px;
+    float: left;
+    border-left: 1px #169c94 solid;
+    border-right: 1px #169c94 solid;
+}
+
+    .scale:hover {
+        cursor: pointer;
+    }
+
+.scale-img {
+    width: 31px;
+    height: 65px;
+    margin: 0 auto;
+    background: url(/image/b.png) 91px 180px;
+}
+
+.scale-im {
+    background: url(/image/b.png) 42px 174px;
+}
+
+.cient-slogan {
+    margin-left: 20px;
+    float: left;
+    font-size: 20px;
+    line-height: 64px;
+    font-weight: normal;
+    display: block;
+}
+
+    .cient-slogan span {
+        color: #66f2ea;
+    }
+
+.cient-user {
+    width: 150px;
+    height: 65px;
+    float: right;
+    margin-right: 30px;
+}
+
+    .cient-user:hover {
+        cursor: pointer;
+    }
+
+    .cient-user .user-img {
+        float: left;
+        width: 50px;
+        height: 65px;
+        background: url(/image/b.png) 63px 10px;
+    }
+
+    .cient-user p {
+        line-height: 64px;
+    }
+
+.user-message {
+    width: 134px;
+    height: 196px;
+    background: url(/image/b.png) 0px 227px;
+    position: absolute;
+    z-index: 2;
+    right: 30px;
+    top: 0;
+    display: none;
+}
+
+    .user-message:hover {
+        cursor: pointer;
+    }
+
+    .user-message ul {
+        margin-top: 70px;
+    }
+
+        .user-message ul li {
+            font-size: 16px;
+            text-align: center;
+            line-height: 51px;
+        }
+
+            .user-message ul li:hover {
+                color: #1fb5ac;
+            }
+
+            .ops-message {
+    width: 134px;
+    height: 196px;
+    background: url(/image/b.png) 0px 227px;
+    position: absolute;
+    z-index: 2;
+    right: 200px;
+    top: 0;
+    display: none;
+}
+
+    .ops-message:hover {
+        cursor: pointer;
+    }
+
+    .ops-message ul {
+        margin-top: 70px;
+    }
+
+        .ops-message ul li {
+            font-size: 16px;
+            text-align: center;
+            line-height: 51px;
+        }
+
+            .ops-message ul li:hover {
+                color: #1fb5ac;
+            }
+
+.cient-left {
+    z-index: 2;
+}
+
+    .cient-left ul {
+        margin-top: 28px;
+    }
+
+        .cient-left ul li {
+            font-size: 18px;
+            line-height: 60px;
+            border-bottom: 1px #d6d6d6 solid;
+            position: relative;
+        }
+
+            .cient-left ul li span {
+                width: 29px;
+                height: 30px;
+                top: 15px;
+                left: 16px;
+                display: inline-block;
+                position: absolute;
+            }
+
+            .cient-left ul li p {
+                left: 66px;
+                position: relative;
+                white-space: nowrap;
+            }
+
+            .cient-left ul li:hover {
+                border-bottom: 1px #1fb5ac solid;
+                color: #1fb5ac;
+            }
+
+#home {
+    background: url(/image/b.png) 0px -92px;
+}
+
+#statistics {
+    background: url(/image/b.png) -40px -92px;
+}
+
+#bill {
+    background: url(/image/b.png) -80px -92px;
+}
+
+#equipment {
+    background: url(/image/b.png) -121px -92px;
+}
+
+#set {
+    background: url(/image/b.png) -162px -92px;
+}
+
+
+.home span {
+    background: url(/image/b.png) 0px -59px;
+}
+
+.home:hover span {
+    background: url(/image/b.png) 0px -92px;
+}
+
+.statistics span {
+    background: url(/image/b.png) -40px -59px;
+}
+
+.statistics:hover span {
+    background: url(/image/b.png) -40px -92px;
+}
+
+.bill span {
+    background: url(/image/b.png) -80px -59px;
+}
+
+.bill:hover span {
+    background: url(/image/b.png) -80px -92px;
+}
+
+.equipment span {
+    background: url(/image/b.png) -121px -59px;
+}
+
+.equipment:hover span {
+    background: url(/image/b.png) -121px -92px;
+}
+
+.set span {
+    background: url(/image/b.png) -162px -59px;
+}
+
+.set:hover span {
+    background: url(/image/b.png) -162px -92px;
+}
+.Repair span {
+    background: url(/image/b.png) -148px -374px;
+}
+
+.Repair:hover span {
+    background: url(/image/b.png) -148px -411px;
+}
+
+#nav-font-color {
+    color: #1fb5ac;
+    border-bottom: 1px #1fb5ac solid;
+}
+
+.nav-title {
+    width: 108px;
+    height: 40px;
+    position: absolute;
+    left: 69px;
+    background: url(/image/b.png) 104px 227px;
+    display: none;
+    z-index: 1;
+}
+
+    .nav-title p {
+        font-size: 16px;
+        color: #1fb5ac;
+        text-align: center;
+        line-height: 37px;
+    }
+
+.cient-repairs {
+    width: 88px;
+    height: 65px;
+    float: right;
+    margin-right: 30px;
+}
+.cient-repairs select{
+    background-color:#1FB5AC;
+    color:#fff;
+    border:1px solid #74D8D3;
+    outline:none;
+    line-height:20px;
+}
+.cient-repairs option{
+    color:#000;
+    background-color:#fff;
+    border:1px solid #74D8D3;
+    line-height:50px;
+}
+
+    .cient-repairs p {
+        line-height: 64px;
+    }
+
+
+.repairs-img {
+    float: left;
+    width: 48px;
+    height: 65px;
+    background: url(/image/b.png) -190px -363px;
+}
+
+.page {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 200;
+    cursor: pointer;
+    background-color: #272822;
+    opacity: 0.4;
+    filter: progid:DXImageTransform.Microsoft.Alpha(opacity=40);
+}
+
+.cont {
+    z-index: 201;
+    position: absolute;
+}
+
+.close {
+    font-size: 20px;
+    font-weight: bold;
+    position: absolute;
+    left: 93%;
+    top: 15px;
+    cursor: pointer;
+}
+/*# sourceMappingURL=style.css.map */
+
+
+
+
+.sign-background {
+    height: 200px;
+    width: 100%;
+    background: url(../image/bage.jpg) no-repeat center;
+}
+
+.sign-content {
+    width: 410px;
+    height: 410px;
+    margin: 0 auto;
+}
+
+.sign-title {
+    text-align: center;
+    color: #7f7f7f;
+    font-size: 18px;
+    font-variant: bold;
+    line-height: 70px;
+    border-bottom: 1px solid #dadada;
+}
+
+.sign-input {
+    height: 50px;
+    border: 1px #dadada solid;
+    margin: 20px 0 0;
+    border-radius: 5px;
+}
+
+.sign-content-i {
+    width: 100%;
+}
+
+.sign-content-m {
+    width: 240px;
+    float: left;
+}
+
+#sign-input-i {
+    width: 216px;
+}
+
+.sign-s {
+    overflow: hidden;
+    width: 100%;
+}
+
+.sign-input input {
+    width: 282px;
+    font-size: 14px;
+    border: none;
+    color: #aaa;
+    line-height: 46px;
+    margin-left: 20px;
+    height: 50px;
+    background-color: #fff;
+}
+
+.sign-button {
+    height: 50px;
+    border-radius: 5px;
+    background-color: #2192e4;
+    color: #fff;
+    border: none;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.sign-button-w {
+    width: 100%;
+    cursor: pointer;
+}
+
+.sign-button-m {
+    width: 150px;
+    float: right;
+}
+
+.sign-button-h {
+    border: 1px #dadada solid;
+    height: 50px;
+    border-radius: 5px;
+    color: #ccc;
+    border: none;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#send {
+    display: none;
+}
+
+#anew {
+    display: none;
+}
+
+.sign-error {
+    display: none;
+    margin-top: 10px;
+    color: red;
+    vertical-align: middle;
+    line-height: 12px;
+}
+
+    .sign-error img {
+        vertical-align: middle;
+    }
+
+.rememb {
+    width: 100px;
+    float: left;
+}
+
+.forget {
+    color: #2192e4;
+    float: right;
+}
+
+.password {
+    vertical-align: middle;
+    margin-top: 10px;
+}
+
+.color-b {
+    color: #2192e4;
+}
+
+.color-c {
+    color: #aaa;
+}
+
+.clientele {
+    display: none;
+}
+
+.sign-i {
+    overflow: hidden;
+}
+
+.sign-title-s {
+    display: block;
+    width: 1px;
+    float: left;
+    margin-top: 24px;
+    color: #7F7F7F;
+}
+
+.sign-title-l, .sign-title-r {
+    width: 198px;
+    font-size: 16px;
+    color: #7F7F7F;
+    line-height: 70px;
+    border-bottom: 1px solid #dadada;
+    float: left;
+}
+
+    .sign-title-l img, .sign-title-r img {
+        margin-top: 26px;
+        float: left;
+        margin-left: 37px;
+    }
+
+.sign-title-l {
+    color: #2192e4;
+    border-bottom: 1px solid #2192e4;
+}
+
+input:focus {
+    outline: none;
+}
+
+}
+
+/*±Í«©*/
+
+.bo {
+    border: 1px #ccc dotted;
+}
+
+.label {
+    width: 750px;
+    margin: 10px 10px;
+    overflow: hidden;
+    padding: 10px 10px;
+    border: 1px #ccc dotted;
+}
+
+.label-facade {
+    width: 310px;
+    height: 200px;
+    border-radius: 5px;
+    float: left;
+    padding: 10px 10px;
+    border: 1px #ccc solid;
+}
+
+.label-con-l img {
+    width: 135px;
+    height: 135px;
+}
+
+.label-con-l {
+    width: 150px;
+    float: left;
+}
+
+.label-con-r {
+    width: 150px;
+    float: left;
+}
+
+    .label-con-l p, .label-con-r p {
+        width: 135px;
+        overflow: hidden;
+        word-wrap: break-word;
+        word-break: normal;
+    }
+
+.label-compile {
+    width: 370px;
+    padding: 0px 0 20px 0;
+    overflow: hidden;
+    margin-left: 20px;
+    float: left;
+}
+
+    .label-compile input {
+        border: 1px #ccc solid;
+        border-radius: 3px;
+        font-size: 16px;
+        height: 30px;
+        outline: inherit;
+    }
+
+    .label-compile p {
+        margin-top: 10px;
+    }
+
+    .label-compile textarea {
+        vertical-align: text-bottom;
+    }
+
+.label-compile-but {
+    width: 360px;
+    height: 50px;
+}
+
+    .label-compile-but input {
+        border: none;
+        background-color: #13cbd2;
+        color: #fff;
+        outline: inherit;
+        padding: 4px 18px;
+        margin-left: 22px;
+        margin-top: 10px;
+        border-radius: 5px;
+    }
+
+.label-button {
+    margin-top: 10px;
+    color: #13cbd2;
+}
+
+    .label-button img {
+        vertical-align: sub;
+    }
+
+.label-manage {
+    width: 100%;
+    overflow: hidden;
+}
+
+.label-template-p {
+    width: 200px;
+    float: left;
+    border: 1px #ccc solid;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 50px;
+}
+
+.label-template {
+    width: 200px;
+    float: left;
+    text-align: center;
+    margin: 0 10px;
+}

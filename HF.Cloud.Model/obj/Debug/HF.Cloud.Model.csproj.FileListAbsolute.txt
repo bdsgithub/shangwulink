@@ -1,0 +1,52 @@
+D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Model\bin\Debug\HF.Cloud.Model.dll
+D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Model\bin\Debug\HF.Cloud.Model.pdb
+D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Model\bin\Debug\HF.Cloud.CommonDAL.dll
+D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Model\bin\Debug\NPOI.dll
+D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Model\bin\Debug\NPOI.OOXML.dll
+D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Model\bin\Debug\ICSharpCode.SharpZipLib.dll
+D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Model\bin\Debug\NPOI.OpenXmlFormats.dll
+D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Model\bin\Debug\NPOI.OpenXml4Net.dll
+D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Model\bin\Debug\HF.Cloud.CommonDAL.pdb
+D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Model\bin\Debug\NPOI.xml
+D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Model\obj\Debug\HF.Cloud.Model.csprojResolveAssemblyReference.cache
+D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Model\obj\Debug\HF.Cloud.Model.dll
+D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Model\obj\Debug\HF.Cloud.Model.pdb
+D:\易维客\AssetCloudSolutionV1.4 - 副本\HF.Cloud.Model\bin\Debug\HF.Cloud.Model.dll
+D:\易维客\AssetCloudSolutionV1.4 - 副本\HF.Cloud.Model\bin\Debug\HF.Cloud.Model.pdb
+D:\易维客\AssetCloudSolutionV1.4 - 副本\HF.Cloud.Model\bin\Debug\HF.Cloud.CommonDAL.dll
+D:\易维客\AssetCloudSolutionV1.4 - 副本\HF.Cloud.Model\bin\Debug\NPOI.dll
+D:\易维客\AssetCloudSolutionV1.4 - 副本\HF.Cloud.Model\bin\Debug\NPOI.OOXML.dll
+D:\易维客\AssetCloudSolutionV1.4 - 副本\HF.Cloud.Model\bin\Debug\ICSharpCode.SharpZipLib.dll
+D:\易维客\AssetCloudSolutionV1.4 - 副本\HF.Cloud.Model\bin\Debug\NPOI.OpenXmlFormats.dll
+D:\易维客\AssetCloudSolutionV1.4 - 副本\HF.Cloud.Model\bin\Debug\NPOI.OpenXml4Net.dll
+D:\易维客\AssetCloudSolutionV1.4 - 副本\HF.Cloud.Model\bin\Debug\HF.Cloud.CommonDAL.pdb
+D:\易维客\AssetCloudSolutionV1.4 - 副本\HF.Cloud.Model\bin\Debug\NPOI.xml
+D:\易维客\AssetCloudSolutionV1.4 - 副本\HF.Cloud.Model\obj\Debug\HF.Cloud.Model.csprojResolveAssemblyReference.cache
+D:\易维客\AssetCloudSolutionV1.4 - 副本\HF.Cloud.Model\obj\Debug\HF.Cloud.Model.dll
+D:\易维客\AssetCloudSolutionV1.4 - 副本\HF.Cloud.Model\obj\Debug\HF.Cloud.Model.pdb
+D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.Model\bin\Debug\HF.Cloud.Model.dll
+D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.Model\bin\Debug\HF.Cloud.Model.pdb
+D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.Model\bin\Debug\HF.Cloud.CommonDAL.dll
+D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.Model\bin\Debug\NPOI.dll
+D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.Model\bin\Debug\NPOI.OOXML.dll
+D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.Model\bin\Debug\ICSharpCode.SharpZipLib.dll
+D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.Model\bin\Debug\NPOI.OpenXmlFormats.dll
+D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.Model\bin\Debug\NPOI.OpenXml4Net.dll
+D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.Model\bin\Debug\HF.Cloud.CommonDAL.pdb
+D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.Model\bin\Debug\NPOI.xml
+D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.Model\obj\Debug\HF.Cloud.Model.csprojResolveAssemblyReference.cache
+D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.Model\obj\Debug\HF.Cloud.Model.dll
+D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.Model\obj\Debug\HF.Cloud.Model.pdb
+D:\商务链\BusinessChain\HF.Cloud.Model\bin\Debug\HF.Cloud.Model.dll
+D:\商务链\BusinessChain\HF.Cloud.Model\bin\Debug\HF.Cloud.Model.pdb
+D:\商务链\BusinessChain\HF.Cloud.Model\bin\Debug\HF.Cloud.CommonDAL.dll
+D:\商务链\BusinessChain\HF.Cloud.Model\bin\Debug\NPOI.dll
+D:\商务链\BusinessChain\HF.Cloud.Model\bin\Debug\NPOI.OOXML.dll
+D:\商务链\BusinessChain\HF.Cloud.Model\bin\Debug\ICSharpCode.SharpZipLib.dll
+D:\商务链\BusinessChain\HF.Cloud.Model\bin\Debug\NPOI.OpenXmlFormats.dll
+D:\商务链\BusinessChain\HF.Cloud.Model\bin\Debug\NPOI.OpenXml4Net.dll
+D:\商务链\BusinessChain\HF.Cloud.Model\bin\Debug\HF.Cloud.CommonDAL.pdb
+D:\商务链\BusinessChain\HF.Cloud.Model\bin\Debug\NPOI.xml
+D:\商务链\BusinessChain\HF.Cloud.Model\obj\Debug\HF.Cloud.Model.csprojResolveAssemblyReference.cache
+D:\商务链\BusinessChain\HF.Cloud.Model\obj\Debug\HF.Cloud.Model.dll
+D:\商务链\BusinessChain\HF.Cloud.Model\obj\Debug\HF.Cloud.Model.pdb

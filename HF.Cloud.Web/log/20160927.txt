@@ -1,0 +1,46 @@
+ 
+记录时间：2016-09-27 10:27:46,287  线程ID:[10]  日志级别：  ERROR  错误描述：Application_Error Error  System.InvalidOperationException: 数据源中没有 DataRow。
+   在 System.Data.DataTableExtensions.LoadTableFromEnumerable[T](IEnumerable`1 source, DataTable table, Nullable`1 options, FillErrorEventHandler errorHandler)
+   在 System.Data.DataTableExtensions.CopyToDataTable[T](IEnumerable`1 source)
+   在 HF.Cloud.Web.BasicSet.UserBase.TeamAdd.BindTeamUser(Int64 lID) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Web\BasicSet\UserBase\TeamAdd.aspx.cs:行号 68
+   在 HF.Cloud.Web.BasicSet.UserBase.TeamAdd.Page_Load(Object sender, EventArgs e) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Web\BasicSet\UserBase\TeamAdd.aspx.cs:行号 25
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.EventHandler.Invoke(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ 
+记录时间：2016-09-27 10:28:35,100  线程ID:[10]  日志级别：  ERROR  错误描述：Application_Error Error  System.InvalidOperationException: 数据源中没有 DataRow。
+   在 System.Data.DataTableExtensions.LoadTableFromEnumerable[T](IEnumerable`1 source, DataTable table, Nullable`1 options, FillErrorEventHandler errorHandler)
+   在 System.Data.DataTableExtensions.CopyToDataTable[T](IEnumerable`1 source)
+   在 HF.Cloud.Web.BasicSet.UserBase.TeamAdd.BindTeamUser(Int64 lID) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Web\BasicSet\UserBase\TeamAdd.aspx.cs:行号 68
+   在 HF.Cloud.Web.BasicSet.UserBase.TeamAdd.Page_Load(Object sender, EventArgs e) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Web\BasicSet\UserBase\TeamAdd.aspx.cs:行号 25
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.EventHandler.Invoke(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ 
+记录时间：2016-09-27 17:08:59,185  线程ID:[8]  日志级别：  ERROR  错误描述：Application_Error Error  System.Exception: 对象名 'VRepairTaskAccept' 无效。
+   在 HF.Cloud.CommonDAL.DbHelperSQL.Query(String SQLString) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.CommonDAL\DbHelperSQL.cs:行号 408
+   在 HF.Cloud.Model.T_SheetEL.ExecuteSqlString(String SqlString) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Model\T_SheetEL.cs:行号 156
+   在 HF.Cloud.Web.Repair.RepairTaskManage.GetRecordCount(String sqlWhere) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Web\Repair\RepairTaskManage.aspx.cs:行号 350
+   在 HF.Cloud.Web.Repair.RepairTaskManage.BindSheetCount() 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Web\Repair\RepairTaskManage.aspx.cs:行号 360
+   在 HF.Cloud.Web.Repair.RepairTaskManage.Page_Load(Object sender, EventArgs e) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Web\Repair\RepairTaskManage.aspx.cs:行号 23
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.EventHandler.Invoke(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ 
+记录时间：2016-09-27 17:37:12,769  线程ID:[67]  日志级别：  ERROR  错误描述：Application_Error Error  System.Exception: 对象名 'VRepairTaskAccept' 无效。
+   在 HF.Cloud.CommonDAL.DbHelperSQL.Query(String SQLString) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.CommonDAL\DbHelperSQL.cs:行号 408
+   在 HF.Cloud.Model.T_SheetEL.ExecuteSqlString(String SqlString) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Model\T_SheetEL.cs:行号 156
+   在 HF.Cloud.Web.Repair.RepairTaskManage.GetRecordCount(String sqlWhere) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Web\Repair\RepairTaskManage.aspx.cs:行号 350
+   在 HF.Cloud.Web.Repair.RepairTaskManage.BindSheetCount() 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Web\Repair\RepairTaskManage.aspx.cs:行号 360
+   在 HF.Cloud.Web.Repair.RepairTaskManage.Page_Load(Object sender, EventArgs e) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Web\Repair\RepairTaskManage.aspx.cs:行号 23
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.EventHandler.Invoke(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)

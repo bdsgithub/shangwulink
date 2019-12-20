@@ -1,0 +1,32 @@
+D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.WcfService\bin\HF.Cloud.WcfService.dll
+D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.WcfService\bin\HF.Cloud.WcfService.pdb
+D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.WcfService\bin\HF.Cloud.WcfJpush.dll
+D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.WcfService\bin\Newtonsoft.Json.dll
+D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.WcfService\bin\HF.Cloud.WcfJpush.pdb
+D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.WcfService\obj\Release\HF.Cloud.WcfService.csprojResolveAssemblyReference.cache
+D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.WcfService\obj\Release\HF.Cloud.WcfService.dll
+D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.WcfService\obj\Release\HF.Cloud.WcfService.pdb
+D:\易维客\AssetCloudSolutionV1.4 - 副本\HF.Cloud.WcfService\bin\HF.Cloud.WcfService.dll
+D:\易维客\AssetCloudSolutionV1.4 - 副本\HF.Cloud.WcfService\bin\HF.Cloud.WcfService.pdb
+D:\易维客\AssetCloudSolutionV1.4 - 副本\HF.Cloud.WcfService\bin\HF.Cloud.WcfJpush.dll
+D:\易维客\AssetCloudSolutionV1.4 - 副本\HF.Cloud.WcfService\bin\Newtonsoft.Json.dll
+D:\易维客\AssetCloudSolutionV1.4 - 副本\HF.Cloud.WcfService\bin\HF.Cloud.WcfJpush.pdb
+D:\易维客\AssetCloudSolutionV1.4 - 副本\HF.Cloud.WcfService\obj\Release\HF.Cloud.WcfService.csprojResolveAssemblyReference.cache
+D:\易维客\AssetCloudSolutionV1.4 - 副本\HF.Cloud.WcfService\obj\Release\HF.Cloud.WcfService.dll
+D:\易维客\AssetCloudSolutionV1.4 - 副本\HF.Cloud.WcfService\obj\Release\HF.Cloud.WcfService.pdb
+D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.WcfService\bin\HF.Cloud.WcfService.dll
+D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.WcfService\bin\HF.Cloud.WcfService.pdb
+D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.WcfService\bin\HF.Cloud.WcfJpush.dll
+D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.WcfService\bin\Newtonsoft.Json.dll
+D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.WcfService\bin\HF.Cloud.WcfJpush.pdb
+D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.WcfService\obj\Release\HF.Cloud.WcfService.csprojResolveAssemblyReference.cache
+D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.WcfService\obj\Release\HF.Cloud.WcfService.dll
+D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.WcfService\obj\Release\HF.Cloud.WcfService.pdb
+D:\商务链\BusinessChain\HF.Cloud.WcfService\bin\HF.Cloud.WcfService.dll
+D:\商务链\BusinessChain\HF.Cloud.WcfService\bin\HF.Cloud.WcfService.pdb
+D:\商务链\BusinessChain\HF.Cloud.WcfService\bin\HF.Cloud.WcfJpush.dll
+D:\商务链\BusinessChain\HF.Cloud.WcfService\bin\Newtonsoft.Json.dll
+D:\商务链\BusinessChain\HF.Cloud.WcfService\bin\HF.Cloud.WcfJpush.pdb
+D:\商务链\BusinessChain\HF.Cloud.WcfService\obj\Release\HF.Cloud.WcfService.csprojResolveAssemblyReference.cache
+D:\商务链\BusinessChain\HF.Cloud.WcfService\obj\Release\HF.Cloud.WcfService.dll
+D:\商务链\BusinessChain\HF.Cloud.WcfService\obj\Release\HF.Cloud.WcfService.pdb

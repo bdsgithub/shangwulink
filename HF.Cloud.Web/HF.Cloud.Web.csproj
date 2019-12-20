@@ -1,0 +1,289 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.Default.props" Condition="Exists('$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.Default.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{164495B0-B405-48B5-BFCF-3DDC892094E2}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>HF.Cloud.Web</RootNamespace>
+    <AssemblyName>HF.Cloud.Web</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <TypeScriptToolsVersion>1.8</TypeScriptToolsVersion>
+    <TargetFrameworkProfile />
+    <Use64BitIISExpress />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BeeCloud">
+      <HintPath>..\CommonDLL\BeeCloud.dll</HintPath>
+    </Reference>
+    <Reference Include="LitJson, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\CommonDLL\LitJson.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.QualityTools.Testing.Fakes, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\CommonDLL\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="NPOI, Version=1.2.5.0, Culture=neutral, PublicKeyToken=0df73ec7942b34e1, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\CommonDLL\NPOI.dll</HintPath>
+    </Reference>
+    <Reference Include="NPOI.OpenXmlFormats, Version=2.2.1.0, Culture=neutral, PublicKeyToken=0df73ec7942b34e1, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\CommonDLL\NPOI.OpenXmlFormats.dll</HintPath>
+    </Reference>
+    <Reference Include="Qiniu, Version=7.3.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\CommonDLL\Qiniu.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Web.DataVisualization" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="ThoughtWorks.QRCode">
+      <HintPath>..\CommonDLL\ThoughtWorks.QRCode.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="css\auto-complete-ui.css" />
+    <Content Include="css\body.css" />
+    <Content Include="css\bootstrap-extend.min.css" />
+    <Content Include="css\bootstrap.css" />
+    <Content Include="css\bootstrap.min.css" />
+    <Content Include="css\css_print.css" />
+    <Content Include="css\default.css" />
+    <Content Include="css\eweicCont.css" />
+    <Content Include="css\eweicStyle.css" />
+    <Content Include="css\font-awesome.min.css" />
+    <Content Include="css\fram.css" />
+    <Content Include="css\home.css" />
+    <Content Include="css\style.css" />
+    <Content Include="fonts\fontawesome-webfont.svg" />
+    <Content Include="css\iealert.css" />
+    <Content Include="css\jquery-ui.min.css" />
+    <Content Include="css\jquery.selectlist.css" />
+    <Content Include="css\myCss.css" />
+    <Content Include="css\myStyle.css" />
+    <Content Include="css\reset.css" />
+    <Content Include="css\slider.css" />
+    <Content Include="css\weui.min.css" />
+    <Content Include="image\b.png" />
+    <Content Include="image\bage.jpg" />
+    <Content Include="image\eweic.png" />
+    <Content Include="image\label-c.png" />
+    <Content Include="image\label-p.png" />
+    <Content Include="image\label-r.png" />
+    <Content Include="image\lo.jpg" />
+    <Content Include="image\locked.png" />
+    <Content Include="image\mail.png" />
+    <Content Include="image\o.png" />
+    <Content Include="image\QRCode.png" />
+    <Content Include="image\sad.png" />
+    <Content Include="image\users.png" />
+    <Content Include="js\cient.js" />
+    <Content Include="js\commonJS.js" />
+    <Content Include="js\CustomerDataSet.js" />
+    <Content Include="js\delInputAutocomplete.js" />
+    <Content Include="js\echarts.min.js" />
+    <Content Include="js\getQueryString.js" />
+    <Content Include="js\iealert.js" />
+    <Content Include="js\InputDefaultValue.js" />
+    <Content Include="js\jquery-1.11.1.min.js" />
+    <Content Include="js\jquery-1.8.3.min.js" />
+    <Content Include="js\jquery-ui-1.9.2.custom.min.js" />
+    <Content Include="js\jquery.autocomplete.min.js" />
+    <Content Include="js\jquery.jqprint-0.3.js" />
+    <Content Include="js\jquery.selectlist.js" />
+    <Content Include="js\jquery.themepunch.plugins.min.js" />
+    <Content Include="js\jquery.themepunch.revolution.min.js" />
+    <Content Include="js\macarons.js" />
+    <Content Include="js\My97DatePicker\calendar.js" />
+    <Content Include="js\My97DatePicker\lang\en.js" />
+    <Content Include="js\My97DatePicker\lang\zh-cn.js" />
+    <Content Include="js\My97DatePicker\lang\zh-tw.js" />
+    <Content Include="js\My97DatePicker\skin\datePicker.gif" />
+    <Content Include="js\My97DatePicker\skin\default\datepicker.css" />
+    <Content Include="js\My97DatePicker\skin\default\img.gif" />
+    <Content Include="js\My97DatePicker\skin\WdatePicker.css" />
+    <Content Include="js\My97DatePicker\skin\whyGreen\bg.jpg" />
+    <Content Include="js\My97DatePicker\skin\whyGreen\datepicker.css" />
+    <Content Include="js\My97DatePicker\skin\whyGreen\img.gif" />
+    <Content Include="js\My97DatePicker\WdatePicker.js" />
+    <Content Include="js\region.js" />
+    <Content Include="js\ShowDialog.js" />
+    <Content Include="js\layer\layer.js" />
+    <Content Include="js\layer\skin\default\icon-ext.png" />
+    <Content Include="js\layer\skin\default\icon.png" />
+    <Content Include="js\layer\skin\default\loading-0.gif" />
+    <Content Include="js\layer\skin\default\loading-1.gif" />
+    <Content Include="js\layer\skin\default\loading-2.gif" />
+    <Content Include="js\layer\skin\layer.css" />
+    <Content Include="Main.aspx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Main.aspx.cs">
+      <DependentUpon>Main.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Main.aspx.designer.cs">
+      <DependentUpon>Main.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QiQiuUpFile.ashx.cs">
+      <DependentUpon>QiQiuUpFile.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="TestImage.ashx.cs">
+      <DependentUpon>TestImage.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="UploadImage.ashx.cs">
+      <DependentUpon>UploadImage.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="UploadProductImage.ashx.cs">
+      <DependentUpon>UploadProductImage.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="UploadYSTImage.ashx.cs">
+      <DependentUpon>UploadYSTImage.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="UploadYWKLogo.ashx.cs">
+      <DependentUpon>UploadYWKLogo.ashx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="fonts\fontawesome-webfont.eot" />
+    <Content Include="fonts\fontawesome-webfont.ttf" />
+    <Content Include="fonts\fontawesome-webfont.woff" />
+    <Content Include="fonts\fontawesome-webfont.woff2" />
+    <Content Include="fonts\FontAwesome.otf" />
+    <Fakes Include="Fakes\Qiniu.fakes" />
+    <Content Include="packages.config" />
+    <None Include="Properties\PublishProfiles\YWK.pubxml" />
+    <Content Include="UploadImage.ashx" />
+    <Content Include="UploadProductImage.ashx" />
+    <Content Include="UploadYWKLogo.ashx" />
+    <Content Include="UploadYSTImage.ashx" />
+    <Content Include="QiQiuUpFile.ashx" />
+    <Content Include="TestImage.ashx" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\HF.Cloud.BLL\HF.Cloud.BLL.csproj">
+      <Project>{051817fd-bebf-48b4-9ced-7f0ee3bfaa22}</Project>
+      <Name>HF.Cloud.BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HF.Cloud.CommonDAL\HF.Cloud.CommonDAL.csproj">
+      <Project>{40efb0bd-cfaa-4775-99ee-e03f711c4756}</Project>
+      <Name>HF.Cloud.CommonDAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HF.Cloud.Model\HF.Cloud.Model.csproj">
+      <Project>{24f578f2-7160-45aa-bfc0-6096ee9ea5d1}</Project>
+      <Name>HF.Cloud.Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HF.Cloud.WcfLibrary\HF.Cloud.WcfLibrary.csproj">
+      <Project>{3bffe60b-bc47-4a74-9845-2e19e3f9a5e8}</Project>
+      <Name>HF.Cloud.WcfLibrary</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Pages\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets" Condition="Exists('$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets')" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>53411</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:53411/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

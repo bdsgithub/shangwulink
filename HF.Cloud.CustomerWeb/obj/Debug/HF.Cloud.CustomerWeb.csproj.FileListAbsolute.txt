@@ -1,0 +1,78 @@
+D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.CustomerWeb\bin\HF.Cloud.CustomerWeb.dll.config
+D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.CustomerWeb\bin\HF.Cloud.CustomerWeb.dll
+D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.CustomerWeb\bin\HF.Cloud.CustomerWeb.pdb
+D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.CustomerWeb\bin\AspNetPager.dll
+D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.CustomerWeb\bin\HF.Cloud.BLL.dll
+D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.CustomerWeb\bin\HF.Cloud.CommonDAL.dll
+D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.CustomerWeb\bin\HF.Cloud.Model.dll
+D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.CustomerWeb\bin\log4net.dll
+D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.CustomerWeb\bin\NPOI.dll
+D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.CustomerWeb\bin\NPOI.OOXML.dll
+D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.CustomerWeb\bin\ICSharpCode.SharpZipLib.dll
+D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.CustomerWeb\bin\NPOI.OpenXmlFormats.dll
+D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.CustomerWeb\bin\NPOI.OpenXml4Net.dll
+D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.CustomerWeb\bin\HF.Cloud.BLL.pdb
+D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.CustomerWeb\bin\HF.Cloud.CommonDAL.pdb
+D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.CustomerWeb\bin\HF.Cloud.Model.pdb
+D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.CustomerWeb\bin\NPOI.xml
+D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.CustomerWeb\obj\Debug\HF.Cloud.CustomerWeb.csprojResolveAssemblyReference.cache
+D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.CustomerWeb\obj\Debug\HF.Cloud.CustomerWeb.dll
+D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.CustomerWeb\obj\Debug\HF.Cloud.CustomerWeb.pdb
+D:\易维客\AssetCloudSolutionV1.4 - 副本\HF.Cloud.CustomerWeb\bin\HF.Cloud.CustomerWeb.dll.config
+D:\易维客\AssetCloudSolutionV1.4 - 副本\HF.Cloud.CustomerWeb\bin\HF.Cloud.CustomerWeb.dll
+D:\易维客\AssetCloudSolutionV1.4 - 副本\HF.Cloud.CustomerWeb\bin\HF.Cloud.CustomerWeb.pdb
+D:\易维客\AssetCloudSolutionV1.4 - 副本\HF.Cloud.CustomerWeb\bin\AspNetPager.dll
+D:\易维客\AssetCloudSolutionV1.4 - 副本\HF.Cloud.CustomerWeb\bin\HF.Cloud.BLL.dll
+D:\易维客\AssetCloudSolutionV1.4 - 副本\HF.Cloud.CustomerWeb\bin\HF.Cloud.CommonDAL.dll
+D:\易维客\AssetCloudSolutionV1.4 - 副本\HF.Cloud.CustomerWeb\bin\HF.Cloud.Model.dll
+D:\易维客\AssetCloudSolutionV1.4 - 副本\HF.Cloud.CustomerWeb\bin\log4net.dll
+D:\易维客\AssetCloudSolutionV1.4 - 副本\HF.Cloud.CustomerWeb\bin\NPOI.dll
+D:\易维客\AssetCloudSolutionV1.4 - 副本\HF.Cloud.CustomerWeb\bin\NPOI.OOXML.dll
+D:\易维客\AssetCloudSolutionV1.4 - 副本\HF.Cloud.CustomerWeb\bin\ICSharpCode.SharpZipLib.dll
+D:\易维客\AssetCloudSolutionV1.4 - 副本\HF.Cloud.CustomerWeb\bin\NPOI.OpenXmlFormats.dll
+D:\易维客\AssetCloudSolutionV1.4 - 副本\HF.Cloud.CustomerWeb\bin\NPOI.OpenXml4Net.dll
+D:\易维客\AssetCloudSolutionV1.4 - 副本\HF.Cloud.CustomerWeb\bin\HF.Cloud.BLL.pdb
+D:\易维客\AssetCloudSolutionV1.4 - 副本\HF.Cloud.CustomerWeb\bin\HF.Cloud.CommonDAL.pdb
+D:\易维客\AssetCloudSolutionV1.4 - 副本\HF.Cloud.CustomerWeb\bin\HF.Cloud.Model.pdb
+D:\易维客\AssetCloudSolutionV1.4 - 副本\HF.Cloud.CustomerWeb\bin\NPOI.xml
+D:\易维客\AssetCloudSolutionV1.4 - 副本\HF.Cloud.CustomerWeb\obj\Debug\HF.Cloud.CustomerWeb.csprojResolveAssemblyReference.cache
+D:\易维客\AssetCloudSolutionV1.4 - 副本\HF.Cloud.CustomerWeb\obj\Debug\HF.Cloud.CustomerWeb.dll
+D:\易维客\AssetCloudSolutionV1.4 - 副本\HF.Cloud.CustomerWeb\obj\Debug\HF.Cloud.CustomerWeb.pdb
+D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.CustomerWeb\bin\HF.Cloud.CustomerWeb.dll.config
+D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.CustomerWeb\bin\HF.Cloud.CustomerWeb.dll
+D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.CustomerWeb\bin\HF.Cloud.CustomerWeb.pdb
+D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.CustomerWeb\bin\AspNetPager.dll
+D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.CustomerWeb\bin\HF.Cloud.BLL.dll
+D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.CustomerWeb\bin\HF.Cloud.CommonDAL.dll
+D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.CustomerWeb\bin\HF.Cloud.Model.dll
+D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.CustomerWeb\bin\log4net.dll
+D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.CustomerWeb\bin\NPOI.dll
+D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.CustomerWeb\bin\NPOI.OOXML.dll
+D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.CustomerWeb\bin\ICSharpCode.SharpZipLib.dll
+D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.CustomerWeb\bin\NPOI.OpenXmlFormats.dll
+D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.CustomerWeb\bin\NPOI.OpenXml4Net.dll
+D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.CustomerWeb\bin\HF.Cloud.BLL.pdb
+D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.CustomerWeb\bin\HF.Cloud.CommonDAL.pdb
+D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.CustomerWeb\bin\HF.Cloud.Model.pdb
+D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.CustomerWeb\bin\NPOI.xml
+D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.CustomerWeb\obj\Debug\HF.Cloud.CustomerWeb.csprojResolveAssemblyReference.cache
+D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.CustomerWeb\obj\Debug\HF.Cloud.CustomerWeb.dll
+D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.CustomerWeb\obj\Debug\HF.Cloud.CustomerWeb.pdb
+D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.CustomerWeb\bin\ThoughtWorks.QRCode.dll
+D:\商务链\BusinessChain\HF.Cloud.CustomerWeb\obj\Debug\HF.Cloud.CustomerWeb.csprojResolveAssemblyReference.cache
+D:\商务链\BusinessChain\HF.Cloud.CustomerWeb\obj\Debug\HF.Cloud.CustomerWeb.dll
+D:\商务链\BusinessChain\HF.Cloud.CustomerWeb\obj\Debug\HF.Cloud.CustomerWeb.pdb
+D:\商务链\BusinessChain\HF.Cloud.CustomerWeb\bin\HF.Cloud.CustomerWeb.dll.config
+D:\商务链\BusinessChain\HF.Cloud.CustomerWeb\bin\HF.Cloud.CustomerWeb.dll
+D:\商务链\BusinessChain\HF.Cloud.CustomerWeb\bin\HF.Cloud.CustomerWeb.pdb
+D:\商务链\BusinessChain\HF.Cloud.CustomerWeb\bin\AspNetPager.dll
+D:\商务链\BusinessChain\HF.Cloud.CustomerWeb\bin\HF.Cloud.CommonDAL.dll
+D:\商务链\BusinessChain\HF.Cloud.CustomerWeb\bin\HF.Cloud.Model.dll
+D:\商务链\BusinessChain\HF.Cloud.CustomerWeb\bin\NPOI.dll
+D:\商务链\BusinessChain\HF.Cloud.CustomerWeb\bin\NPOI.OOXML.dll
+D:\商务链\BusinessChain\HF.Cloud.CustomerWeb\bin\ICSharpCode.SharpZipLib.dll
+D:\商务链\BusinessChain\HF.Cloud.CustomerWeb\bin\NPOI.OpenXmlFormats.dll
+D:\商务链\BusinessChain\HF.Cloud.CustomerWeb\bin\NPOI.OpenXml4Net.dll
+D:\商务链\BusinessChain\HF.Cloud.CustomerWeb\bin\HF.Cloud.CommonDAL.pdb
+D:\商务链\BusinessChain\HF.Cloud.CustomerWeb\bin\HF.Cloud.Model.pdb
+D:\商务链\BusinessChain\HF.Cloud.CustomerWeb\bin\NPOI.xml

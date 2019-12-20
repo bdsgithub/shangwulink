@@ -1,0 +1,22 @@
+ 
+记录时间：2017-03-23 11:10:25,779  线程ID:[6]  日志级别：  ERROR  错误描述：Application_Error Error  System.Exception: “MainID”附近有语法错误。
+   在 HF.Cloud.CommonDAL.DbHelperSQL.Query(String SQLString, SqlParameter[] cmdParms) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.CommonDAL\DbHelperSQL.cs:行号 747
+   在 HF.Cloud.Model.A_AssetModelEL.GetAssetModelByBrand(String sql, Int64 mainID, Int64 brandID) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.Model\A_AssetModelEL.cs:行号 326
+   在 HF.Cloud.BLL.AssetBL.GetAssetModleByBrand(Int64 mainID, Int64 brandID) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.BLL\AssetBL.cs:行号 343
+   在 HF.Cloud.Web.Sheet.SheetAsset.AssetList.DrpSBPP_SelectedIndexChanged(Object sender, EventArgs e) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.Web\Sheet\SheetAsset\AssetList.aspx.cs:行号 91
+   在 System.Web.UI.WebControls.ListControl.OnSelectedIndexChanged(EventArgs e)
+   在 System.Web.UI.WebControls.DropDownList.RaisePostDataChangedEvent()
+   在 System.Web.UI.WebControls.DropDownList.System.Web.UI.IPostBackDataHandler.RaisePostDataChangedEvent()
+   在 System.Web.UI.Page.RaiseChangedEvents()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ 
+记录时间：2017-03-23 15:04:40,506  线程ID:[26]  日志级别：  ERROR  错误描述：Application_Error Error  System.FormatException: 输入字符串的格式不正确。
+   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt64(String value, NumberStyles options, NumberFormatInfo numfmt)
+   在 System.Int64.Parse(String s)
+   在 HF.Cloud.Web.Sheet.SheetCustomer.menuchilddren.Page_Load(Object sender, EventArgs e) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.Web\Sheet\SheetCustomer\menuchilddren.aspx.cs:行号 19
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.EventHandler.Invoke(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)

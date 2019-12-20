@@ -1,0 +1,14 @@
+ 
+记录时间：2016-09-26 10:33:21,076  线程ID:[9]  日志级别：  ERROR  错误描述：Application_Error Error  System.Data.DuplicateNameException: 名为“设备类型”的列已属于此 DataTable。
+   在 System.Data.DataColumnCollection.RegisterColumnName(String name, DataColumn column)
+   在 System.Data.DataColumnCollection.BaseAdd(DataColumn column)
+   在 System.Data.DataColumnCollection.AddAt(Int32 index, DataColumn column)
+   在 System.Data.DataColumnCollection.Add(String columnName, Type type)
+   在 HF.Cloud.CommonDAL.ExcelExportHelper.ExcelToDataTable(String filePath) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.CommonDAL\ExcelExportHelper.cs:行号 110
+   在 HF.Cloud.Web.Sheet.SheetAsset.AssetImport.btnPreview_Click(Object sender, EventArgs e) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Web\Sheet\SheetAsset\AssetImport.aspx.cs:行号 171
+   在 System.Web.UI.WebControls.LinkButton.OnClick(EventArgs e)
+   在 System.Web.UI.WebControls.LinkButton.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.WebControls.LinkButton.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)

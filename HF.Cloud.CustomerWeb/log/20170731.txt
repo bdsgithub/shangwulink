@@ -1,0 +1,9 @@
+ 
+记录时间：2017-07-31 11:36:15,468  线程ID:[6]  日志级别：  ERROR  错误描述：BingDing页面的标签号：324dsfs   
+记录时间：2017-07-31 11:36:15,476  线程ID:[6]  日志级别：  ERROR  错误描述：BingDing页面的服务商号：1   
+记录时间：2017-07-31 11:44:06,749  线程ID:[6]  日志级别：  ERROR  错误描述：BingDing页面的设备型号Sql查询：select * from A_AssetModel where Valid='1' and MainID=1 and TypeID=17 and BrandID=4   
+记录时间：2017-07-31 11:44:16,017  线程ID:[6]  日志级别：  ERROR  错误描述：BingDing页面的设备型号Sql查询：select * from A_AssetModel where Valid='1' and MainID=1 and TypeID=17 and BrandID=5   
+记录时间：2017-07-31 11:44:17,876  线程ID:[6]  日志级别：  ERROR  错误描述：BingDing页面的设备型号Sql查询：select * from A_AssetModel where Valid='1' and MainID=1 and TypeID=17 and BrandID=4   
+记录时间：2017-07-31 11:48:31,336  线程ID:[6]  日志级别：  ERROR  错误描述：BingDing页面的设备型号Sql查询：select * from A_AssetModel where Valid='1' and MainID=1 and TypeID=17 and BrandID=4   
+记录时间：2017-07-31 11:49:46,868  线程ID:[6]  日志级别：  ERROR  错误描述：BingDing页面的设备型号Sql查询：select * from A_AssetModel where Valid='1' and MainID=1 and TypeID=17 and BrandID=4   
+记录时间：2017-07-31 15:23:33,367  线程ID:[8]  日志级别：  ERROR  错误描述：BingDing页面的设备型号Sql查询：select * from A_AssetModel where Valid='1' and MainID=1 and TypeID=17 and BrandID=4  

@@ -1,0 +1,7 @@
+D:\易维客\AssetCloudSolutionV1.5\DingDingForm\bin\Release\DingDingForm.exe
+D:\易维客\AssetCloudSolutionV1.5\DingDingForm\bin\Release\DingDingForm.pdb
+D:\易维客\AssetCloudSolutionV1.5\DingDingForm\obj\Release\DingDingForm.csprojResolveAssemblyReference.cache
+D:\易维客\AssetCloudSolutionV1.5\DingDingForm\obj\Release\DingDingForm.Properties.Resources.resources
+D:\易维客\AssetCloudSolutionV1.5\DingDingForm\obj\Release\DingDingForm.csproj.GenerateResource.Cache
+D:\易维客\AssetCloudSolutionV1.5\DingDingForm\obj\Release\DingDingForm.exe
+D:\易维客\AssetCloudSolutionV1.5\DingDingForm\obj\Release\DingDingForm.pdb

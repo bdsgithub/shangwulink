@@ -1,0 +1,139 @@
+ 
+记录时间：2016-08-12 09:30:45,954  线程ID:[41]  日志级别：  ERROR  错误描述：Application_Error Error  System.Data.SqlClient.SqlException (0x80131904): 过程或函数 'sp_QB_Model' 需要参数 '@ModelName'，但未提供该参数。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   在 System.Data.SqlClient.SqlDataReader.get_MetaData()
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)
+   在 HF.Cloud.CommonDAL.DbHelperSQL.RunProcedure(String storedProcName, SqlParameterCollection parameters, String tableName) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.CommonDAL\DbHelperSQL.cs:行号 921
+   在 HF.Cloud.Model.QB_ModelEL.ExecDT(Int32 iOperateFlag) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Model\QB_ModelEL.cs:行号 132
+   在 HF.Cloud.Web.QBCode.QBModelList.InitPage() 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Web\QBCode\QBModelList.aspx.cs:行号 34
+   在 HF.Cloud.Web.QBCode.QBModelList.Page_Load(Object sender, EventArgs e) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Web\QBCode\QBModelList.aspx.cs:行号 22
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.EventHandler.Invoke(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ClientConnectionId:25fa65c2-9d2c-45aa-acfb-1a8ed517dc52
+Error Number:201,State:4,Class:16
+ 
+记录时间：2016-08-12 09:31:57,573  线程ID:[6]  日志级别：  INFO   错误描述：QBModelList InitPage 2   
+记录时间：2016-08-12 09:50:41,764  线程ID:[8]  日志级别：  INFO   错误描述：QBModelList InitPage 2   
+记录时间：2016-08-12 11:10:17,181  线程ID:[7]  日志级别：  ERROR  错误描述：Application_Error Error  System.ArgumentException: 列“CMID”不属于表 SP_C_B_Customer。
+   在 System.Data.DataRow.GetDataColumn(String columnName)
+   在 System.Data.DataRow.get_Item(String columnName)
+   在 HF.Cloud.Model.C_B_CustomerEL.InitByRow(DataRow dr) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Model\C_B_CustomerEL.cs:行号 213
+   在 HF.Cloud.Model.C_B_CustomerEL.ExecuteEL(Int32 iOperateFlag) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Model\C_B_CustomerEL.cs:行号 121
+   在 HF.Cloud.Web.ashx.RegistUserHandler.ProcessRequest(HttpContext context) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Web\ashx\RegistUserHandler.ashx.cs:行号 32
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+ 
+记录时间：2016-08-12 11:10:47,339  线程ID:[7]  日志级别：  ERROR  错误描述：Application_Error Error  System.ArgumentException: 列“CMID”不属于表 SP_C_B_Customer。
+   在 System.Data.DataRow.GetDataColumn(String columnName)
+   在 System.Data.DataRow.get_Item(String columnName)
+   在 HF.Cloud.Model.C_B_CustomerEL.InitByRow(DataRow dr) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Model\C_B_CustomerEL.cs:行号 213
+   在 HF.Cloud.Model.C_B_CustomerEL.ExecuteEL(Int32 iOperateFlag) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Model\C_B_CustomerEL.cs:行号 121
+   在 HF.Cloud.Web.ashx.RegistUserHandler.ProcessRequest(HttpContext context) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Web\ashx\RegistUserHandler.ashx.cs:行号 32
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+ 
+记录时间：2016-08-12 11:11:49,638  线程ID:[7]  日志级别：  ERROR  错误描述：Application_Error Error  System.ArgumentException: 列“CMID”不属于表 SP_C_B_Customer。
+   在 System.Data.DataRow.GetDataColumn(String columnName)
+   在 System.Data.DataRow.get_Item(String columnName)
+   在 HF.Cloud.Model.C_B_CustomerEL.InitByRow(DataRow dr) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Model\C_B_CustomerEL.cs:行号 213
+   在 HF.Cloud.Model.C_B_CustomerEL.ExecuteEL(Int32 iOperateFlag) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Model\C_B_CustomerEL.cs:行号 121
+   在 HF.Cloud.Web.ashx.RegistUserHandler.ProcessRequest(HttpContext context) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Web\ashx\RegistUserHandler.ashx.cs:行号 32
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+ 
+记录时间：2016-08-12 14:35:25,447  线程ID:[6]  日志级别：  ERROR  错误描述：Application_Error Error  System.Data.SqlClient.SqlException (0x80131904): 为过程或函数 sp_PM_SendRecord 指定了过多的参数。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 HF.Cloud.CommonDAL.DbHelperSQL.RunProcedure(String storedProcName, SqlParameterCollection parameters, Int32& rowsAffected) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.CommonDAL\DbHelperSQL.cs:行号 970
+   在 HF.Cloud.Model.PM_SendRecord.ExecNonQuery(Int32 iOperateFlag) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Model\PM_SendRecord.cs:行号 140
+   在 HF.Cloud.Web.ashx.RegistUserHandler.ProcessRequest(HttpContext context) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Web\ashx\RegistUserHandler.ashx.cs:行号 52
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+ClientConnectionId:662b42e1-1709-4fb1-9200-376c91cbd48c
+Error Number:8144,State:2,Class:16
+ 
+记录时间：2016-08-12 15:05:40,386  线程ID:[7]  日志级别：  INFO   错误描述：QBModelList InitPage 2   
+记录时间：2016-08-12 15:06:52,419  线程ID:[9]  日志级别：  INFO   错误描述：QBModelList InitPage 2   
+记录时间：2016-08-12 15:20:43,380  线程ID:[7]  日志级别：  INFO   错误描述：QBModelList InitPage 2   
+记录时间：2016-08-12 15:24:58,602  线程ID:[43]  日志级别：  INFO   错误描述：QBModelList InitPage 2   
+记录时间：2016-08-12 15:29:30,376  线程ID:[38]  日志级别：  INFO   错误描述：QBModelList InitPage 3   
+记录时间：2016-08-12 15:31:03,974  线程ID:[7]  日志级别：  INFO   错误描述：QBModelList InitPage 3   
+记录时间：2016-08-12 15:40:03,294  线程ID:[6]  日志级别：  INFO   错误描述：QBModelList InitPage 3   
+记录时间：2016-08-12 15:45:05,445  线程ID:[7]  日志级别：  INFO   错误描述：QBModelList InitPage 8   
+记录时间：2016-08-12 15:50:28,532  线程ID:[17]  日志级别：  INFO   错误描述：QBModelList InitPage 8   
+记录时间：2016-08-12 15:52:17,683  线程ID:[7]  日志级别：  INFO   错误描述：QBModelList InitPage 8   
+记录时间：2016-08-12 16:19:44,232  线程ID:[6]  日志级别：  INFO   错误描述：QBModelList InitPage 8   
+记录时间：2016-08-12 16:23:17,283  线程ID:[5]  日志级别：  INFO   错误描述：QBModelList InitPage 8   
+记录时间：2016-08-12 16:23:23,388  线程ID:[5]  日志级别：  INFO   错误描述：QBModelList InitPage 7   
+记录时间：2016-08-12 16:23:31,471  线程ID:[8]  日志级别：  INFO   错误描述：QBModelList InitPage 6   
+记录时间：2016-08-12 16:23:38,112  线程ID:[10]  日志级别：  INFO   错误描述：QBModelList InitPage 5   
+记录时间：2016-08-12 16:23:56,077  线程ID:[7]  日志级别：  INFO   错误描述：QBModelList InitPage 4   
+记录时间：2016-08-12 16:24:03,904  线程ID:[7]  日志级别：  INFO   错误描述：QBModelList InitPage 3   
+记录时间：2016-08-12 16:36:03,170  线程ID:[6]  日志级别：  INFO   错误描述：QBModelList InitPage 3   
+记录时间：2016-08-12 17:23:10,246  线程ID:[10]  日志级别：  INFO   错误描述：QBModelList InitPage 3   
+记录时间：2016-08-12 17:24:41,399  线程ID:[7]  日志级别：  ERROR  错误描述：Application_Error Error  System.IndexOutOfRangeException: 无法找到表 0。
+   在 System.Data.DataTableCollection.get_Item(Int32 index)
+   在 HF.Cloud.Model.QB_ModelDetailEL.ExecDT(Int32 iOperateFlag) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Model\QB_ModelDetailEL.cs:行号 89
+   在 HF.Cloud.Web.QBCode.QBModelAdd.Page_Load(Object sender, EventArgs e) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Web\QBCode\QBModelAdd.aspx.cs:行号 33
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.EventHandler.Invoke(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ 
+记录时间：2016-08-12 17:24:46,041  线程ID:[7]  日志级别：  INFO   错误描述：QBModelList InitPage 3   
+记录时间：2016-08-12 17:25:12,655  线程ID:[9]  日志级别：  INFO   错误描述：QBModelList InitPage 3   
+记录时间：2016-08-12 17:27:40,803  线程ID:[8]  日志级别：  INFO   错误描述：QBModelList InitPage 3   
+记录时间：2016-08-12 17:29:14,751  线程ID:[8]  日志级别：  INFO   错误描述：QBModelList InitPage 3   
+记录时间：2016-08-12 17:30:16,705  线程ID:[8]  日志级别：  INFO   错误描述：QBModelList InitPage 3   
+记录时间：2016-08-12 17:30:41,624  线程ID:[13]  日志级别：  ERROR  错误描述：Application_Error Error  System.IndexOutOfRangeException: 在位置 3 处没有任何行。
+   在 System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   在 System.Data.DataRowCollection.get_Item(Int32 index)
+   在 HF.Cloud.Web.QBCode.QBModelAdd.Page_Load(Object sender, EventArgs e) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Web\QBCode\QBModelAdd.aspx.cs:行号 39
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.EventHandler.Invoke(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ 
+记录时间：2016-08-12 17:30:46,936  线程ID:[8]  日志级别：  INFO   错误描述：QBModelList InitPage 3   
+记录时间：2016-08-12 17:33:24,999  线程ID:[6]  日志级别：  INFO   错误描述：QBModelList InitPage 3   
+记录时间：2016-08-12 17:33:39,563  线程ID:[6]  日志级别：  INFO   错误描述：QBModelList InitPage 3   
+记录时间：2016-08-12 17:35:58,893  线程ID:[8]  日志级别：  INFO   错误描述：QBModelList InitPage 3   
+记录时间：2016-08-12 17:37:51,144  线程ID:[6]  日志级别：  INFO   错误描述：QBModelList InitPage 3   
+记录时间：2016-08-12 17:38:03,803  线程ID:[6]  日志级别：  INFO   错误描述：QBModelList InitPage 3   
+记录时间：2016-08-12 17:39:12,268  线程ID:[5]  日志级别：  INFO   错误描述：QBModelList InitPage 3   
+记录时间：2016-08-12 17:39:24,293  线程ID:[7]  日志级别：  INFO   错误描述：QBModelList InitPage 3   
+记录时间：2016-08-12 17:39:26,443  线程ID:[8]  日志级别：  INFO   错误描述：QBModelList InitPage 3   
+记录时间：2016-08-12 17:39:36,892  线程ID:[10]  日志级别：  INFO   错误描述：QBModelList InitPage 3   
+记录时间：2016-08-12 17:40:28,389  线程ID:[6]  日志级别：  INFO   错误描述：QBModelList InitPage 3   
+记录时间：2016-08-12 17:40:36,220  线程ID:[7]  日志级别：  INFO   错误描述：QBModelList InitPage 3   
+记录时间：2016-08-12 17:46:20,000  线程ID:[6]  日志级别：  INFO   错误描述：QBModelList InitPage 3   
+记录时间：2016-08-12 17:47:01,813  线程ID:[6]  日志级别：  INFO   错误描述：QBModelList InitPage 3   
+记录时间：2016-08-12 17:49:52,807  线程ID:[6]  日志级别：  INFO   错误描述：QBModelList InitPage 3   
+记录时间：2016-08-12 17:50:14,901  线程ID:[6]  日志级别：  INFO   错误描述：QBModelList InitPage 3   
+记录时间：2016-08-12 17:51:28,078  线程ID:[6]  日志级别：  INFO   错误描述：QBModelList InitPage 3   
+记录时间：2016-08-12 17:52:58,686  线程ID:[7]  日志级别：  INFO   错误描述：QBModelList InitPage 3  

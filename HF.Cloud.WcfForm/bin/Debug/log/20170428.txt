@@ -1,0 +1,14 @@
+ 
+记录时间：2017-04-28 09:17:37,173  线程ID:[10]  日志级别：  INFO   错误描述：服务启动   
+记录时间：2017-04-28 09:22:56,431  线程ID:[9]  日志级别：  INFO   错误描述：服务启动   
+记录时间：2017-04-28 09:33:16,270  线程ID:[9]  日志级别：  INFO   错误描述：服务启动   
+记录时间：2017-04-28 09:55:03,225  线程ID:[8]  日志级别：  INFO   错误描述：服务启动   
+记录时间：2017-04-28 09:55:40,259  线程ID:[13]  日志级别：  ERROR  错误描述：GetAsset Error  System.InvalidCastException: 指定的转换无效。
+   在 HF.Cloud.BLL.AssetBL.GetAPPAssetBYQBCode(String strQBCode, Int64 MainID) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.BLL\AssetBL.cs:行号 441
+   在 HF.Cloud.WcfLibrary.AssetService.GetAsset(String strQBCode, String MainID) 位置 D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.WcfLibrary\AssetService.cs:行号 29
+ 
+记录时间：2017-04-28 10:02:59,760  线程ID:[9]  日志级别：  INFO   错误描述：服务启动   
+记录时间：2017-04-28 17:30:45,266  线程ID:[10]  日志级别：  INFO   错误描述：服务启动   
+记录时间：2017-04-28 17:40:13,590  线程ID:[8]  日志级别：  INFO   错误描述：服务启动   
+记录时间：2017-04-28 17:47:08,957  线程ID:[10]  日志级别：  INFO   错误描述：服务启动   
+记录时间：2017-04-28 18:00:03,417  线程ID:[10]  日志级别：  INFO   错误描述：服务启动  

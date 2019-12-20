@@ -1,0 +1,114 @@
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ reset ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a img, :link img, :visited img {
+    border: 0px;
+}
+
+ul {
+    list-style: none;
+}
+
+    ul li {
+        float: left;
+    }
+
+a:link, a:visited, a:hover, a:active {
+    color: #000;
+    text-decoration: underline;
+    text-decoration: none;
+}
+
+body {
+    font-size: 14px;
+    background-color: #F1F2F7;
+    font-family: "Microsoft Yahei","Helvetica Neue","Helvetica","Arial",sans-serif;
+    color: #505050;
+}
+
+.print {
+    margin: 0 auto;
+    width: 1050px;
+}
+
+.basis {
+    padding: 40px 0 0 40px;
+}
+
+.basis_cont {
+    margin-left: 50px;
+    line-height: 30px;
+}
+
+.char {
+    display: inline-block;
+}
+
+.basis_cont1 {
+    margin-left: 50px;
+    line-height: 50px;
+}
+
+#basis_cont {
+    line-height: 50px;
+}
+
+.tabl {
+    padding: 40px 0 80px 40px;
+}
+
+    .tabl table {
+        margin-top: 20px;
+        margin-left: 50px;
+        border-collapse: collapse;
+    }
+
+    .tabl tr td {
+        text-align: center;
+        border: 1px solid #000000;
+    }
+
+    .tabl .tdd {
+        width: 90px;
+    }
+
+.tabll {
+    padding: 39px 50px 80px 0;
+}
+
+    .tabll table {
+        margin-top: 20px;
+        margin-left: 50px;
+        border-collapse: collapse;
+    }
+
+    .tabll tr td {
+        text-align: center;
+        border: 1px solid #000000;
+    }
+
+    .tabll .tdd {
+        width: 90px;
+    }
+
+
+
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+    table tr {
+        height: 55px;
+    }
+
+        table tr td {
+            border: 1px solid black;
+        }
+
+.tabl table tr td {
+    border: 1px solid black;
+}

@@ -1,0 +1,48 @@
+﻿.box_lm {
+    PADDING-LEFT: 15px;
+    margin-left: 3px;
+    margin-right: 3px;
+    FONT-SIZE: 14px;
+    BACKGROUND: url(/wap/images/list_center.gif) repeat-x;
+    LINE-HEIGHT: 43px;
+    FONT-FAMILY: 'HiraginoSansGB W3', 'Microsoft Yahei';
+    HEIGHT: 43px;
+    color: #EE2200;
+    font-weight: bold;
+}
+
+.tx_t {
+    vertical-align: text-top;
+}
+
+.tx_m {
+    vertical-align: middle;
+}
+
+.tx_b {
+    vertical-align: text-bottom;
+}
+
+.tx-l {
+    text-align: left;
+}
+
+.tx-c {
+    text-align: center;
+}
+
+.tx-r {
+    text-align: right;
+}
+
+.uhide {
+    display: none;
+}
+
+.c-red {
+    color: red;
+}
+
+.pointer {
+    cursor: pointer;
+}

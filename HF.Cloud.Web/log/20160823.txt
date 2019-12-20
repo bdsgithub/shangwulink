@@ -1,0 +1,113 @@
+ 
+记录时间：2016-08-23 09:47:14,298  线程ID:[8]  日志级别：  ERROR  错误描述：Application_Error Error  System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 HF.Cloud.Web.BasePage.OnInit(EventArgs e) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Web\Base\BasePage.cs:行号 45
+   在 System.Web.UI.Control.InitRecursive(Control namingContainer)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ 
+记录时间：2016-08-23 09:48:29,387  线程ID:[11]  日志级别：  ERROR  错误描述：Application_Error Error  System.Web.HttpException (0x80004005): 文件“/Modules/SheetAdd.aspx”不存在。
+   在 System.Web.UI.Util.CheckVirtualFileExists(VirtualPath virtualPath)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   在 System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   在 System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   在 System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String virtualPath, String path)
+   在 System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+ 
+记录时间：2016-08-23 09:48:35,280  线程ID:[10]  日志级别：  ERROR  错误描述：Application_Error Error  System.Web.HttpException (0x80004005): 文件“/Modules/SheetAdd.aspx”不存在。
+   在 System.Web.UI.Util.CheckVirtualFileExists(VirtualPath virtualPath)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   在 System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   在 System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   在 System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String virtualPath, String path)
+   在 System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+ 
+记录时间：2016-08-23 09:55:38,890  线程ID:[16]  日志级别：  ERROR  错误描述：Application_Error Error  System.Web.HttpException (0x80004005): 文件“/Modules/SheetAdd.aspx”不存在。
+   在 System.Web.UI.Util.CheckVirtualFileExists(VirtualPath virtualPath)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   在 System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   在 System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   在 System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String virtualPath, String path)
+   在 System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+ 
+记录时间：2016-08-23 11:58:28,121  线程ID:[21]  日志级别：  INFO   错误描述：QBModelList InitPage 0   
+记录时间：2016-08-23 11:58:57,932  线程ID:[21]  日志级别：  INFO   错误描述：QBModelList InitPage 1   
+记录时间：2016-08-23 11:59:09,846  线程ID:[21]  日志级别：  ERROR  错误描述：eweic00000001   
+记录时间：2016-08-23 11:59:09,846  线程ID:[21]  日志级别：  ERROR  错误描述：newcode:eic00000001  System.FormatException: 输入字符串的格式不正确。
+   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt64(String value, NumberStyles options, NumberFormatInfo numfmt)
+   在 System.Int64.Parse(String s)
+   在 HF.Cloud.Web.QBCode.QBModePrintSlt.GenerateQBCode(String qbCode) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Web\QBCode\QBModePrintSlt.aspx.cs:行号 199
+ 
+记录时间：2016-08-23 11:59:09,937  线程ID:[21]  日志级别：  ERROR  错误描述：eic00000001   
+记录时间：2016-08-23 11:59:09,937  线程ID:[21]  日志级别：  ERROR  错误描述：newcode:c00000001  System.FormatException: 输入字符串的格式不正确。
+   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt64(String value, NumberStyles options, NumberFormatInfo numfmt)
+   在 System.Int64.Parse(String s)
+   在 HF.Cloud.Web.QBCode.QBModePrintSlt.GenerateQBCode(String qbCode) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Web\QBCode\QBModePrintSlt.aspx.cs:行号 199
+ 
+记录时间：2016-08-23 12:01:26,515  线程ID:[21]  日志级别：  ERROR  错误描述：eic00000001   
+记录时间：2016-08-23 12:01:26,515  线程ID:[21]  日志级别：  ERROR  错误描述：newcode:c00000001  System.FormatException: 输入字符串的格式不正确。
+   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt64(String value, NumberStyles options, NumberFormatInfo numfmt)
+   在 System.Int64.Parse(String s)
+   在 HF.Cloud.Web.QBCode.QBModePrintSlt.GenerateQBCode(String qbCode) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Web\QBCode\QBModePrintSlt.aspx.cs:行号 199
+ 
+记录时间：2016-08-23 12:01:26,650  线程ID:[21]  日志级别：  ERROR  错误描述：eweic00000002   
+记录时间：2016-08-23 12:01:26,650  线程ID:[21]  日志级别：  ERROR  错误描述：newcode:eic00000002  System.FormatException: 输入字符串的格式不正确。
+   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt64(String value, NumberStyles options, NumberFormatInfo numfmt)
+   在 System.Int64.Parse(String s)
+   在 HF.Cloud.Web.QBCode.QBModePrintSlt.GenerateQBCode(String qbCode) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Web\QBCode\QBModePrintSlt.aspx.cs:行号 199
+ 
+记录时间：2016-08-23 13:58:59,578  线程ID:[5]  日志级别：  INFO   错误描述：QBModelList InitPage 1   
+记录时间：2016-08-23 13:59:10,197  线程ID:[6]  日志级别：  ERROR  错误描述：eweic00000002   
+记录时间：2016-08-23 13:59:10,197  线程ID:[6]  日志级别：  ERROR  错误描述：newcode:c00000002  System.FormatException: 输入字符串的格式不正确。
+   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt64(String value, NumberStyles options, NumberFormatInfo numfmt)
+   在 System.Int64.Parse(String s)
+   在 HF.Cloud.Web.QBCode.QBModePrintSlt.GenerateQBCode(String qbCode) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Web\QBCode\QBModePrintSlt.aspx.cs:行号 199
+ 
+记录时间：2016-08-23 13:59:10,421  线程ID:[6]  日志级别：  ERROR  错误描述：eweic00000003   
+记录时间：2016-08-23 13:59:10,421  线程ID:[6]  日志级别：  ERROR  错误描述：newcode:c00000003  System.FormatException: 输入字符串的格式不正确。
+   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt64(String value, NumberStyles options, NumberFormatInfo numfmt)
+   在 System.Int64.Parse(String s)
+   在 HF.Cloud.Web.QBCode.QBModePrintSlt.GenerateQBCode(String qbCode) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Web\QBCode\QBModePrintSlt.aspx.cs:行号 199
+ 
+记录时间：2016-08-23 13:59:51,446  线程ID:[5]  日志级别：  ERROR  错误描述：eweic00000003   
+记录时间：2016-08-23 13:59:51,446  线程ID:[5]  日志级别：  ERROR  错误描述：newcode:c00000003  System.FormatException: 输入字符串的格式不正确。
+   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt64(String value, NumberStyles options, NumberFormatInfo numfmt)
+   在 System.Int64.Parse(String s)
+   在 HF.Cloud.Web.QBCode.QBModePrintSlt.GenerateQBCode(String qbCode) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Web\QBCode\QBModePrintSlt.aspx.cs:行号 199
+ 
+记录时间：2016-08-23 13:59:51,529  线程ID:[5]  日志级别：  ERROR  错误描述：eweic00000004   
+记录时间：2016-08-23 13:59:51,529  线程ID:[5]  日志级别：  ERROR  错误描述：newcode:c00000004  System.FormatException: 输入字符串的格式不正确。
+   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt64(String value, NumberStyles options, NumberFormatInfo numfmt)
+   在 System.Int64.Parse(String s)
+   在 HF.Cloud.Web.QBCode.QBModePrintSlt.GenerateQBCode(String qbCode) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Web\QBCode\QBModePrintSlt.aspx.cs:行号 199
+ 
+记录时间：2016-08-23 14:02:41,219  线程ID:[7]  日志级别：  ERROR  错误描述：eweic00000004   
+记录时间：2016-08-23 14:02:41,219  线程ID:[7]  日志级别：  ERROR  错误描述：newcode:c00000004  System.FormatException: 输入字符串的格式不正确。
+   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt64(String value, NumberStyles options, NumberFormatInfo numfmt)
+   在 System.Int64.Parse(String s)
+   在 HF.Cloud.Web.QBCode.QBModePrintSlt.GenerateQBCode(String qbCode) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Web\QBCode\QBModePrintSlt.aspx.cs:行号 199
+ 
+记录时间：2016-08-23 14:03:16,908  线程ID:[7]  日志级别：  ERROR  错误描述：eweic00000005   
+记录时间：2016-08-23 14:03:16,908  线程ID:[7]  日志级别：  ERROR  错误描述：newcode:c00000005  System.FormatException: 输入字符串的格式不正确。
+   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt64(String value, NumberStyles options, NumberFormatInfo numfmt)
+   在 System.Int64.Parse(String s)
+   在 HF.Cloud.Web.QBCode.QBModePrintSlt.GenerateQBCode(String qbCode) 位置 D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Web\QBCode\QBModePrintSlt.aspx.cs:行号 199
+ 
+记录时间：2016-08-23 14:05:42,430  线程ID:[6]  日志级别：  INFO   错误描述：QBModelList InitPage 1  

@@ -1,0 +1,10 @@
+D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Document\bin\Release\HF.Cloud.Document.dll
+D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Document\bin\Release\HF.Cloud.Document.pdb
+D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Document\obj\Release\HF.Cloud.Document.csprojResolveAssemblyReference.cache
+D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Document\obj\Release\HF.Cloud.Document.dll
+D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.Document\obj\Release\HF.Cloud.Document.pdb
+D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.Document\bin\Release\HF.Cloud.Document.dll
+D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.Document\bin\Release\HF.Cloud.Document.pdb
+D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.Document\obj\Release\HF.Cloud.Document.dll
+D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.Document\obj\Release\HF.Cloud.Document.pdb
+D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.Document\obj\Release\HF.Cloud.Document.csprojResolveAssemblyReference.cache

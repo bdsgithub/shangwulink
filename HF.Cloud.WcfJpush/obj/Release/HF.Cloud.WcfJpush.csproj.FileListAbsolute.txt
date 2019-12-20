@@ -1,0 +1,24 @@
+D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.WcfJpush\bin\Release\HF.Cloud.WcfJpush.dll
+D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.WcfJpush\bin\Release\HF.Cloud.WcfJpush.pdb
+D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.WcfJpush\bin\Release\Newtonsoft.Json.dll
+D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.WcfJpush\obj\Release\HF.Cloud.WcfJpush.dll
+D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.WcfJpush\obj\Release\HF.Cloud.WcfJpush.pdb
+D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.WcfJpush\obj\Release\HF.Cloud.WcfJpush.csprojResolveAssemblyReference.cache
+D:\易维客\AssetCloudSolutionV1.4 - 副本\HF.Cloud.WcfJpush\bin\Release\HF.Cloud.WcfJpush.dll
+D:\易维客\AssetCloudSolutionV1.4 - 副本\HF.Cloud.WcfJpush\bin\Release\HF.Cloud.WcfJpush.pdb
+D:\易维客\AssetCloudSolutionV1.4 - 副本\HF.Cloud.WcfJpush\bin\Release\Newtonsoft.Json.dll
+D:\易维客\AssetCloudSolutionV1.4 - 副本\HF.Cloud.WcfJpush\obj\Release\HF.Cloud.WcfJpush.csprojResolveAssemblyReference.cache
+D:\易维客\AssetCloudSolutionV1.4 - 副本\HF.Cloud.WcfJpush\obj\Release\HF.Cloud.WcfJpush.dll
+D:\易维客\AssetCloudSolutionV1.4 - 副本\HF.Cloud.WcfJpush\obj\Release\HF.Cloud.WcfJpush.pdb
+D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.WcfJpush\bin\Release\HF.Cloud.WcfJpush.dll
+D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.WcfJpush\bin\Release\HF.Cloud.WcfJpush.pdb
+D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.WcfJpush\bin\Release\Newtonsoft.Json.dll
+D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.WcfJpush\obj\Release\HF.Cloud.WcfJpush.dll
+D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.WcfJpush\obj\Release\HF.Cloud.WcfJpush.pdb
+D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.WcfJpush\obj\Release\HF.Cloud.WcfJpush.csprojResolveAssemblyReference.cache
+D:\商务链\BusinessChain\HF.Cloud.WcfJpush\bin\Release\HF.Cloud.WcfJpush.dll
+D:\商务链\BusinessChain\HF.Cloud.WcfJpush\bin\Release\HF.Cloud.WcfJpush.pdb
+D:\商务链\BusinessChain\HF.Cloud.WcfJpush\bin\Release\Newtonsoft.Json.dll
+D:\商务链\BusinessChain\HF.Cloud.WcfJpush\obj\Release\HF.Cloud.WcfJpush.csprojResolveAssemblyReference.cache
+D:\商务链\BusinessChain\HF.Cloud.WcfJpush\obj\Release\HF.Cloud.WcfJpush.dll
+D:\商务链\BusinessChain\HF.Cloud.WcfJpush\obj\Release\HF.Cloud.WcfJpush.pdb

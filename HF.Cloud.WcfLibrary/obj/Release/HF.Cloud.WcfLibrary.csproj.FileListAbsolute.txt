@@ -1,0 +1,85 @@
+D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.WcfLibrary\bin\Release\HF.Cloud.WcfLibrary.dll
+D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.WcfLibrary\bin\Release\HF.Cloud.WcfLibrary.pdb
+D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.WcfLibrary\bin\Release\HF.Cloud.BLL.dll
+D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.WcfLibrary\bin\Release\HF.Cloud.Model.dll
+D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.WcfLibrary\bin\Release\HF.Cloud.WcfService.dll
+D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.WcfLibrary\bin\Release\Newtonsoft.Json.dll
+D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.WcfLibrary\bin\Release\log4net.dll
+D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.WcfLibrary\bin\Release\HF.Cloud.CommonDAL.dll
+D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.WcfLibrary\bin\Release\NPOI.dll
+D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.WcfLibrary\bin\Release\NPOI.OOXML.dll
+D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.WcfLibrary\bin\Release\ICSharpCode.SharpZipLib.dll
+D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.WcfLibrary\bin\Release\NPOI.OpenXmlFormats.dll
+D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.WcfLibrary\bin\Release\NPOI.OpenXml4Net.dll
+D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.WcfLibrary\bin\Release\HF.Cloud.BLL.pdb
+D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.WcfLibrary\bin\Release\HF.Cloud.Model.pdb
+D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.WcfLibrary\bin\Release\HF.Cloud.WcfService.pdb
+D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.WcfLibrary\bin\Release\HF.Cloud.CommonDAL.pdb
+D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.WcfLibrary\bin\Release\NPOI.xml
+D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.WcfLibrary\obj\Release\HF.Cloud.WcfLibrary.csprojResolveAssemblyReference.cache
+D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.WcfLibrary\obj\Release\HF.Cloud.WcfLibrary.dll
+D:\易维客\AssetCloudSolutionV1.4\HF.Cloud.WcfLibrary\obj\Release\HF.Cloud.WcfLibrary.pdb
+D:\易维客\AssetCloudSolutionV1.4 - 副本\HF.Cloud.WcfLibrary\bin\Release\HF.Cloud.WcfLibrary.dll
+D:\易维客\AssetCloudSolutionV1.4 - 副本\HF.Cloud.WcfLibrary\bin\Release\HF.Cloud.WcfLibrary.pdb
+D:\易维客\AssetCloudSolutionV1.4 - 副本\HF.Cloud.WcfLibrary\bin\Release\HF.Cloud.BLL.dll
+D:\易维客\AssetCloudSolutionV1.4 - 副本\HF.Cloud.WcfLibrary\bin\Release\HF.Cloud.Model.dll
+D:\易维客\AssetCloudSolutionV1.4 - 副本\HF.Cloud.WcfLibrary\bin\Release\HF.Cloud.WcfService.dll
+D:\易维客\AssetCloudSolutionV1.4 - 副本\HF.Cloud.WcfLibrary\bin\Release\Newtonsoft.Json.dll
+D:\易维客\AssetCloudSolutionV1.4 - 副本\HF.Cloud.WcfLibrary\bin\Release\log4net.dll
+D:\易维客\AssetCloudSolutionV1.4 - 副本\HF.Cloud.WcfLibrary\bin\Release\HF.Cloud.CommonDAL.dll
+D:\易维客\AssetCloudSolutionV1.4 - 副本\HF.Cloud.WcfLibrary\bin\Release\NPOI.dll
+D:\易维客\AssetCloudSolutionV1.4 - 副本\HF.Cloud.WcfLibrary\bin\Release\NPOI.OOXML.dll
+D:\易维客\AssetCloudSolutionV1.4 - 副本\HF.Cloud.WcfLibrary\bin\Release\ICSharpCode.SharpZipLib.dll
+D:\易维客\AssetCloudSolutionV1.4 - 副本\HF.Cloud.WcfLibrary\bin\Release\NPOI.OpenXmlFormats.dll
+D:\易维客\AssetCloudSolutionV1.4 - 副本\HF.Cloud.WcfLibrary\bin\Release\NPOI.OpenXml4Net.dll
+D:\易维客\AssetCloudSolutionV1.4 - 副本\HF.Cloud.WcfLibrary\bin\Release\HF.Cloud.BLL.pdb
+D:\易维客\AssetCloudSolutionV1.4 - 副本\HF.Cloud.WcfLibrary\bin\Release\HF.Cloud.Model.pdb
+D:\易维客\AssetCloudSolutionV1.4 - 副本\HF.Cloud.WcfLibrary\bin\Release\HF.Cloud.WcfService.pdb
+D:\易维客\AssetCloudSolutionV1.4 - 副本\HF.Cloud.WcfLibrary\bin\Release\HF.Cloud.CommonDAL.pdb
+D:\易维客\AssetCloudSolutionV1.4 - 副本\HF.Cloud.WcfLibrary\bin\Release\NPOI.xml
+D:\易维客\AssetCloudSolutionV1.4 - 副本\HF.Cloud.WcfLibrary\obj\Release\HF.Cloud.WcfLibrary.csprojResolveAssemblyReference.cache
+D:\易维客\AssetCloudSolutionV1.4 - 副本\HF.Cloud.WcfLibrary\obj\Release\HF.Cloud.WcfLibrary.dll
+D:\易维客\AssetCloudSolutionV1.4 - 副本\HF.Cloud.WcfLibrary\obj\Release\HF.Cloud.WcfLibrary.pdb
+D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.WcfLibrary\bin\Release\HF.Cloud.WcfLibrary.dll
+D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.WcfLibrary\bin\Release\HF.Cloud.WcfLibrary.pdb
+D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.WcfLibrary\bin\Release\HF.Cloud.BLL.dll
+D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.WcfLibrary\bin\Release\HF.Cloud.Model.dll
+D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.WcfLibrary\bin\Release\HF.Cloud.WcfService.dll
+D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.WcfLibrary\bin\Release\Newtonsoft.Json.dll
+D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.WcfLibrary\bin\Release\log4net.dll
+D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.WcfLibrary\bin\Release\HF.Cloud.CommonDAL.dll
+D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.WcfLibrary\bin\Release\NPOI.dll
+D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.WcfLibrary\bin\Release\NPOI.OOXML.dll
+D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.WcfLibrary\bin\Release\ICSharpCode.SharpZipLib.dll
+D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.WcfLibrary\bin\Release\NPOI.OpenXmlFormats.dll
+D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.WcfLibrary\bin\Release\NPOI.OpenXml4Net.dll
+D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.WcfLibrary\bin\Release\HF.Cloud.BLL.pdb
+D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.WcfLibrary\bin\Release\HF.Cloud.Model.pdb
+D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.WcfLibrary\bin\Release\HF.Cloud.WcfService.pdb
+D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.WcfLibrary\bin\Release\HF.Cloud.CommonDAL.pdb
+D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.WcfLibrary\bin\Release\NPOI.xml
+D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.WcfLibrary\obj\Release\HF.Cloud.WcfLibrary.csprojResolveAssemblyReference.cache
+D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.WcfLibrary\obj\Release\HF.Cloud.WcfLibrary.dll
+D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.WcfLibrary\obj\Release\HF.Cloud.WcfLibrary.pdb
+D:\易维客\AssetCloudSolutionV1.5\HF.Cloud.WcfLibrary\bin\Release\ThoughtWorks.QRCode.dll
+D:\商务链\BusinessChain\HF.Cloud.WcfLibrary\bin\Release\HF.Cloud.WcfLibrary.dll
+D:\商务链\BusinessChain\HF.Cloud.WcfLibrary\bin\Release\HF.Cloud.WcfLibrary.pdb
+D:\商务链\BusinessChain\HF.Cloud.WcfLibrary\bin\Release\HF.Cloud.BLL.dll
+D:\商务链\BusinessChain\HF.Cloud.WcfLibrary\bin\Release\HF.Cloud.Model.dll
+D:\商务链\BusinessChain\HF.Cloud.WcfLibrary\bin\Release\HF.Cloud.WcfService.dll
+D:\商务链\BusinessChain\HF.Cloud.WcfLibrary\bin\Release\Newtonsoft.Json.dll
+D:\商务链\BusinessChain\HF.Cloud.WcfLibrary\bin\Release\log4net.dll
+D:\商务链\BusinessChain\HF.Cloud.WcfLibrary\bin\Release\HF.Cloud.CommonDAL.dll
+D:\商务链\BusinessChain\HF.Cloud.WcfLibrary\bin\Release\NPOI.dll
+D:\商务链\BusinessChain\HF.Cloud.WcfLibrary\bin\Release\NPOI.OOXML.dll
+D:\商务链\BusinessChain\HF.Cloud.WcfLibrary\bin\Release\ICSharpCode.SharpZipLib.dll
+D:\商务链\BusinessChain\HF.Cloud.WcfLibrary\bin\Release\NPOI.OpenXmlFormats.dll
+D:\商务链\BusinessChain\HF.Cloud.WcfLibrary\bin\Release\NPOI.OpenXml4Net.dll
+D:\商务链\BusinessChain\HF.Cloud.WcfLibrary\bin\Release\HF.Cloud.BLL.pdb
+D:\商务链\BusinessChain\HF.Cloud.WcfLibrary\bin\Release\HF.Cloud.Model.pdb
+D:\商务链\BusinessChain\HF.Cloud.WcfLibrary\bin\Release\HF.Cloud.WcfService.pdb
+D:\商务链\BusinessChain\HF.Cloud.WcfLibrary\bin\Release\HF.Cloud.CommonDAL.pdb
+D:\商务链\BusinessChain\HF.Cloud.WcfLibrary\bin\Release\NPOI.xml
+D:\商务链\BusinessChain\HF.Cloud.WcfLibrary\obj\Release\HF.Cloud.WcfLibrary.csprojResolveAssemblyReference.cache
+D:\商务链\BusinessChain\HF.Cloud.WcfLibrary\obj\Release\HF.Cloud.WcfLibrary.dll
+D:\商务链\BusinessChain\HF.Cloud.WcfLibrary\obj\Release\HF.Cloud.WcfLibrary.pdb

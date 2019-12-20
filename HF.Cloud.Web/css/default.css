@@ -1,0 +1,150 @@
+﻿/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ reset ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a img, :link img, :visited img {
+    border: 0px;
+}
+
+ul {
+    list-style: none;
+}
+
+    ul li {
+        float: left;
+    }
+
+a:link, a:visited, a:hover, a:active {
+    color: #000;
+    text-decoration: underline;
+    text-decoration: none;
+}
+
+body {
+    font-size: 14px;
+    background-color: #f4f4f4;
+    font-family: "Microsoft Yahei","Helvetica Neue","Helvetica","Arial",sans-serif;
+    color: #505050;
+}
+
+input, textarea, select {
+    font-family: "Microsoft Yahei","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+
+
+html, body {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+li img {
+    vertical-align: middle;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ nav ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+.nav {
+    width: 100%;
+    height: 70px;
+    background-color: #3a4267;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 2px 3px #282f5c;
+    z-index: 20;
+}
+
+    .nav li {
+        width: 100px;
+        /*height:70px;*/
+        color: #fff;
+        text-align: center;
+        line-height: 70px;
+        font-size: 16px;
+    }
+
+.nav-left {
+    float: left;
+}
+
+    .nav-left li {
+        border-right: 1px #282f5c solid;
+    }
+
+.nav-right {
+    /*width: 620px;*/
+    width: 500px;
+    float: right;
+}
+
+    .nav-right li {
+        border-left: 1px #282f5c solid;
+    }
+
+.select {
+    width: 250px;
+    height: 50px;
+    background-color: #fff;
+    float: left;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-right: 27px;
+}
+
+    .select input {
+        width: 191px;
+        height: 31px;
+        font-size: 14px;
+        margin-top: 10px;
+        margin-left: 11px;
+        display: inline;
+        border: none;
+        outline: none;
+        color: #b7b7b7;
+    }
+
+        .select input:focus {
+            color: #000;
+        }
+
+.select-but {
+    width: 27px;
+    height: 28px;
+    float: right;
+    margin-top: 8px;
+    margin-right: 7px;
+    background: url(/images/s.png);
+}
+
+    .select-but:hover {
+        cursor: pointer;
+    }
+
+.page {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 200;
+    cursor: pointer;
+    background-color: #272822;
+    opacity: 0.4;
+    filter: progid:DXImageTransform.Microsoft.Alpha(opacity=40);
+}
+
+.cont {
+    z-index: 201;
+    position: absolute;
+}
+
+.close {
+    font-size: 20px;
+    font-weight: bold;
+    position: absolute;
+    left: 93%;
+    top: 15px;
+    cursor: pointer;
+}

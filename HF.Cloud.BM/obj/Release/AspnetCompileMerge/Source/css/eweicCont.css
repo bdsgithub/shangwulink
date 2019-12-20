@@ -1,0 +1,631 @@
+@import url(reset.css);
+
+body {
+    background-color: #EFF1F3;
+}
+
+.eweic-title {
+    height: 38px;
+    margin-top: 10px;
+    margin-left: 44px;
+    overflow: hidden;
+}
+
+    .eweic-title p {
+        font-size: 20px;
+    }
+
+    .eweic-title span {
+        font-size: 16px;
+    }
+
+.m-left {
+    margin-left: 44px;
+}
+
+.m-top {
+    margin-top: 20px;
+}
+.m-bottom{
+    margin-bottom:20px;
+}
+
+.eweic-box {
+    padding: 8px;
+    background-color: #fff;
+    overflow: hidden;
+}
+
+.homepage-left {
+    float: left;
+}
+
+.homepage-right {
+    float: left;
+    margin-left: 30px;
+    width: 66%;
+}
+
+.eweic-affiche {
+    width: 25%;
+}
+
+    .eweic-affiche p {
+        font-size: 16px;
+        line-height: 34px;
+        border-bottom: 1px #ccc solid;
+    }
+
+.b-left {
+    border: 1px #000 solid;
+}
+
+.homepage-data ul {
+    width: 100%;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+    .homepage-data ul li {
+        width: 30%;
+        height: 150px;
+        text-align: center;
+        float: left;
+        margin-left: 2%;
+        color: #fff;
+        overflow: hidden;
+    }
+
+        .homepage-data ul li p {
+            line-height: 108px;
+            font-size: 40px;
+        }
+
+        .homepage-data ul li span {
+            font-size: 20px;
+        }
+
+#green {
+    background-color: #4acacb;
+}
+
+#blue {
+    background-color: #5ab6df;
+}
+
+#red {
+    background-color: #fc8675;
+}
+
+.homed-title {
+    width: 100%;
+    position: relative;
+}
+
+    .homed-title p {
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .homed-title #edu {
+        position: absolute;
+        top: 0;
+        right: 30px;
+    }
+
+.order-left {
+    overflow-y: scroll;
+    width: 221px;
+    height: 100%;
+    background-color: #D9DEE5;
+    float: left;
+}
+
+    .order-left ul li {
+        height: 35px;
+        line-height: 35px;
+    }
+
+        .order-left ul li span {
+            margin-left: 27px;
+        }
+
+        .order-left ul li:hover {
+            cursor: pointer;
+            background-color: #fff;
+            color: #7FC2FC;
+        }
+
+.order-color {
+    background-color: #fff;
+    color: #7FC2FC;
+}
+
+.order-number {
+    background-color: #7FC2FC;
+    border-radius: 4px;
+    color: #fff;
+    overflow: hidden;
+    font-size: 12px;
+    padding: 2px;
+    font-style: normal;
+    float: right;
+    line-height: 15px;
+    margin-top: 9px;
+    margin-right: 15px;
+}
+
+.order-right {
+    width: 60%;
+    overflow: hidden;
+}
+
+.eweic-manage {
+    overflow-x: hidden;
+    background-color: #fff;
+}
+
+.eweic-overflow {
+    overflow-y: hidden;
+}
+
+.m-title {
+    width: 200px;
+    margin-left: 20px;
+    font-size: 18px;
+    height: 60px;
+    line-height: 60px;
+    display: inline-block;
+}
+.c-title {
+    margin-left: 20px;
+    font-size: 18px;
+    height: 60px;
+    line-height: 60px;
+    display: inline-block;
+}
+
+.cut-off {
+    border-top: 1px #ccc solid;
+    width: 98%;
+    margin: 0 auto;
+}
+
+.m-title-right {
+    float: right;
+    line-height: 60px;
+    margin-right: 20px;
+}
+
+    .m-title-right p {
+        margin-right: 20px;
+        display: inline-block;
+    }
+
+    .m-title-right select {
+        border: none;
+        outline: none;
+    }
+
+.new-order {
+    float: right;
+    display: inline-block;
+    margin-right: 20px;
+    /*border: 1px solid #ccc;*/
+    border-radius: 6px;
+    background-color: #fff;
+    line-height: 30px;
+    
+}
+
+    .new-order p {
+        font-size: 14px;
+        color: #504d4d;
+        padding: 0 2px;
+    }
+
+.order-title {
+    width: 200px;
+    display: inline-block;
+}
+
+.eweic-content-box {
+    padding: 0 10px;
+    width: 100%;
+}
+
+    .eweic-content-box .eweic-fill {
+        width: 100%;
+        float: left;
+    }
+
+        .eweic-content-box .eweic-fill .eweic-carte {
+            width: 350px;
+            float: left;
+            padding: 10px 10px;
+        }
+
+            .eweic-content-box .eweic-fill .eweic-carte p {
+                vertical-align:middle;    
+                overflow: hidden;
+                width: 100px;
+                display: inline-block;
+                white-space: nowrap;
+            }
+
+            .eweic-content-box .eweic-fill .eweic-carte select {
+                vertical-align:middle;    
+                width: 200px;
+            }
+
+            .eweic-content-box .eweic-fill .eweic-carte input {
+                vertical-align:middle;    
+                width: 200px;
+                border: 1px #ccc solid;
+            }
+            .eweic-content-box .eweic-fill .eweic-carte textarea {
+                width: 600px;
+                border: 1px #ccc solid;
+                vertical-align:top;    
+            }
+
+.eweic-blue-but {
+    position: relative;
+    width: 80px;
+    height: 30px;
+    font-size: 12px;
+    color: #7FC2FC;
+    line-height: 30px;
+    text-align: center;
+    float: left;
+    margin-left: 10px;
+    border-radius: 6px;
+    border: 1px #7FC2FC solid;
+}
+
+    .eweic-blue-but a {
+        position: absolute;
+        display: block;
+        width: 100%;
+        height: 40px;
+        top: 0;
+    }
+
+.eweic-blue-but2 {
+    position: relative;
+    width: 80px;
+    height: 30px;
+    font-size: 12px;
+    color: #fff;
+    background-color: #7FC2FC;
+    line-height: 30px;
+    text-align: center;
+    float: left;
+    margin-left: 10px;
+    border-radius: 6px;
+    border: 1px #7FC2FC solid;
+}
+
+    .eweic-blue-but2 a {
+        position: absolute;
+        display: block;
+        width: 100%;
+        height: 40px;
+        top: 0;
+    }
+
+.tabl table {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+    .tabl table tr td {
+        border-bottom: 1px #eee solid;
+    }
+
+    .tabl table tbody tr:hover {
+        background-color: #F2FAFF;
+    }
+
+.cont-left, .cont-lef {
+    width: 221px;
+    background-color: #D9DEE5;
+    z-index: 10;
+    overflow-x: scroll;
+    float: left;
+    overflow-x: hidden;
+    color: #000;
+    line-height: 50px;
+}
+
+    .cont-left li {
+        float: none;
+        margin-top: 10px;
+        transition: .3s;
+    }
+
+    .cont-lef li {
+        float: none;
+        transition: .3s;
+        border-bottom: 1px #ccc solid;
+    }
+
+    .cont-left ul li:hover {
+        opacity: 1;
+        filter: progid:DXImageTransform.Microsoft.Alpha(opacity=100);
+        cursor: pointer;
+        background-color: #3a4267;
+    }
+
+    .cont-lef ul li:hover {
+        cursor: pointer;
+    }
+
+    .cont-lef a {
+        color: #2b4755;
+    }
+
+.cont-li-background {
+    background-color: #3a4267;
+    border-right: 5px #13cbd2 solid;
+}
+
+.cont-f {
+    margin-left: 20px;
+}
+
+.cont-left li p {
+    width: 28px;
+    line-height: 28px;
+    background-color: #13cbd2;
+    text-align: center;
+    float: right;
+    border-radius: 28px;
+    margin-top: 17px;
+    margin-right: 20px;
+}
+
+.cont-opacity {
+    opacity: 0.5;
+    filter: progid:DXImageTransform.Microsoft.Alpha(opacity=50);
+}
+
+    .cont-opacity p {
+        display: none;
+    }
+
+.cont-left-set {
+    background: url(../img/b1.png) no-repeat -31px -5px;
+}
+
+.cont-left-opacity {
+    background-color: #fff;
+}
+
+.cont-left-sett {
+    background: url(../img/b.png) no-repeat -31px -5px;
+}
+
+.cont-left-margin {
+    margin-top: 10px;
+}
+
+.cont-opacity {
+    background-color: #fff;
+}
+
+.cont-left-ul {
+    display: none;
+}
+
+.eweic-title-right {
+    float: right;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+    .eweic-title-right div {
+        margin-left: 10px;
+        float: left;
+        width: 24px;
+        height: 24px;
+        position: relative;
+    }
+
+        .eweic-title-right div a {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+        }
+
+.eweic-but2 {
+    background: url(../img/bian.png);
+}
+
+.eweic-but1 {
+    background: url(../img/shou.png);
+}
+
+.eweic-but3 {
+    background: url(../img/guan.png);
+}
+
+.eweic-but4 {
+    background: url(../img/da.png);
+}
+
+.eweic-but5 {
+    background: url(../img/mo.png);
+}
+
+.eweic-but6 {
+    background: url(../img/shs.png);
+}
+
+.position-fixed {
+    width: 94%;
+    position: fixed;
+     z-index:99;
+}
+
+.m-top-max {
+    position: absolute;
+    top: 96px;
+    left: 44px;
+    overflow-y: scroll;
+}
+
+.eweic-ritht {
+    position: absolute;
+    right: 1.2%;
+    top: 96px;
+    width: 260px;
+    height: 200px;
+}
+
+.eweic-ritht-title {
+    font-size: 16px;
+    line-height: 38px;
+    border-bottom: 1px #ccc solid;
+}
+
+.eweic-ritht-cont {
+    margin-top: 10px;
+}
+
+.eweic-ritht-color {
+    color: red;
+}
+
+.eweic-left-text {
+    width: 90%;
+    margin-left: 20px;
+    height: 90px;
+}
+
+.eweic-left-but {
+    width: 90%;
+    margin-left: 20px;
+}
+
+.color-greed {
+    color: #3DD8A1;
+}
+
+.eweic-reply {
+    overflow: hidden;
+    width: 90%;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+    .eweic-reply .reply-left {
+        float: left;
+        width: 40px;
+        height: 100%;
+    }
+        .eweic-reply .reply-left img {
+         width:50px;
+         height:50px;
+        }
+    .eweic-reply .reply-ritht {
+        margin-left: 10px;
+        float: left;
+        width: 89%;
+    }
+
+.title-s {
+    padding: 0 20px;
+    line-height: 43px;
+}
+
+.title-select {
+    display: none;
+    position: absolute;
+    
+    z-index: 9;
+    /*top: 40px;
+    right: 50px;*/
+    color: #fff;
+    background-color: #7FC2FC;
+    width: 70px;
+}
+
+    .title-select li {
+        line-height: 40px;
+        text-align: center;
+    }
+
+        .title-select li a {
+            color: #fff;
+        }
+
+        .title-select li:hover a {
+            color: #000;
+        }
+
+.manage-option {
+    float: left;
+    width: 350px;
+    overflow: hidden;
+}
+
+    .manage-option li {
+        position: relative;
+        line-height: 40px;
+        float: left;
+        margin-left: 20px;
+    }
+
+        .manage-option li a {
+            position: relative;
+            width: 100%;
+            top: 0;
+            height: 100%;
+        }
+
+.manage-option-cont {
+    float: left;
+    display: none;
+}
+
+.float-l {
+    float: left;
+}
+
+.page {
+    /*height: 400px;*/
+    padding: 25px 0 50px 0;
+}
+
+    .page p, .page div {
+        display: inline;
+    }
+
+    .page select, .page input {
+        border: 1px #959595 solid;
+        outline: none;
+        font-size: 16px;
+    }
+
+    .page input {
+        width: 40px;
+    }
+
+.float-r {
+    float: right;
+}
+
+.cont-f-color a{
+    color:#339ACB;
+}
+
+
+
+
+
+
+
+
+/*# sourceMappingURL=eweicCont.css.map */
